@@ -4,6 +4,7 @@
 1. maven
 2. java
 3. python
+4. python langid module
 
 ## Dataset
 Download from http://www.memetracker.org/data.html. Currently using the [Aug 2008](http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/quotes_2008-08.txt.gz) file.
