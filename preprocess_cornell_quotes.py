@@ -1,4 +1,7 @@
 # Does preprocessing work on the cornell quotes text
+# Author: Chris Musialek
+# Date: Nov 2015
+#
 
 import gzip
 import langid
