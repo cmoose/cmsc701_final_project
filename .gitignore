@@ -2,3 +2,5 @@
 *.iml
 *.pyc
 *.txt
+data/
+split*

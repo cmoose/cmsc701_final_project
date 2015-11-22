@@ -8,7 +8,7 @@ import langid
 import subprocess
 import os.path
 
-cornell_gzip_quotes_file = '/Users/chris/Downloads/quotes_2008-08.txt.gz'
+cornell_gzip_quotes_file = '/Users/intuinno/codegit/cmsc701_final_project/data/quotes_2008-08.txt.gz'
 cornell_en_quotes_file = 'en_quotes_2008-08.txt'
 cornell_en_quotes_lemma_file = 'en_quotes_2008-08.lemma.txt'
 git_repo_path = os.path.dirname(os.path.realpath(__file__))
