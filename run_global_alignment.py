@@ -148,16 +148,25 @@ def print_alignment(alignment):
 def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     #For each phrase, run a global alignment on every other phrase
     #O(n^2)
-    pq = []
+    pqs = []
+    print "Running alignments..."
     for phraseX in phrasesX:
+        #TODO: parallelize here
+        pq = []
         for phraseY in phrasesY:
             score, alignment = single_global_align(phraseX, phraseY, sub_matrix)
             heapq.heappush(pq, (score, alignment))
+        top_scores = heapq.nlargest(25, pq)
+        pqs.append({'phraseX': phraseX, 'pq': top_scores})
 
-    top_scores = heapq.nlargest(10, pq)
-    for score, alignment in top_scores:
-        print score
-        print print_alignment(alignment) + "\n"
+    #Print best alignments
+    for obj in pqs:
+        top_scores = obj['pq']
+        phraseX = obj['phraseX']
+        print phraseX
+        for score, alignment in top_scores:
+            print score
+            print print_alignment(alignment) + "\n"
 
 
 def main():
