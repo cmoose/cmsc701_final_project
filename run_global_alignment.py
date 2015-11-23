@@ -6,29 +6,11 @@ import numpy as np
 from numpy import genfromtxt
 from gensim.models import Word2Vec
 import os.path
-import linecache
 import random
 import heapq
 
-git_repo_path = os.path.dirname(os.path.realpath(__file__))
-cornell_en_quotes_lemma_file = 'en_quotes_2008-08.lemma.txt'
-w2v_bin_filename = 'en_quotes_2008-08.lemma.vectors.bin'
-en_quotes_data_fullpath = os.path.join(git_repo_path, cornell_en_quotes_lemma_file)
-
-#Raw scores of substitution matrix
-w2v_model = Word2Vec.load_word2vec_format(os.path.join(git_repo_path,w2v_bin_filename), binary=True)
-
-#Other options if this is too slow:
-#use yield
-#use linecache
-def load_data():
-    print "Loading data ...{0}".format(en_quotes_data_fullpath)
-    phrases = []
-    fh = open(en_quotes_data_fullpath)
-    for line in fh:
-        phrases.append([x.strip() for x in line.strip().split()])
-    print "Done loading..."
-    return phrases
+#Globals
+print_results = False
 
 
 #Given two phrases and substitution matrix, run N-W algorithm to find optimal alignment
@@ -109,22 +91,6 @@ def single_global_align(X,Y, sub):
     return align_score, alignment
 
 
-def test():
-    #Load and define substitution matrix
-    LETTERS = ['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
-    pam250 = genfromtxt('pam250.csv', delimiter=',')
-
-    def sub_matrix(x,y):
-        index_x = LETTERS.index(x)
-        index_y = LETTERS.index(y)
-        return int(pam250[index_x,index_y])
-
-    #Run N-W algorithm
-    score, alignment = single_global_align('MEANLYPRTEINSTRING', 'PLEASANTLYEINSTEIN', sub_matrix)
-    print score
-    print print_alignment(alignment)
-
-
 def print_alignment(alignment):
     seq1 = alignment[0]
     seq2 = alignment[1]
@@ -159,18 +125,54 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
         top_scores = heapq.nlargest(25, pq)
         pqs.append({'phraseX': phraseX, 'pq': top_scores})
 
-    #Print best alignments
-    for obj in pqs:
-        top_scores = obj['pq']
-        phraseX = obj['phraseX']
-        print phraseX
-        for score, alignment in top_scores:
-            print score
-            print print_alignment(alignment) + "\n"
+    if print_results:
+        #Print best alignments
+        for obj in pqs:
+            top_scores = obj['pq']
+            phraseX = obj['phraseX']
+            print phraseX
+            for score, alignment in top_scores:
+                print score
+                print print_alignment(alignment) + "\n"
+
+    return pqs
 
 
-def main():
+def simple_test():
+    #Load and define substitution matrix
+    LETTERS = ['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
+    pam250 = genfromtxt('pam250.csv', delimiter=',')
+
+    def sub_matrix(x,y):
+        index_x = LETTERS.index(x)
+        index_y = LETTERS.index(y)
+        return int(pam250[index_x,index_y])
+
+    #Run N-W algorithm
+    score, alignment = single_global_align('MEANLYPRTEINSTRING', 'PLEASANTLYEINSTEIN', sub_matrix)
+    print score
+    print print_alignment(alignment)
+
+
+def word2vec_test():
+    git_repo_path = os.path.dirname(os.path.realpath(__file__))
+    cornell_en_quotes_lemma_file = 'en_quotes_2008-08.lemma.txt'
+    w2v_bin_filename = 'en_quotes_2008-08.lemma.vectors.bin'
+    en_quotes_data_fullpath = os.path.join(git_repo_path, cornell_en_quotes_lemma_file)
+
+    def load_data():
+        print "Loading data ...{0}".format(en_quotes_data_fullpath)
+        phrases = []
+        fh = open(en_quotes_data_fullpath)
+        for line in fh:
+            phrases.append([x.strip() for x in line.strip().split()])
+        print "Done loading..."
+        return phrases
+
     #TODO: convert into bit-scores
+    #Raw scores of substitution matrix
+    w2v_model = Word2Vec.load_word2vec_format(os.path.join(git_repo_path,w2v_bin_filename), binary=True)
+
     #Define our word2vec substitution matrix
     def word2vec_sub_matrix(x,y):
         model = w2v_model
@@ -191,6 +193,3 @@ def main():
     #This is more of a test, runs a set of global alignments on one randomly chosen phrase
     run_global_alignments([static_phrase], all_phrases[0:1000], word2vec_sub_matrix)
 
-
-main()
-#test()
