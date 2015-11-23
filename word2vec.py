@@ -15,10 +15,7 @@ def run_word2vec(corpus_input_fn, w2v_bin_output_fn):
     subprocess.call(cmd)
 
 
-def run_word2phrase(input_fn, output_fn, iter):
-
-    threshold = 200
-    if iter > 0: threshold = 100
+def run_word2phrase(input_fn, output_fn, threshold):
 
     cmd = ['bin/word2phrase', '-train', input_fn,
            '-output', output_fn, '-threshold', str(threshold), '-debug', '2']
@@ -32,9 +29,9 @@ def create_bin_file():
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
 
     # Run pipeline
-    run_word2phrase(corpus_fn, corpus_fn + '-iter0', 0)
-    run_word2phrase(corpus_fn + '-iter0', corpus_fn + '-iter1', 1)
-    run_word2vec(corpus_fn + '-iter1', w2v_bin_output_fn)
+    run_word2phrase(corpus_fn + '.txt', corpus_fn + '-int', 200)
+    run_word2phrase(corpus_fn + '-int', corpus_fn + '-final', 100)
+    run_word2vec(corpus_fn + '-final', w2v_bin_output_fn)
 
 
 if __name__ == '__main__':
