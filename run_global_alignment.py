@@ -119,7 +119,9 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     for phraseX in phrasesX:
         #TODO: parallelize here
         pq = []
-        for phraseY in phrasesY:
+        for i, phraseY in enumerate(phrasesY):
+            if i % 10 == 0:
+                print ".", #print a dot every 10 alignments
             score, alignment = single_global_align(phraseX, phraseY, sub_matrix)
             heapq.heappush(pq, (score, alignment))
         top_scores = heapq.nlargest(25, pq)
