@@ -6,8 +6,8 @@ import run_global_alignment
 
 def run_alignment():
     git_repo_path = os.path.dirname(os.path.realpath(__file__))
-    cornell_en_quotes_lemma_file = 'en_quotes_2008-08.lemma.txt'
-    w2v_bin_filename = 'en_quotes_2008-08.lemma.vectors.bin'
+    cornell_en_quotes_lemma_file = 'data/en_quotes_2008-08.lemma.txt'
+    w2v_bin_filename = 'data/en_quotes_2008-08.lemma.vectors.bin'
     en_quotes_data_fullpath = os.path.join(git_repo_path, cornell_en_quotes_lemma_file)
 
     #Raw scores of substitution matrix

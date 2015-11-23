@@ -2,7 +2,6 @@
 *.iml
 *.pyc
 *.txt
-data/
 split*
 *.pkl
 *.csv
