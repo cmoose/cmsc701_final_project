@@ -4,3 +4,5 @@
 *.txt
 data/
 split*
+*.pkl
+*.csv
