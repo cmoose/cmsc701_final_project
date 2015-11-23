@@ -136,7 +136,7 @@ def print_priority_queues(pqs):
     for obj in pqs:
         top_scores = obj['pq']
         phraseX = obj['phraseX']
-        print phraseX
+        print "Printing priority queue for: ", phraseX
     for score, alignment in top_scores:
         print score
         print print_alignment(alignment) + "\n"
