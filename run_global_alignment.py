@@ -127,15 +127,19 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
 
     if print_results:
         #Print best alignments
-        for obj in pqs:
-            top_scores = obj['pq']
-            phraseX = obj['phraseX']
-            print phraseX
-            for score, alignment in top_scores:
-                print score
-                print print_alignment(alignment) + "\n"
+        print_priority_queues(pqs)
 
     return pqs
+
+
+def print_priority_queues(pqs):
+    for obj in pqs:
+        top_scores = obj['pq']
+        phraseX = obj['phraseX']
+        print phraseX
+    for score, alignment in top_scores:
+        print score
+        print print_alignment(alignment) + "\n"
 
 
 def simple_test():
