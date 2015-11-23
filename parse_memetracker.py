@@ -1,3 +1,10 @@
+# Parses the Memetracker cluster data
+# Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
+#
+# Author: Chris Musialek
+# Date: Nov 2015
+#
+
 import re
 import pickle
 import os.path
@@ -30,16 +37,15 @@ def parse_cluster_data(fh):
     return clusters
 
 
-def load_memetracker_data():
+def load_memetracker_data(raw_gz_fn, clusters_pkl_fn):
     clusters = {}
-    if os.path.isfile('pkl/memetracker-clusters.pkl'):
-        clusters = pickle.load(open('pkl/memetracker-clusters.pkl'))
+    if os.path.isfile(clusters_pkl_fn):
+        clusters = pickle.load(open(clusters_pkl_fn))
     else:
         # Process raw file
-        # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
-        fh = gzip.open('data/clust-qt08080902w3mfq5.txt.gz')
+        fh = gzip.open(raw_gz_fn)
         clusters = parse_cluster_data(fh)
-        pickle.dump(clusters, open('data/memetracker-clusters.pkl', 'wb'))
+        pickle.dump(clusters, open(clusters_pkl_fn, 'wb'))
 
     return clusters
 
@@ -54,8 +60,9 @@ def get_memtracker_phrases(clusters):
     return all_phrases
 
 
-def write_phrases_to_file(phrases):
-    fhw = open('data/memetracker-clusters-phrases.txt', 'wb')
+def write_phrases_to_file(phrases, phrases_fn):
+    fhw = open(phrases_fn, 'wb')
     for phrase in phrases:
         fhw.write(phrase + '\n')
+
 

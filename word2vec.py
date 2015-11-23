@@ -23,8 +23,7 @@ def run_word2phrase(input_fn, output_fn, threshold):
     subprocess.call(cmd)
 
 
-def create_bin_file():
-    corpus_basename = 'memetracker-clusters-phrases'
+def create_bin_file(corpus_basename):
     corpus_fn = 'data/{0}'.format(corpus_basename)
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
 
@@ -35,4 +34,5 @@ def create_bin_file():
 
 
 if __name__ == '__main__':
-    create_bin_file()
+    corpus_basename = 'memetracker-clusters-phrases'
+    create_bin_file(corpus_basename)
