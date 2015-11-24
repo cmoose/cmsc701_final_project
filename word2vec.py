@@ -9,8 +9,8 @@ import subprocess
 
 def run_word2vec(corpus_input_fn, w2v_bin_output_fn):
     cmd = ['bin/word2vec', '-train', corpus_input_fn,
-           '-output', w2v_bin_output_fn, '-cbow 1', '-size 200', '-window 10', '-negative 25',
-            '-hs 0 -sample 1e-5 -threads 20 -binary 1 -iter 15']
+           '-output', w2v_bin_output_fn, '-cbow', '1', '-size', '200', '-window', '10', '-negative', '25',
+            '-hs', '0', '-sample', '1e-5', '-threads', '20', '-binary', '1', '-iter', '15']
     print "Calling: " + " ".join(cmd)
     subprocess.call(cmd)
 

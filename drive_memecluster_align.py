@@ -20,7 +20,7 @@ def load_data(w2v_phrases_fn):
     fh = open(w2v_phrases_fn)
     all_phrases = []
     for line in fh:
-        all_phrases.append(line.strip())
+        all_phrases.append([x.strip() for x in line.strip().split()])
     return all_phrases
 
 

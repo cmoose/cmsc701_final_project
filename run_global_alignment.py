@@ -116,13 +116,14 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     #O(n^2)
     pqs = []
     print "Running alignments..."
+    print "Each dot represents 100 completed alignments..."
     for phraseX in phrasesX:
         #TODO: parallelize here
         pq = []
         for i, phraseY in enumerate(phrasesY):
-            # print a dot every 10 alignments
-            if i % 10 == 0:
-                if i % 100 == 0:
+            # print a dot every 100 alignments
+            if i % 100 == 0:
+                if i % 5000 == 0:
                     print "." #with nl
                 else:
                     print ".", #no nl
@@ -142,7 +143,7 @@ def print_priority_queues(pqs):
     for obj in pqs:
         top_scores = obj['pq']
         phraseX = obj['phraseX']
-        print "Printing priority queue for: ", phraseX
+        print "\nPrinting priority queue for: ", phraseX
     for score, alignment in top_scores:
         print score
         print print_alignment(alignment) + "\n"
