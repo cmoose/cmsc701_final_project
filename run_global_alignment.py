@@ -10,6 +10,7 @@ import os.path
 import random
 import heapq
 import multiprocessing
+import pickle
 
 #Globals
 print_results = False
@@ -158,11 +159,13 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     #For each phrase, run a global alignment on every other phrase
     #O(n^2)
     pqs = []
+    #Parallelize!!
+    #Use up to 8 cores at a time
+    pool = multiprocessing.Pool(8)
+
     print "Running alignments..."
-    for phraseX in phrasesX:
-        #Parallelize!!
-        #Use up to 8 cores at a time
-        pool = multiprocessing.Pool(8)
+    for phraseX_id, phraseX in phrasesX.items():
+        print "Processing new text phrase: '{0}'...".format(" ".join(phraseX))
 
         #This creates a datastructure of arguments for Pool to run
         #multiple_global_align in parallel
@@ -181,6 +184,10 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
         top_scores = heapq.nlargest(25, merged_scores)
 
         pqs.append({'phraseX': phraseX, 'pq': top_scores})
+
+        #Cache finished work to disk
+        pkl_fn = 'pkl/{0}.pkl'.format(phraseX_id)
+        pickle.dump({'phraseX': phraseX, 'pq': top_scores, 'id':phraseX_id}, open(pkl_fn, 'wb'))
 
     if print_results:
         #Print best alignments

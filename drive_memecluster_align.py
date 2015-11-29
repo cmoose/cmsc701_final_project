@@ -10,6 +10,7 @@ import w2v_sub_matrix        #Contains the custom built word2vec substitution ma
 import word2vec              #Word2vec preprocessing driver
 import os.path
 import random
+import re
 
 
 # Load raw gz data, save as pkl file, return cluster datastructure
@@ -45,6 +46,14 @@ def do_prep_work(w2v_basename, raw_gz_fn):
     return w2v_basename + '.bin', w2v_basename + '-final'
 
 
+def get_completed_phrases():
+    l = os.listdir('./pkl')
+    regex = re.compile('^([0-9].*)\.pkl') #all filenames of all digits plus .pkl
+
+    compl = [int(regex.search(x).group(1)) for x in l if regex.search(x)]
+
+    return compl
+
 def run_alignments():
     # Raw data
     # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
@@ -59,12 +68,19 @@ def run_alignments():
     #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
     all_phrases = load_data(os.path.join('data', w2v_basename + '-final'))
 
-    #TODO: pick 1000 phrases at random
-    randint = random.randint(0,len(all_phrases))
-    static_phrase = all_phrases[randint]
+    #Pick 1000 phrases at random
+    #randint = random.randint(0,len(all_phrases))
+    #Get number of phrases completed
+    num_compl = len(get_completed_phrases())
+    randints = random.sample(range(0,len(all_phrases)), 1000-num_compl)
 
-    pqs = run_global_alignment.run_global_alignments([static_phrase], all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+    static_phrases = {}
+    for i in randints:
+        static_phrases[i] = all_phrases[i]
 
+    run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+
+    pqs = []
     run_global_alignment.print_priority_queues(pqs)
 
 
