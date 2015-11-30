@@ -44,11 +44,30 @@
 # https://code.google.com/p/word2vec/
 #
 
-# ## Local Alignment using trigrams
+# ## Word Subsitution Matrix inspired by BLOSUM
+#
+# In this section, I will develop word substitution matrix inspired by BLOSUM.
+#
+# ### Referecen for BLOSUM
+#  - http://www3.cs.stonybrook.edu/~rp/class/549f14/lectures/CSE549-Lec05.pdf
+#  - http://www.cs.columbia.edu/4761/assignments/assignment1/reference1.pdf
+#
+# ### BLOSUM matrix process
+# Introduced by Henikoff & Henikoff in 1992  Start with the BLOCKS database (H&H ’91)
+# 1.  Look for conserved (gapless, >=62% identical) regions in alignments.
+# 2.  Count all pairs of amino acids in each column of the alignments.
+# 3.  Use amino acid pair frequencies to derive “score” for a mutation/replacement
+#
+# ### Our method
+# 1. Look for aligned trigram, such as [a1, a2, a3] and [b1, b2, b3], where a1 = b1 and a3 = b3.
+# 2. Count all pairs of a2 and b2 in such alignments
+# 3. Use this pair frequencies freq(a2, b2) to derive score for a subsitition.
+#
+#
 
 # ### Load Library
 
-# In[26]:
+# In[12]:
 
 import nltk
 from nltk.collocations import *
@@ -60,163 +79,253 @@ from itertools import combinations_with_replacement
 
 # ### Data Preprocessing
 #
-# Here I will parse the data and remove tokens that do not occur more than unigram threshold times.
+# Here I will parse the data and remove tokens that do not occur more than unigram threshold times. The main trick here is to use frequent tokens which is happening more than thresholdUnigram (10) and not stop words.  We will split the main file into 10mb chunk because when we use 100mb chunk, the process is killed.  After getting trigram frequency distribution for the 10mb chunk park, the trigram will be filtered to get only the [a1 a2 a3] trigram where a2 belongs to frequent tokens.  After this filtering is done, the remaining frequency distribution will be combined to the main distribution ( trigramFD ) which will be used in the rest of this process.
+#
+#
+# We didn't use other filtering methods such as removing tokens that does not belong to the frequent tokens because we want to keep the alignment information.  For example in the following sentence, if we apply simple filtering which is removing stopwords 'a' , the remaining trigram will not be aligned.
+#  - I like a blue dog.   -> like blue dog  -> [like, blue, dog]
+#  - I love a green dog.  -> love green dog -> [love, green, dog]
+#
 #
 # #### Hyper parameters
-#  - thresholdUnigram = 100
+#  - thresholdUnigram = 10
 #
 
-# In[27]:
+# In[13]:
 
 #######################
 # Tuning parameters for program
 thresholdUnigram = 10
-specialSpacer = 'IntuinnoSpecialSpacing'
-
 #######################
 
 
-# In[28]:
+# In[14]:
 
-
-trigramFD = nltk.FreqDist()
-
-for fileloop in range(114):
-
-
-    start = time.time()
-
-    # file = open('en_quotes_2008-08.lemma.txt')
-    file = open('split' + str(fileloop).zfill(3))
-    t = file.read()
-
-
-    tokens = nltk.word_tokenize(t)
-    lowerTokens = [w.lower() for w in tokens]
-    unigram = nltk.FreqDist(tokens)
-    frequentTokens = {k:v for k,v in unigram.items() if v > thresholdUnigram and k not in stopwords.words('english')}
-
-    # reducedText = [k if k in frequentTokens else specialSpacer  for k in tokens]
-
-
-    trigramFinder = TrigramCollocationFinder.from_words(lowerTokens)
-
-    trigramFinder.apply_ngram_filter( lambda w1, w2, w3: w2 not in frequentTokens )
-    # trigramFinder.apply_freq_filter(2)
-
-    trigramFD |=  trigramFinder.ngram_fd
-    end = time.time()
-
-    print end - start
-    print fileloop
-
-
-# ### Count aligned word distribution
 #
-# Here I will iterate over all the trigram and create a aligned freq distribution
+# trigramFD = nltk.FreqDist()
+#
+# for fileloop in range(10):
+#
+#
+#     start = time.time()
+#
+#     # file = open('en_quotes_2008-08.lemma.txt')
+#     file = open('split' + str(fileloop).zfill(3))
+#     t = file.read()
+#
+#
+#     tokens = nltk.word_tokenize(t)
+#     lowerTokens = [w.lower() for w in tokens]
+#     unigram = nltk.FreqDist(tokens)
+#     frequentTokens = {k:v for k,v in unigram.items() if v > thresholdUnigram and k not in stopwords.words('english')}
+#
+#     # reducedText = [k if k in frequentTokens else specialSpacer  for k in tokens]
+#
+#
+#     trigramFinder = TrigramCollocationFinder.from_words(lowerTokens)
+#
+#     trigramFinder.apply_ngram_filter( lambda w1, w2, w3: w2 not in frequentTokens )
+#     # trigramFinder.apply_freq_filter(2)
+#
+#     trigramFD |=  trigramFinder.ngram_fd
+#     end = time.time()
+#
+#     print end - start
+#     print fileloop
+#
+# pickle.dump(trigramFD, open('trigramFDsmall.pickle','wb'))
+#
+#
+# # In[15]:
+#
+# trigramFD = pickle.load(open("trigramFDsmall.pickle",'rb'))
+# # Test parsing
+# len(trigramFD)
+#
+#
+#
+# # ### 1. Count aligned word distribution
+# #
+# # Here I will iterate over all the trigram and create a aligned freq distribution.  when there is trigram such as
+# #
+# # - [a1 x a3] occured n times
+# # - [a1 y a3] occured m times
+# # - [a2 x a3] occured l times
+# #
+# # We will collect the frequency distribution of (a1, a3), which will be Freqency distribution of x = n and y = m
+#
+# # In[16]:
+#
+# start = time.time()
+# alignedWords = {}
+#
+# for word, frequency in trigramFD.iteritems():
+#     if not (word[0], word[2]) in alignedWords:
+#         alignedWords[(word[0], word[2])] = nltk.FreqDist()
+#
+#     alignedWords[(word[0], word[2])][word[1]] += frequency
+#
+# end = time.time()
+#
+# print end-start
+#
+#
+# # In[17]:
+#
+# start = time.time()
+# # len(alignedWords[('face','enjoy')])
+#
+# newAlignedWords = [alignedWords[(k,v)] for k,v  in alignedWords if len(alignedWords[(k,v)]) > 1]
+# end = time.time()
+#
+# print end-start
+#
+# print len(alignedWords)
+# print len(newAlignedWords)
+#
+# pickle.dump(newAlignedWords, open('newAlignedWords.pickle','wb'))
+#
+#
+# # ### 2. Count Combinations of pairs
+# #
+# # Here I will Count pair frequencies c(i,j) for each pair of amino acids i and j.
+# #
+# # - For like comparison, c(i,i) = ni * (ni -1 ) /2
+# # - For unlike comparison, c(i,j) = ni * nj
+#
+# # In[18]:
 
-# In[29]:
-
-alignedWords = {}
-
-for word, frequency in trigramFD.iteritems():
-    if not (word[0], word[2]) in alignedWords:
-        alignedWords[(word[0], word[2])] = nltk.FreqDist()
-
-    alignedWords[(word[0], word[2])][word[1]] += frequency
-
-
-# In[32]:
-
-substitutionCount = nltk.FreqDist()
-possibleCount = nltk.FreqDist()
-
-countAllCombinatinations = 0
-
-for k, v in alignedWords.iteritems():
-
-    if len(v) > 1:
-        for w1, w2 in combinations_with_replacement(v,2):
-            if w1 == w2 and v[w1] != 1:
-                substitutionCount[(w1,w2)] += v[w1] * (v[w1]-1) / 2
-                countAllCombinatinations += v[w1] * (v[w1]-1) /2
-            else:
-                substitutionCount[(w1,w2)] += v[w1] * v[w2]
-                countAllCombinatinations += v[w1] * v[w2]
+# start = time.time()
+#
+# newAlignedWords = pickle.load(open("newAlignedWords.pickle",'rb'))
+#
+# substitutionCount = nltk.FreqDist()
+# countAllCombinatinations = 0
+#
+#
+# for v in newAlignedWords:
+#     print v
+#     for w1, w2 in combinations_with_replacement(v,2):
+#         if w1 == w2 and v[w1] != 1:
+# #             print 'I am here'
+#             substitutionCount[(w1,w2)] += v[w1] * (v[w1]-1) / 2
+#             countAllCombinatinations += v[w1] * (v[w1]-1) /2
+#         else:
+#             substitutionCount[(w1,w2)] += v[w1] * v[w2]
+#             countAllCombinatinations += v[w1] * v[w2]
+#
+#
+#
+# end = time.time()
+#
+# print end-start
 
 
+# ### 3. Derive score
+#
+# Here I will Count pair frequencies c(i,j) for each pair of amino acids i and j.
+#
+# - For like comparison, c(i,i) = ni * (ni -1 ) /2
+# - For unlike comparison, c(i,j) = ni * nj
+
+# In[19]:
 
 # In[33]:
 
-q = nltk.FreqDist()
+# start = time.time()
+#
+# q = nltk.FreqDist()
+#
+# wordlist = nltk.FreqDist()
+#
+# for w1, w2 in substitutionCount:
+#     q[(w1,w2)] = 1.0 * substitutionCount[(w1,w2)] /countAllCombinatinations
+#     wordlist[w1] += 1
+#     wordlist[w2] += 1
+#
+# wordlist = sorted(wordlist)
+#
+# print 'Finished calculating Q'
+#
+# pickle.dump(wordlist, open('wordlist.pickle','wb'))
+# pickle.dump(q, open('q.pickle','wb'))
+#
+# print 'Saved Q'
+# def sumFreqDist(fd):
+#     result = 0
+#     for a in fd:
+#         result += fd[a]
+#     return result
+#
+#
+# start = time.time()
+#
+# prob = {}
+# for w_i  in wordlist:
+#     sumRemainder = 0
+#     print 'prob: ' + w_i
+#     for w_j in wordlist:
+#         if w_i < w_j:
+#             sumRemainder += q[(w_i,w_j)]
+#         elif w_i > w_j:
+#             sumRemainder += q[(w_j,w_i)]
+#     prob[w_i] = q[(w_i, w_i)] + sumRemainder / 2
+#
+# end = time.time()
+#
+# print 'Calculated Prob ' + str(end-start)
+#
+# pickle.dump(prob, open('prob.pickle','wb'))
+#
+# print 'Saved prob'
+#
+# start = time.time()
+#
+# expectedFrequency = {}
+#
+# for w_i, w_j  in combinations_with_replacement(wordlist,2):
+#     print 'expected freq: ' + w_i + ', ' + w_j
+#     expectedFrequency[(w_i, w_j)] = prob[w_i] * prob[w_j] * 2
+#
+# end = time.time()
+# print 'Calculated Expected Frequency '  + str(end-start)
+#
+# pickle.dump(q, open('expectedFrequency.pickle','wb'))
+#
+# print 'Saved Expected Frequency'
 
-wordlist = nltk.FreqDist()
-for w1, w2 in substitutionCount:
-    q[(w1,w2)] = 1.0 * substitutionCount[(w1,w2)] /countAllCombinatinations
-    wordlist[w1] += 1
-    wordlist[w2] += 1
-
-
-def sumFreqDist(fd):
-    result = 0
-    for a in fd:
-        result += fd[a]
-
-    return result
-
-
-print sumFreqDist(q)
-print sumFreqDist(substitutionCount)
-print sumFreqDist(trigramFD)
-
-
-prob = {}
-for w_i, f_i  in wordlist.iteritems():
-    sumRemainder = 0
-    for w_j, f_j in wordlist.iteritems():
-        if w_i < w_j:
-            sumRemainder += q[(w_i,w_j)]
-        elif w_i > w_j:
-            sumRemainder += q[(w_j,w_i)]
-
-
-    prob[w_i] = q[(word, word)] + sumRemainder / 2
-
-expectedFrequency = {}
-
-
-newWordlist = []
-
-
-for w, f in wordlist.iteritems():
-    if prob[w] != 0:
-        newWordlist.append(w)
-
-for w_i in newWordlist:
-    for w_j in newWordlist:
-        if w_i != w_j:
-            expectedFrequency[(w_i, w_j)] = prob[w_i] * prob[w_j] * 2
-
-        else:
-            expectedFrequency[(w_i, w_j)] = prob[w_i] * prob[w_i]
 
 
 
+
+wordlist = pickle.load(open("wordlist.pickle",'rb'))
+expectedFrequency = pickle.load(open("expectedFrequency.pickle",'rb'))
+q = pickle.load(open("q.pickle",'rb'))
 score = {}
 
-for w_i in newWordlist:
-    for w_j in newWordlist:
-        if expectedFrequency[(w_i,w_j)] == 0:
-            score[(w_i,w_j)] = 0
-            score[(w_j, w_i)] = 0
-        elif w_i < w_j:
-            score[w_i,w_j] =  q[(w_i,w_j)] / expectedFrequency[(w_i,w_j)]
-        elif w_i > w_j:
-            score[w_i,w_j] =  q[(w_j,w_i)] / expectedFrequency[(w_i,w_j)]
+start = time.time()
+for w_i, w_j  in combinations_with_replacement(wordlist,2):
+    print 'score: ' + w_i + ',' + w_j
+    if expectedFrequency[(w_i,w_j)] != 0:
+        score[w_i,w_j] =  q[(w_i,w_j)] / expectedFrequency[(w_i,w_j)]
 
 
-print len(newWordlist)
 
-print "I am ending"
 
-pickle.dump(score, open('score.pickle','wb'))
+# print score
+end = time.time()
+
+print end-start
+
+del expectedFrequency
+del q
+#
+#
+# pickle.dump(score, open('score.pickle','wb'))
+
+
+
+# In[ ]:
+
+
+
