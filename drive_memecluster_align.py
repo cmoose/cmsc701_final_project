@@ -2,19 +2,23 @@
 #
 # Author: Chris Musialek
 # Date: Nov 2015
+#
 
 import run_global_alignment  #Contains Needleman-Wunsch algorithm
-import parse_memetracker     #Loads the data for us
-import word2vec
+import parse_memetracker     #Loads the memetracker cluster dataset for us
+import w2v_sub_matrix        #Contains the custom built word2vec substitution matrix
+import word2vec              #Word2vec preprocessing driver
 import os.path
-from gensim.models import Word2Vec
 import random
+import re
 
 
+# Load raw gz data, save as pkl file, return cluster datastructure
 def load_data(raw_gz_fn, clusters_pkl_fn):
     return parse_memetracker.load_memetracker_data(raw_gz_fn, clusters_pkl_fn)
 
 
+# Load the raw phrases (built from word2phrase iterations)
 def load_data(w2v_phrases_fn):
     print "Loading data ...{0}".format(w2v_phrases_fn)
     fh = open(w2v_phrases_fn)
@@ -27,11 +31,9 @@ def load_data(w2v_phrases_fn):
 # Loads the raw data, writes phrases to file, runs word2vec to create bin plus
 # new phrases data (creates bigrams and trigrams smartly)
 # w2v_basename example: 'memetracker-clusters-phrases'
-def do_prep_work(w2v_basename):
-    # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
-    raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
+def do_prep_work(w2v_basename, raw_gz_fn):
 
-    clusters_pkl_fn = 'pkl/memetracker-clusters.pkl'
+    clusters_pkl_fn = 'pkl/{0}.pkl'.format(w2v_basename)
 
     clusters = load_data(raw_gz_fn, clusters_pkl_fn)
     all_phrases = parse_memetracker.get_memtracker_phrases(clusters)
@@ -44,33 +46,41 @@ def do_prep_work(w2v_basename):
     return w2v_basename + '.bin', w2v_basename + '-final'
 
 
+def get_completed_phrases():
+    l = os.listdir('./pkl')
+    regex = re.compile('^([0-9].*)\.pkl') #all filenames of all digits plus .pkl
+
+    compl = [int(regex.search(x).group(1)) for x in l if regex.search(x)]
+
+    return compl
+
 def run_alignments():
+    # Raw data
+    # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
+    raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
+
     # Preprocess if needed
-    w2v_basename = 'memetracker-clusters-phrases'
+    w2v_basename = 'memetracker-clusters-phrases' #basename we'll use for all remaining files created
     if not (os.path.exists(os.path.join('data', w2v_basename + '.bin')) or
         (os.path.exists(os.path.join('data', w2v_basename + '-final')))):
-        do_prep_work(w2v_basename)
+        do_prep_work(w2v_basename, raw_gz_fn)
 
-    w2v_model = Word2Vec.load_word2vec_format(os.path.join('data', w2v_basename + '.bin'), binary=True)
-
-    #Define our word2vec substitution matrix
-    def word2vec_sub_matrix(x,y):
-        model = w2v_model
-        try:
-            S_ij = model.similarity(x,y)
-        except KeyError:
-            if x == y:
-                S_ij = 1
-            else:
-                S_ij = -1
-        return float(S_ij)
-
+    #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
     all_phrases = load_data(os.path.join('data', w2v_basename + '-final'))
-    randint = random.randint(0,len(all_phrases))
-    static_phrase = all_phrases[randint]
 
-    pqs = run_global_alignment.run_global_alignments([static_phrase], all_phrases, word2vec_sub_matrix)
+    #Pick 1000 phrases at random
+    #randint = random.randint(0,len(all_phrases))
+    #Get number of phrases completed
+    num_compl = len(get_completed_phrases())
+    randints = random.sample(range(0,len(all_phrases)), 1000-num_compl)
 
+    static_phrases = {}
+    for i in randints:
+        static_phrases[i] = all_phrases[i]
+
+    run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+
+    pqs = []
     run_global_alignment.print_priority_queues(pqs)
 
 

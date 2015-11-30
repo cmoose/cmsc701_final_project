@@ -2,12 +2,15 @@
 # Author: Chris Musialek
 # Date: Nov 2015
 #
+
 import numpy as np
 from numpy import genfromtxt
 from gensim.models import Word2Vec
 import os.path
 import random
 import heapq
+import multiprocessing
+import pickle
 
 #Globals
 print_results = False
@@ -111,26 +114,80 @@ def print_alignment(alignment):
     return " ".join(seq1_formatted) + "\n" + " ".join(seq2_formatted)
 
 
+# This is the worker function for parallelization
+# Encapsulates running 10,000 alignments [len(phrasesY) == 10000]
+# against a single text
+def multiple_global_align((phraseX, phrasesY, sub_matrix, chunk_region)):
+    sub_pq = []
+    print "Running alignments for phrases {0}-{1}".format(chunk_region[0], chunk_region[1])
+    for i, phraseY in enumerate(phrasesY):
+        score, alignment = single_global_align(phraseX, phraseY, sub_matrix)
+        heapq.heappush(sub_pq, (score, alignment))
+    top_scores = heapq.nlargest(25, sub_pq)
+    return top_scores
+
+
+# This creates a datastructure of arguments for multiprocessing.Pool to run
+# multiple_global_align in parallel
+def build_pool_func_args(phraseX, phrasesY, sub_matrix):
+    size = len(phrasesY)
+    l = 0
+    data = []
+    # This will create chunks of 10,000 phrases in a format
+    # suitable for using multiprocessing.Pool
+    for r in range(10000,size,10000):
+        func_args = []
+        func_args.append(phraseX)       #First argument to multiple_global_align()
+        func_args.append(phrasesY[l:r]) #Second argument to multiple_global_align()
+        func_args.append(sub_matrix)    #Third argument to multiple_global_align()
+        func_args.append([l,r])         #Fourth argument to multiple_global_align()
+        l = r
+        data.append(func_args)
+
+    # Add last chunk of data
+    func_args = []
+    func_args.append(phraseX)
+    func_args.append(phrasesY[l:size])
+    func_args.append(sub_matrix)
+    func_args.append([l,size])
+    data.append(func_args)
+
+    return tuple(data)
+
+
 def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     #For each phrase, run a global alignment on every other phrase
     #O(n^2)
     pqs = []
+    #Parallelize!!
+    #Use up to 8 cores at a time
+    pool = multiprocessing.Pool(8)
+
     print "Running alignments..."
-    print "Each dot represents 100 completed alignments..."
-    for phraseX in phrasesX:
-        #TODO: parallelize here
-        pq = []
-        for i, phraseY in enumerate(phrasesY):
-            # print a dot every 100 alignments
-            if i % 100 == 0:
-                if i % 5000 == 0:
-                    print "." #with nl
-                else:
-                    print ".", #no nl
-            score, alignment = single_global_align(phraseX, phraseY, sub_matrix)
-            heapq.heappush(pq, (score, alignment))
-        top_scores = heapq.nlargest(25, pq)
+    for phraseX_id, phraseX in phrasesX.items():
+        print "Processing new text phrase: '{0}'...".format(" ".join(phraseX))
+
+        #This creates a datastructure of arguments for Pool to run
+        #multiple_global_align in parallel
+        data = build_pool_func_args(phraseX, phrasesY, sub_matrix)
+
+        #Actually parallel process global alignments
+        #Returns a list of the top 25 priority queues generated
+        #from each chunk of phrases processed independently
+        worker_results = pool.map(multiple_global_align, data)
+
+        #We now need to find the topN of the items in all priority queues
+        merged_scores = []
+        for pq in worker_results:
+            while pq:
+                heapq.heappush(merged_scores, heapq.heappop(pq))
+        top_scores = heapq.nlargest(25, merged_scores)
+
         pqs.append({'phraseX': phraseX, 'pq': top_scores})
+
+        #Cache finished work to disk
+        pkl_fn = 'pkl/{0}.pkl'.format(phraseX_id)
+        pickle.dump({'phraseX': phraseX, 'pq': top_scores, 'id':phraseX_id}, open(pkl_fn, 'wb'))
 
     if print_results:
         #Print best alignments
@@ -139,6 +196,7 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
     return pqs
 
 
+# Print best alignments
 def print_priority_queues(pqs):
     for obj in pqs:
         top_scores = obj['pq']
@@ -149,6 +207,9 @@ def print_priority_queues(pqs):
         print print_alignment(alignment) + "\n"
 
 
+#########################################
+# Everything below used for testing only
+#########################################
 def simple_test():
     #Load and define substitution matrix
     LETTERS = ['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']

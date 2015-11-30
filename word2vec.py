@@ -1,4 +1,9 @@
-#Drives word2vec
+# Drives word2vec binaries from within python
+# Used for preprocessing/building w2v sub matrix
+#
+# Author: Chris Musialek
+# Date: Nov 2015
+#
 
 #./word2phrase -train news.2012.en.shuffled-norm0 -output news.2012.en.shuffled-norm0-phrase0 -threshold 200 -debug 2
 #./word2vec -train news.2012.en.shuffled-norm1-phrase1 -output
