@@ -11,15 +11,15 @@ import word2vec              #Word2vec preprocessing driver
 import os.path
 import random
 import re
-
+import gzip
 
 # Load raw gz data, save as pkl file, return cluster datastructure
 def load_data(raw_gz_fn, clusters_pkl_fn):
     return parse_memetracker.load_memetracker_data(raw_gz_fn, clusters_pkl_fn)
 
 
-# Load the raw phrases (built from word2phrase iterations)
-def load_data(w2v_phrases_fn):
+#Load the raw phrases (built from word2phrase iterations)
+def load_data1(w2v_phrases_fn):
     print "Loading data ...{0}".format(w2v_phrases_fn)
     fh = open(w2v_phrases_fn)
     all_phrases = []
@@ -36,6 +36,7 @@ def do_prep_work(w2v_basename, raw_gz_fn):
     clusters_pkl_fn = 'pkl/{0}.pkl'.format(w2v_basename)
 
     clusters = load_data(raw_gz_fn, clusters_pkl_fn)
+
     all_phrases = parse_memetracker.get_memtracker_phrases(clusters)
     parse_memetracker.write_phrases_to_file(all_phrases, os.path.join('data', w2v_basename + '.txt'))
 
@@ -66,13 +67,13 @@ def run_alignments():
         do_prep_work(w2v_basename, raw_gz_fn)
 
     #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
-    all_phrases = load_data(os.path.join('data', w2v_basename + '-final'))
+    all_phrases = load_data1(os.path.join('data', w2v_basename + '-final'))
 
     #Pick 1000 phrases at random
     #randint = random.randint(0,len(all_phrases))
     #Get number of phrases completed
     num_compl = len(get_completed_phrases())
-    randints = random.sample(range(0,len(all_phrases)), 1000-num_compl)
+    randints = random.sample(range(0,len(all_phrases)), 50-num_compl)
 
     static_phrases = {}
     for i in randints:
