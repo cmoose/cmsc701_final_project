@@ -79,9 +79,8 @@ def run_alignments():
     for i in randints:
         static_phrases[i] = all_phrases[i]
 
-    run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+    pqs = run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
 
-    pqs = []
     run_global_alignment.print_priority_queues(pqs)
 
 
