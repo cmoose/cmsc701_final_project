@@ -1,8 +1,12 @@
-import os.path
-import pickle
+# Utility module for loading microsoft research data
+#
+# Author: Chris Musialek
+# Date: Nov 2015
+#
 
-def parse_microsoft_data(fh):
+def parse_microsoft_train(fh):
     phrases = []
+    fh.next() #skip header
     for line in fh:
         l = line.split('\t')
         qual = l[0]
@@ -15,21 +19,29 @@ def parse_microsoft_data(fh):
     return phrases
 
 
-def load_microsoft_data(raw_fn, clusters_pkl_fn):
+# All data
+def get_microsoft_phrases(raw_fn):
+    phrases = {}
+    fh = open(raw_fn)
+    fh.next() #skip header
+    for line in fh:
+        l = line.split('\t')
+        _id = l[0]
+        phr = l[1]
+        phrases[_id] = [x.strip() for x in phr.strip().split()]
+    return phrases
+
+
+def load_microsoft_train(raw_fn):
     clusters = {}
-    if os.path.isfile(clusters_pkl_fn):
-        clusters = pickle.load(open(clusters_pkl_fn))
-    else:
-        # Process raw file
-        fh = open(raw_fn)
-        clusters = parse_microsoft_data(fh)
-        pickle.dump(clusters, open(clusters_pkl_fn, 'wb'))
+    fh = open(raw_fn)
+    clusters = parse_microsoft_train(fh)
 
     return clusters
 
 
 # Returns just the phrases, removing associations with clusters
-def get_microsoft_phrases(clusters):
+def get_microsoft_train_phrases(clusters):
     all_phrases = {}
     for cluster in clusters:
         id1 = cluster['id1']
