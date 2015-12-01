@@ -94,6 +94,110 @@ def single_global_align(X,Y, sub):
     return align_score, alignment
 
 
+#Given two phrases and substitution matrix, run S-W algorithm to find
+# optimal local alignment
+#Return optimal alignment and score
+def single_local_align(X,Y, sub):
+
+    def safe_get_char(X,index):
+        if index == -1:
+            return '-'
+        else:
+            return X[index]
+
+    def backtrack(lastrow,lastcol):
+        currow = lastrow
+        curcol = lastcol
+        curkey = T[currow,curcol]
+        seq1 = []
+        seq2 = []
+
+        while currow >0 and curcol >0:
+            if curkey == 0:
+                seq1.append(safe_get_char(X,currow-1))
+                seq2.append(safe_get_char(Y,curcol-1))
+                currow -= 1
+                curcol -= 1
+            elif curkey == 1:
+                seq1.append(safe_get_char(X,currow-1))
+                seq2.append('-')
+                currow -= 1
+            elif curkey == 2:
+                seq1.append('-')
+                seq2.append(safe_get_char(Y,curcol-1))
+                curcol -= 1
+            elif curkey == 3:
+                if currow > 0:
+                    seq1.append(safe_get_char(X,currow-1))
+                    seq2.append('-')
+                    currow -= 1
+
+                if curcol > 0:
+                    seq1.append('-')
+                    seq2.append(safe_get_char(Y,curcol-1))
+                    curcol -= 1
+
+            curkey = T[currow,curcol]
+
+        return seq1, seq2
+
+    global_max_score = 0
+    global_max_pos = [0,0]
+    gap = 0
+    S = np.empty((len(X)+1, len(Y)+1), dtype=float) #score matrix
+    T = np.empty((len(X)+1, len(Y)+1), dtype=int) #traceback
+
+    for i in range(0,len(X)+1):
+        S[i,0] = 0
+    for j in range(0,len(Y)+1):
+        S[0,j] = 0
+
+    T[0,0] = 0
+    for i in range(1,len(X)+1):
+        T[i,0] = 1 #always go up
+        T[i,0] = 3
+    for j in range(1,len(Y)+1):
+        T[0,j] = 2 #always go left
+        T[i,0] = 3
+    for i in range(1,len(X)+1):
+        for j in range(1,len(Y)+1):
+            T[i,j] = 3
+            local_scores = []
+            local_scores.append(S[i-1,j-1] + sub(X[i-1], Y[j-1])) #match/mismatch
+            local_scores.append(S[i-1,j] - gap) #gap in Y
+
+            if Y[j-1] == "S-END":
+                local_scores.append(S[i,j-1] - 100) #gap in X
+            else:
+                local_scores.append(S[i,j-1] - gap) #gap in X
+
+            local_max_score = max(local_scores)
+            S[i,j] = local_max_score
+
+            #find position of local max, this becomes our traceback key
+            #0 = diag back
+            #1 = upwards
+            #2 = left
+            #3 = skip
+            traceback_key = local_scores.index(local_max_score)
+
+            if S[i, j] >= 0:
+                T[i,j] = traceback_key
+            else:
+                S[i,j] = 0
+
+            if S[i,j] > global_max_score:
+                global_max_score = S[i,j]
+                global_max_pos[0] = i
+                global_max_pos[1] = j
+
+    align_score = S[global_max_pos[0], global_max_pos[1]]
+    seq1, seq2 = backtrack(global_max_pos[0], global_max_pos[1])
+    alignment = [seq1,seq2]
+
+    return align_score, alignment
+
+
 def print_alignment(alignment):
     seq1 = alignment[0]
     seq2 = alignment[1]
@@ -264,4 +368,3 @@ def word2vec_test():
 
     #This is more of a test, runs a set of global alignments on one randomly chosen phrase
     run_global_alignments([static_phrase], all_phrases[0:1000], word2vec_sub_matrix)
-
