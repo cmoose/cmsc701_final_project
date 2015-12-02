@@ -61,7 +61,7 @@ def run_alignments():
     raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
 
     # Preprocess if needed
-    w2v_basename = 'memetracker-clusters-phrases' #basename we'll use for all remaining files created
+    w2v_basename = 'test-memetracker-clusters-phrases' #basename we'll use for all remaining files created
     if not (os.path.exists(os.path.join('data', w2v_basename + '.bin')) or
         (os.path.exists(os.path.join('data', w2v_basename + '-final')))):
         do_prep_work(w2v_basename, raw_gz_fn)
@@ -69,11 +69,13 @@ def run_alignments():
     #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
     all_phrases = load_data1(os.path.join('data', w2v_basename + '-final'))
 
+    all_phrases = all_phrases[0:5000]
+
     #Pick 1000 phrases at random
     #randint = random.randint(0,len(all_phrases))
     #Get number of phrases completed
     num_compl = len(get_completed_phrases())
-    randints = random.sample(range(0,len(all_phrases)), 50-num_compl)
+    randints = random.sample(range(0,len(all_phrases)), 10-num_compl)
 
     static_phrases = {}
     for i in randints:
