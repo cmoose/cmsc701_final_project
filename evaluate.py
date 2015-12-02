@@ -16,6 +16,7 @@ import cPickle
 import gzip
 import sys
 import numpy
+import blosum
 
 # Load raw gz data, save as pkl file, return cluster datastructure
 def load_data(raw_gz_fn, clusters_pkl_fn):
