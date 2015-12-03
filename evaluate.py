@@ -12,7 +12,11 @@ import word2vec              #Word2vec preprocessing driver
 import os.path
 import random
 import re
+import cPickle
 import gzip
+import sys
+import numpy
+import blosum
 
 # Load raw gz data, save as pkl file, return cluster datastructure
 def load_data(raw_gz_fn, clusters_pkl_fn):
@@ -56,35 +60,162 @@ def get_completed_phrases():
 
     return compl
 
-def run_alignments():
-    # Raw data
-    # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
-    raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
+# For set of N phrases, we select a target phrase and its m paraphrase.
+# Among the remainder, we select k random phrases.
+# We calculate global alignment score with m paraphrase and k random phrases.
+# We check whether the global alignment score is higher with paraphrases and low with random phrases.
+#
+# Parameters
+# --------------------
+# dataset = 'PPDB', 'MEME', or 'MS'
+# subMatrix = 'w2v' or 'blosum'
+# numTestCase - Total number of Trial
+# numPhrases - Group Size for Sample
+# topK - If the truth make it in TopK words, it is Success else Failure
+def run_evaluation(dataset, subMatrix, numTestCase=10, numPhrases=5000, topK=10):
+    # Files required to run evaluation
+    data_ppdb_fn = 'evaluation/data_ppdb.pkl'
+    data_meme_fn = 'evaluation/data_meme.pkl'
+    data_ms_fn = 'evaluation/data_ms.pkl'
 
-    # Preprocess if needed
-    w2v_basename = 'memetracker-clusters-phrases' #basename we'll use for all remaining files created
-    if not (os.path.exists(os.path.join('data', w2v_basename + '.bin')) or
-        (os.path.exists(os.path.join('data', w2v_basename + '-final')))):
-        do_prep_work(w2v_basename, raw_gz_fn)
+    # Load dataset
+    if dataset == 'MEME':
+        clusters = cPickle.load(open(data_meme_fn,'rb'))
+    elif dataset == 'PPDB':
+        clusters = cPickle.load(open(data_ppdb_fn,'rb'))
+    elif dataset == 'MS':
+        clusters = cPickle.load(open(data_ms_fn,'rb'))
+    else:
+        sys.exit( 'Unsupported dataset.  Choose from "MEME","PPDB", or "MS"')
 
-    #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
-    all_phrases = load_data1(os.path.join('data', w2v_basename + '-final'))
 
-    #Pick 1000 phrases at random
-    #randint = random.randint(0,len(all_phrases))
-    #Get number of phrases completed
-    num_compl = len(get_completed_phrases())
-    randints = random.sample(range(0,len(all_phrases)), 1000-num_compl)
+    # Load Substitution Matrix
+    if subMatrix == 'w2v':
+        submat = w2v_sub_matrix.word2vec_sub_matrix
+    elif subMatrix == 'blosum':
+        submat = blosum.blosum_sub_matrix
 
-    static_phrases = {}
-    for i in randints:
-        static_phrases[i] = all_phrases[i]
+    evaluate_n_times(clusters, submat, numTestCase, numPhrases, topK)
 
-    run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+def evaluate_n_times(clusters, subMatrix, numTestCase, numPhrases, topK):
+    result = []
+    for i in range(numTestCase):
+        targetSentence, clusterPhrases, randomPhrases = sampleData(clusters, numPhrases)
+        evaluationScores = get_evaluation_score(subMatrix, targetSentence, clusterPhrases, randomPhrases, topK)
+        result.append(evaluationScores)
+    get_average_score(result)
 
-    pqs = []
-    run_global_alignment.print_priority_queues(pqs)
+def get_average_score(scoresList):
+    clusterScores = [w['avgClusterScore'] for w in scoresList]
+    randomScores = [w['avgRandomScore'] for w in scoresList]
+    rankings = [w['avgRanking'] for w in scoresList]
+    TP = numpy.sum([w['TP'] for w in scoresList])
+    TN = numpy.sum([w['TN'] for w in scoresList])
+    FP = numpy.sum([w['FP'] for w in scoresList])
+
+
+    avgClusterScore = numpy.mean(clusterScores)
+    avgRandomScore = numpy.mean(randomScores)
+    avgRanking = numpy.mean(rankings)
+
+    precisions = TP/float(TP + FP)
+    recalls = TP/float(TP + TN)
+    fScores = precisions * recalls / (precisions + recalls)
+
+    print '--------------------------------------'
+    print ' Result for {0} tests'.format(len(scoresList))
+    print '--------------------------------------'
+    print 'Alignment Scores for similar phrases:\t' + str(avgClusterScore)
+    print 'Alignment Scores for random phrases:\t' + str(avgRandomScore)
+    print 'Average Ranking for similar phrases:\t' + str(avgRanking)
+    print 'Average Precision:\t' + str(precisions)
+    print 'Average Recalls:\t' + str(recalls)
+    print 'Average fScores:\t' + str(fScores)
+
+
+
+def sampleData(clusters, numPhrases):
+
+    targetKey = random.choice(clusters.keys())
+    targetCluster = clusters[targetKey]
+    targetPhrase = targetCluster['root']
+    clusterPhrases = targetCluster['phrases'].values()
+
+    randomPhrases = []
+
+    for i in range(numPhrases - len(clusterPhrases)):
+        randomKey = random.choice(clusters.keys())
+        randomCluster = clusters[randomKey]
+        randomPhraseKey = random.choice(randomCluster['phrases'].keys())
+        randomPhrases.append(randomCluster['phrases'][randomPhraseKey])
+
+    return targetPhrase, clusterPhrases, randomPhrases
+
+def get_evaluation_score(subMatrix, targetSentence, clusterPhrases, randomPhrases, topK):
+    clusterScores = run_global_alignment.eval_global_align(targetSentence, clusterPhrases, subMatrix)
+    randomScores = run_global_alignment.eval_global_align(targetSentence, randomPhrases, subMatrix)
+
+    averageClusterScore = numpy.mean(clusterScores)
+    averageRandomScore = numpy.mean(randomScores)
+
+    ranking = get_ranking(clusterScores, randomScores)
+
+    averageRanking = numpy.mean(ranking)
+    TP, TN, FP, precision, recall, fScore = get_contigency_score(ranking, len(clusterPhrases) + len(randomPhrases), topK)
+
+    print 'Scores for ' + str(targetSentence) + ':'
+    print 'Average Score for Cluster Phrases: ' + str(averageClusterScore),
+    print '\t Average Score for Random Phrases: ' + str(averageRandomScore),
+    print '\t Average Ranking for Cluster Phrases: ' + str(averageRanking),
+    print 'Contigency Score for Top' + str(topK)
+    print 'Precision: ' + str(precision),
+    print '\tRecall: ' + str(recall),
+    print '\tF-Score: ' + str(fScore)
+
+    return {'avgClusterScore': averageClusterScore,
+            'avgRandomScore': averageRandomScore,
+            'avgRanking': averageRanking,
+            'p': precision,
+            'r': recall,
+            'f': fScore,
+            'TP': TP,
+            'TN': TN,
+            'FP': FP}
+
+def get_ranking(clusterScores, randomScores):
+    sortedCluster = sorted(clusterScores)
+    sortedRandom = sorted(randomScores)
+    result = []
+    for i in range(len(clusterScores)+len(randomScores)):
+        if len(sortedCluster) == 0:
+            break
+        if len(sortedRandom) == 0:
+            sys.exit('Something wrong in get_ranking')
+        if sortedCluster[0] >= sortedRandom[0]:
+            result.append(i+1)
+            sortedCluster.pop(0)
+        else:
+            sortedRandom.pop(0)
+
+    if len(clusterScores) != len(result):
+        sys.exit('Something wrong in get_ranking')
+    return result
+
+def get_contigency_score(ranking, n, topK):
+    TP = len([ w for w in ranking if w <= topK])
+    TN = len(ranking) - TP
+    FP = len(ranking) - TP
+    FN = n - len(ranking) - TN
+
+    Precision = TP / float(TP + FP)
+    Recall = TP / float(TP + TN)
+
+    fScore = Precision * Recall / (Precision + Recall)
+
+    return TP, TN, FP, Precision, Recall, fScore
 
 
 if __name__ == '__main__':
-    run_alignments()
+    run_evaluation('MEME', 'w2v', numTestCase=10, numPhrases=100, topK=10 )
+
+

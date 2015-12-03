@@ -230,6 +230,11 @@ def multiple_global_align((phraseX, phrasesY, sub_matrix, chunk_region)):
     top_scores = heapq.nlargest(25, sub_pq)
     return top_scores
 
+def eval_global_align(phraseX, phrasesY, sub_matrix):
+    print "Running alignments between {0} and {1} phrases".format(phraseX, len(phrasesY))
+    scores = [single_global_align(phraseX, phraseY, sub_matrix)[0] for phraseY in phrasesY]
+    return scores
+
 
 # This creates a datastructure of arguments for multiprocessing.Pool to run
 # multiple_global_align in parallel
@@ -239,7 +244,7 @@ def build_pool_func_args(phraseX, phrasesY, sub_matrix):
     data = []
     # This will create chunks of 10,000 phrases in a format
     # suitable for using multiprocessing.Pool
-    for r in range(10000,size,10000):
+    for r in range(1000,size,1000):
         func_args = []
         func_args.append(phraseX)       #First argument to multiple_global_align()
         func_args.append(phrasesY[l:r]) #Second argument to multiple_global_align()
