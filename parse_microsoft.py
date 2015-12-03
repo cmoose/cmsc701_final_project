@@ -4,7 +4,7 @@
 # Date: Nov 2015
 #
 
-def parse_microsoft_train(fh):
+def parse_microsoft_clusters(fh):
     phrases = []
     fh.next() #skip header
     for line in fh:
@@ -32,10 +32,10 @@ def get_microsoft_phrases(raw_fn):
     return phrases
 
 
-def load_microsoft_train(raw_fn):
+def load_microsoft_clusters(raw_fn):
     clusters = {}
     fh = open(raw_fn)
-    clusters = parse_microsoft_train(fh)
+    clusters = parse_microsoft_clusters(fh)
 
     return clusters
 
