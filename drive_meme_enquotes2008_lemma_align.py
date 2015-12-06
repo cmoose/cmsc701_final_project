@@ -1,3 +1,11 @@
+# This code runs a word2vec alignment on memetracker raw text data from 2008
+# Data had been preprocessed using CoreNLP via preprocess_cornell_quotes.py
+#
+# This code was never used for the report, as it's based on the memetracker raw text dataset (which we dropped)
+# Author: Chris Musialek
+# Date: Oct 2015
+#
+
 from gensim.models import Word2Vec
 import os.path
 import random

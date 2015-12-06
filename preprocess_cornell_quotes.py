@@ -1,4 +1,10 @@
-# Does preprocessing work on the cornell quotes text
+# Does preprocessing work on the memetracker raw dataset. Preprocessing work included
+# removing all non-english phrases via detection with langid, and lemmatizing all
+# text through Stanford's CoreNLP. A custom built java app was created for this task.
+# It is located in nlp/ for reference.
+# Note: The memetracker raw dataset was never used in the final report, as I found the
+# cluster dataset later and found it to be much more useful.
+#
 # Author: Chris Musialek
 # Date: Nov 2015
 #
@@ -8,7 +14,8 @@ import langid
 import subprocess
 import os.path
 
-cornell_gzip_quotes_file = '/Users/intuinno/codegit/cmsc701_final_project/data/quotes_2008-08.txt.gz'
+# Sets global variables, including raw text file from www.memetracker.org, and names of processed files
+cornell_gzip_quotes_file = '/Users/chris/School/UMCP/CMSC701-F15/cmsc701_final_project/data/quotes_2008-08.txt.gz'
 cornell_en_quotes_file = 'data/en_quotes_2008-08.txt'
 cornell_en_quotes_lemma_file = 'data/en_quotes_2008-08.lemma.txt'
 git_repo_path = os.path.dirname(os.path.realpath(__file__))
@@ -38,6 +45,7 @@ def lemmatize_english_quotations():
         cmd = ["java", "-cp", _cp, _main, "-inputfile", _inputfile, "-outputfile", _outputfile]
         print " ".join(cmd)
 
+        # Actually call java now
         subprocess.call(cmd)
 
 

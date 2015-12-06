@@ -1,10 +1,12 @@
-# Drives word2vec binaries from within python
-# Used for preprocessing/building w2v sub matrix
+# Drives word2vec binaries from within python.
+# Used for training the word2vec model, which then is
+# used to drive the sub matrix in alignments.
 #
 # Author: Chris Musialek
 # Date: Nov 2015
 #
 
+# Examples of commands called
 #./word2phrase -train news.2012.en.shuffled-norm0 -output news.2012.en.shuffled-norm0-phrase0 -threshold 200 -debug 2
 #./word2vec -train news.2012.en.shuffled-norm1-phrase1 -output
 # vectors-phrase.bin -cbow 1 -size 200 -window 10 -negative 25 -hs 0 -sample 1e-5 -threads 20 -binary 1 -iter 15
@@ -12,14 +14,21 @@
 import subprocess
 
 
+# Calls word2vec binary
+# @input String corpus_input_fn - input filename
+# @input String w2v_bin_output_fn - output filename
 def run_word2vec(corpus_input_fn, w2v_bin_output_fn):
     cmd = ['bin/word2vec', '-train', corpus_input_fn,
            '-output', w2v_bin_output_fn, '-cbow', '1', '-size', '200', '-window', '10', '-negative', '25',
             '-hs', '0', '-sample', '1e-5', '-threads', '20', '-binary', '1', '-iter', '15']
     print "Calling: " + " ".join(cmd)
     subprocess.call(cmd)
+    print "Created new word2vec model...{0}".format(w2v_bin_output_fn)
 
-
+# Calls word2phrase binary
+# @input String input_fn - input filename
+# @input String output_fn - output filename
+# @input Integer threshold - threshold
 def run_word2phrase(input_fn, output_fn, threshold):
 
     cmd = ['bin/word2phrase', '-train', input_fn,
@@ -27,7 +36,8 @@ def run_word2phrase(input_fn, output_fn, threshold):
     print "Calling: " + " ".join(cmd)
     subprocess.call(cmd)
 
-
+# Creates the binary file
+# @input String corpus_basename - basename of the corpus text file
 def create_bin_file(corpus_basename):
     corpus_fn = 'data/{0}'.format(corpus_basename)
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
@@ -39,5 +49,5 @@ def create_bin_file(corpus_basename):
 
 
 if __name__ == '__main__':
-    corpus_basename = 'memetracker-clusters-phrases'
+    corpus_basename = 'memetracker-clusters-phrases' #basename of the files that will be created
     create_bin_file(corpus_basename)

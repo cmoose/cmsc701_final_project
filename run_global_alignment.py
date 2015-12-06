@@ -1,4 +1,6 @@
-# Code to run the global alignment using N-W algorithm
+# Code to run the global alignment using N-W algorithm.
+# Code also parallelize's work across 8 cores.
+#
 # Author: Chris Musialek
 # Date: Nov 2015
 #

@@ -2,8 +2,8 @@
 # E = SUM(p_i*p_j*S_ij)
 # Author: Chris Musialek
 # Date: Nov 2015
-
-#Need individual probabilities - count up all tokens
+#
+# Note: Running this takes a _very_ long time due to the size of the vocab.
 
 #Get the full vocab of the data
 import os.path
@@ -11,12 +11,11 @@ import pickle
 import util
 from gensim.models import Word2Vec
 from collections import Counter
-import copy
 
 git_repo_path = os.path.dirname(os.path.realpath(__file__))
-cornell_en_quotes_lemma_file = 'en_quotes_2008-08.lemma.txt'
-vocab_pickle_file = 'vocab.en_quotes_2008-08.lemma.pkl'
-w2v_bin_filename = 'en_quotes_2008-08.lemma.vectors.bin'
+cornell_en_quotes_lemma_file = 'data/en_quotes_2008-08.lemma.txt'
+vocab_pickle_file = 'pkl/vocab.en_quotes_2008-08.lemma.pkl'
+w2v_bin_filename = 'data/en_quotes_2008-08.lemma.vectors.bin'
 
 def build_vocab(filename):
     vocab = Counter()

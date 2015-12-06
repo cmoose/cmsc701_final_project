@@ -1,4 +1,5 @@
-# Utility module for loading microsoft research data
+# Utility module for loading microsoft research data.
+# Used along side drive_microsoft_align.py to run alignments
 #
 # Author: Chris Musialek
 # Date: Nov 2015

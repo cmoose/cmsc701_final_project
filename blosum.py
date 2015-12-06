@@ -1,10 +1,3 @@
-# Definition of custom built word2vec substitution matrix using word2vec binary files
-# trained on some textual data
-#
-# Author: Chris Musialek
-# Date: Nov 2015
-#
-
 
 import os.path
 import cPickle

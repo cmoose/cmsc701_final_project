@@ -1,4 +1,5 @@
-# Drives the alignments of the memetracker phrase cluster data
+# Runs the global alignments of the memetracker phrase cluster data
+# Dwnld raw data from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
 #
 # Author: Chris Musialek
 # Date: Nov 2015
@@ -47,6 +48,7 @@ def do_prep_work(w2v_basename, raw_gz_fn):
     return w2v_basename + '.bin', w2v_basename + '-final'
 
 
+# Utility function used to retrieve number of completed processed alignments.
 def get_completed_phrases():
     l = os.listdir('./pkl')
     regex = re.compile('^([0-9].*)\.pkl') #all filenames of all digits plus .pkl
@@ -55,13 +57,15 @@ def get_completed_phrases():
 
     return compl
 
+
+# Actually run N-W (in parallel) on the memetracker cluster data
 def run_alignments():
     # Raw data
     # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
     raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
 
     # Preprocess if needed
-    w2v_basename = 'test-memetracker-clusters-phrases' #basename we'll use for all remaining files created
+    w2v_basename = 'memetracker-clusters-phrases' #basename we'll use for all remaining files created
     if not (os.path.exists(os.path.join('data', w2v_basename + '.bin')) or
         (os.path.exists(os.path.join('data', w2v_basename + '-final')))):
         do_prep_work(w2v_basename, raw_gz_fn)

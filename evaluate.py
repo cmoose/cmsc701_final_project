@@ -1,10 +1,4 @@
 
-# Drives the alignments of the memetracker phrase cluster data
-#
-# Author: Chris Musialek
-# Date: Nov 2015
-#
-
 import run_global_alignment  #Contains Needleman-Wunsch algorithm
 import parse_memetracker     #Loads the memetracker cluster dataset for us
 import w2v_sub_matrix        #Contains the custom built word2vec substitution matrix

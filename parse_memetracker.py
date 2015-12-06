@@ -1,5 +1,6 @@
-# Parses the Memetracker cluster data
-# Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
+# Utility functions to parse the Memetracker cluster data. Use in concert with drive_
+# Dwnld the original data from:
+# http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
 #
 # Author: Chris Musialek
 # Date: Nov 2015
