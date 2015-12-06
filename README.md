@@ -6,13 +6,16 @@
 3. (if not running on a mac) compiled [word2vec](https://code.google.com/p/word2vec/) and word2phrase binaries
 
 ## Running a global alignment using word2vec based substitution matrix
+1. Download Memetracker cluster dataset into data/ directory.
 1. Train the word2vec vectors or use Google's pre-trained model
-  - Download Google's pre-trained model [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
-  - OR run `python word2vec.py` to create 
-- Download Memetracker cluster dataset into data/ directory
-- run `python drive_memcluster_align.py`
-- top aligned phrases per phrase will print aligned alongside alignment score
-- top aligned phrases are stored as pickle files in data/
+  - Download Google's pre-trained model [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) into data/ directory.
+  - OR run `python word2vec.py` to create one from memetracker-cluster-dataset
+1. If using Google's pre-trained model:
+  1. gunzip downloaded file in data/ directory
+  2. open `w2v_sub_matrix.py` and replace custom_w2v_bin_fn with google_w2v_bin_fn in line 19.
+- run `python drive_memecluster_align.py` to create and print alignments
+  - top aligned phrases per phrase will print aligned alongside alignment score
+  - top aligned phrases are stored as pickle files in data/
 
 ## Datasets
 ### 1. [Memetracker](http://www.memetracker.org/data.html)
@@ -22,7 +25,7 @@
 - Download from http://www.cis.upenn.edu/~ccb/ppdb/
 
 ### 3. Microsoft Research Paraphrases
-Available upon request
+- Available upon request
 
 
 ## Other Processing
