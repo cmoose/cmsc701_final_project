@@ -15,7 +15,7 @@ import subprocess
 import os.path
 
 # Sets global variables, including raw text file from www.memetracker.org, and names of processed files
-cornell_gzip_quotes_file = '/Users/chris/School/UMCP/CMSC701-F15/cmsc701_final_project/data/quotes_2008-08.txt.gz'
+cornell_gzip_quotes_file = 'data/quotes_2008-08.txt.gz'
 cornell_en_quotes_file = 'data/en_quotes_2008-08.txt'
 cornell_en_quotes_lemma_file = 'data/en_quotes_2008-08.lemma.txt'
 git_repo_path = os.path.dirname(os.path.realpath(__file__))
