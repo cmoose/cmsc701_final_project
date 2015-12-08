@@ -102,45 +102,45 @@ thresholdUnigram = 10
 # In[14]:
 
 #
-# trigramFD = nltk.FreqDist()
-#
-# for fileloop in range(10):
-#
-#
-#     start = time.time()
-#
-#     # file = open('en_quotes_2008-08.lemma.txt')
-#     file = open('split' + str(fileloop).zfill(3))
-#     t = file.read()
-#
-#
-#     tokens = nltk.word_tokenize(t)
-#     lowerTokens = [w.lower() for w in tokens]
-#     unigram = nltk.FreqDist(tokens)
-#     frequentTokens = {k:v for k,v in unigram.items() if v > thresholdUnigram and k not in stopwords.words('english')}
-#
-#     # reducedText = [k if k in frequentTokens else specialSpacer  for k in tokens]
-#
-#
-#     trigramFinder = TrigramCollocationFinder.from_words(lowerTokens)
-#
-#     trigramFinder.apply_ngram_filter( lambda w1, w2, w3: w2 not in frequentTokens )
-#     # trigramFinder.apply_freq_filter(2)
-#
-#     trigramFD |=  trigramFinder.ngram_fd
-#     end = time.time()
-#
-#     print end - start
-#     print fileloop
-#
-# pickle.dump(trigramFD, open('trigramFDsmall.pickle','wb'))
-#
-#
-# # In[15]:
-#
-# trigramFD = pickle.load(open("trigramFDsmall.pickle",'rb'))
-# # Test parsing
-# len(trigramFD)
+trigramFD = nltk.FreqDist()
+
+for fileloop in range(10):
+
+
+    start = time.time()
+
+    # file = open('en_quotes_2008-08.lemma.txt')
+    file = open('split' + str(fileloop).zfill(3))
+    t = file.read()
+
+
+    tokens = nltk.word_tokenize(t)
+    lowerTokens = [w.lower() for w in tokens]
+    unigram = nltk.FreqDist(tokens)
+    frequentTokens = {k:v for k,v in unigram.items() if v > thresholdUnigram and k not in stopwords.words('english')}
+
+    # reducedText = [k if k in frequentTokens else specialSpacer  for k in tokens]
+
+
+    trigramFinder = TrigramCollocationFinder.from_words(lowerTokens)
+
+    trigramFinder.apply_ngram_filter( lambda w1, w2, w3: w2 not in frequentTokens )
+    # trigramFinder.apply_freq_filter(2)
+
+    trigramFD |=  trigramFinder.ngram_fd
+    end = time.time()
+
+    print end - start
+    print fileloop
+
+pickle.dump(trigramFD, open('trigramFDsmall.pickle','wb'))
+
+
+# In[15]:
+
+trigramFD = pickle.load(open("trigramFDsmall.pickle",'rb'))
+# Test parsing
+len(trigramFD)
 #
 #
 #
@@ -156,34 +156,34 @@ thresholdUnigram = 10
 #
 # # In[16]:
 #
-# start = time.time()
-# alignedWords = {}
-#
-# for word, frequency in trigramFD.iteritems():
-#     if not (word[0], word[2]) in alignedWords:
-#         alignedWords[(word[0], word[2])] = nltk.FreqDist()
-#
-#     alignedWords[(word[0], word[2])][word[1]] += frequency
-#
-# end = time.time()
-#
-# print end-start
-#
-#
-# # In[17]:
-#
-# start = time.time()
-# # len(alignedWords[('face','enjoy')])
-#
-# newAlignedWords = [alignedWords[(k,v)] for k,v  in alignedWords if len(alignedWords[(k,v)]) > 1]
-# end = time.time()
-#
-# print end-start
-#
-# print len(alignedWords)
-# print len(newAlignedWords)
-#
-# pickle.dump(newAlignedWords, open('newAlignedWords.pickle','wb'))
+start = time.time()
+alignedWords = {}
+
+for word, frequency in trigramFD.iteritems():
+    if not (word[0], word[2]) in alignedWords:
+        alignedWords[(word[0], word[2])] = nltk.FreqDist()
+
+    alignedWords[(word[0], word[2])][word[1]] += frequency
+
+end = time.time()
+
+print end-start
+
+
+# In[17]:
+
+start = time.time()
+# len(alignedWords[('face','enjoy')])
+
+newAlignedWords = [alignedWords[(k,v)] for k,v  in alignedWords if len(alignedWords[(k,v)]) > 1]
+end = time.time()
+
+print end-start
+
+print len(alignedWords)
+print len(newAlignedWords)
+
+pickle.dump(newAlignedWords, open('newAlignedWords.pickle','wb'))
 #
 #
 # # ### 2. Count Combinations of pairs
@@ -195,30 +195,30 @@ thresholdUnigram = 10
 #
 # # In[18]:
 
-# start = time.time()
-#
-# newAlignedWords = pickle.load(open("newAlignedWords.pickle",'rb'))
-#
-# substitutionCount = nltk.FreqDist()
-# countAllCombinatinations = 0
-#
-#
-# for v in newAlignedWords:
-#     print v
-#     for w1, w2 in combinations_with_replacement(v,2):
-#         if w1 == w2 and v[w1] != 1:
-# #             print 'I am here'
-#             substitutionCount[(w1,w2)] += v[w1] * (v[w1]-1) / 2
-#             countAllCombinatinations += v[w1] * (v[w1]-1) /2
-#         else:
-#             substitutionCount[(w1,w2)] += v[w1] * v[w2]
-#             countAllCombinatinations += v[w1] * v[w2]
-#
-#
-#
-# end = time.time()
-#
-# print end-start
+start = time.time()
+
+newAlignedWords = pickle.load(open("newAlignedWords.pickle",'rb'))
+
+substitutionCount = nltk.FreqDist()
+countAllCombinatinations = 0
+
+
+for v in newAlignedWords:
+    print v
+    for w1, w2 in combinations_with_replacement(v,2):
+        if w1 == w2 and v[w1] != 1:
+#             print 'I am here'
+            substitutionCount[(w1,w2)] += v[w1] * (v[w1]-1) / 2
+            countAllCombinatinations += v[w1] * (v[w1]-1) /2
+        else:
+            substitutionCount[(w1,w2)] += v[w1] * v[w2]
+            countAllCombinatinations += v[w1] * v[w2]
+
+
+
+end = time.time()
+
+print end-start
 
 
 # ### 3. Derive score
@@ -232,67 +232,67 @@ thresholdUnigram = 10
 
 # In[33]:
 
-# start = time.time()
-#
-# q = nltk.FreqDist()
-#
-# wordlist = nltk.FreqDist()
-#
-# for w1, w2 in substitutionCount:
-#     q[(w1,w2)] = 1.0 * substitutionCount[(w1,w2)] /countAllCombinatinations
-#     wordlist[w1] += 1
-#     wordlist[w2] += 1
-#
-# wordlist = sorted(wordlist)
-#
-# print 'Finished calculating Q'
-#
-# pickle.dump(wordlist, open('wordlist.pickle','wb'))
-# pickle.dump(q, open('q.pickle','wb'))
-#
-# print 'Saved Q'
-# def sumFreqDist(fd):
-#     result = 0
-#     for a in fd:
-#         result += fd[a]
-#     return result
-#
-#
-# start = time.time()
-#
-# prob = {}
-# for w_i  in wordlist:
-#     sumRemainder = 0
-#     print 'prob: ' + w_i
-#     for w_j in wordlist:
-#         if w_i < w_j:
-#             sumRemainder += q[(w_i,w_j)]
-#         elif w_i > w_j:
-#             sumRemainder += q[(w_j,w_i)]
-#     prob[w_i] = q[(w_i, w_i)] + sumRemainder / 2
-#
-# end = time.time()
-#
-# print 'Calculated Prob ' + str(end-start)
-#
-# pickle.dump(prob, open('prob.pickle','wb'))
-#
-# print 'Saved prob'
-#
-# start = time.time()
-#
-# expectedFrequency = {}
-#
-# for w_i, w_j  in combinations_with_replacement(wordlist,2):
-#     print 'expected freq: ' + w_i + ', ' + w_j
-#     expectedFrequency[(w_i, w_j)] = prob[w_i] * prob[w_j] * 2
-#
-# end = time.time()
-# print 'Calculated Expected Frequency '  + str(end-start)
-#
-# pickle.dump(q, open('expectedFrequency.pickle','wb'))
-#
-# print 'Saved Expected Frequency'
+start = time.time()
+
+q = nltk.FreqDist()
+
+wordlist = nltk.FreqDist()
+
+for w1, w2 in substitutionCount:
+    q[(w1,w2)] = 1.0 * substitutionCount[(w1,w2)] /countAllCombinatinations
+    wordlist[w1] += 1
+    wordlist[w2] += 1
+
+wordlist = sorted(wordlist)
+
+print 'Finished calculating Q'
+
+pickle.dump(wordlist, open('wordlist.pickle','wb'))
+pickle.dump(q, open('q.pickle','wb'))
+
+print 'Saved Q'
+def sumFreqDist(fd):
+    result = 0
+    for a in fd:
+        result += fd[a]
+    return result
+
+
+start = time.time()
+
+prob = {}
+for w_i  in wordlist:
+    sumRemainder = 0
+    print 'prob: ' + w_i
+    for w_j in wordlist:
+        if w_i < w_j:
+            sumRemainder += q[(w_i,w_j)]
+        elif w_i > w_j:
+            sumRemainder += q[(w_j,w_i)]
+    prob[w_i] = q[(w_i, w_i)] + sumRemainder / 2
+
+end = time.time()
+
+print 'Calculated Prob ' + str(end-start)
+
+pickle.dump(prob, open('prob.pickle','wb'))
+
+print 'Saved prob'
+
+start = time.time()
+
+expectedFrequency = {}
+
+for w_i, w_j  in combinations_with_replacement(wordlist,2):
+    print 'expected freq: ' + w_i + ', ' + w_j
+    expectedFrequency[(w_i, w_j)] = prob[w_i] * prob[w_j] * 2
+
+end = time.time()
+print 'Calculated Expected Frequency '  + str(end-start)
+
+pickle.dump(q, open('expectedFrequency.pickle','wb'))
+
+print 'Saved Expected Frequency'
 
 
 
