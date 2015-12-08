@@ -3,7 +3,7 @@
 ## Prerequisites for word2vec approach
 1. python
 2. python module gensim
-3. (if not running on a mac) compiled [word2vec](https://code.google.com/p/word2vec/) and word2phrase binaries
+3. (if not running on a mac) compiled [word2vec](https://code.google.com/p/word2vec/) and word2phrase binaries, placed in bin/ directory.
 
 ## Running a global alignment using word2vec based substitution matrix
 1. Download [Memetracker cluster dataset](http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz) into data/ directory.
