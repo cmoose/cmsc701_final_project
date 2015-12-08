@@ -9,7 +9,7 @@
 1. Download [Memetracker cluster dataset](http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz) into data/ directory.
 1. Train the word2vec vectors or use Google's pre-trained model
   - Download Google's pre-trained model [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) into data/ directory.
-  - OR run `python word2vec.py` to create one from memetracker-cluster-dataset
+  - OR run `python train_word2vec.py` to create one from memetracker-cluster-dataset
 1. If using Google's pre-trained model:
   1. gunzip downloaded file in data/ directory
   2. open `w2v_sub_matrix.py` and replace custom_w2v_bin_fn with google_w2v_bin_fn in line 19.

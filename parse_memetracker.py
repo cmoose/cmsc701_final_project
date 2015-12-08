@@ -44,11 +44,14 @@ def load_memetracker_data(raw_gz_fn, clusters_pkl_fn):
         clusters = pickle.load(open(clusters_pkl_fn))
     else:
         # Process raw file
-        if not os.path.file(raw_gz_fn):
+        if not os.path.isfile(raw_gz_fn):
             print "ERROR: Download the raw memetracker phrase cluster dataset first into data/ directory..."
             exit(1)
         fh = gzip.open(raw_gz_fn)
+        print "Parsing memetracker cluster gzip file..."
         clusters = parse_cluster_data(fh)
+        fh.close()
+        print "Caching parsed data to pickle file for reuse..."
         pickle.dump(clusters, open(clusters_pkl_fn, 'wb'))
 
     return clusters
@@ -65,8 +68,10 @@ def get_memtracker_phrases(clusters):
 
 
 def write_phrases_to_file(phrases, phrases_fn):
+    print "Writing all phrases to file {0}...".format(phrases_fn)
     fhw = open(phrases_fn, 'wb')
     for phrase in phrases:
         fhw.write(phrase + '\n')
+    fhw.close()
 
 

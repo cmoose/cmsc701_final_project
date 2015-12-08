@@ -26,6 +26,7 @@ def run_word2vec(corpus_input_fn, w2v_bin_output_fn):
     subprocess.call(cmd)
     print "Created new word2vec model...{0}".format(w2v_bin_output_fn)
 
+
 # Calls word2phrase binary
 # @input String input_fn - input filename
 # @input String output_fn - output filename
@@ -37,14 +38,15 @@ def run_word2phrase(input_fn, output_fn, threshold):
     print "Calling: " + " ".join(cmd)
     subprocess.call(cmd)
 
+
 # Creates the binary file
 # @input String corpus_basename - basename of the corpus text file
 def create_bin_file(corpus_basename):
-    corpus_fn = 'data/{0}'.format(corpus_basename)
+    corpus_fn = 'data/{0}.txt'.format(corpus_basename)
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
     if not os.path.isfile(corpus_fn):
         if os.path.isfile('data/clust-qt08080902w3mfq5.txt.gz'):
-            drive_memecluster_align.do_prep_work(corpus_basename, 'data/clust-qt08080902w3mfq5.txt.gz')
+            drive_memecluster_align.do_prep_work_load(corpus_basename, 'data/clust-qt08080902w3mfq5.txt.gz')
         else:
             print "ERROR: download memetracker cluster dataset into data/ directory first, then run this again."
             exit(1)

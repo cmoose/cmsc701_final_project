@@ -28,20 +28,20 @@ def load_data(w2v_phrases_fn):
 # Loads the raw data, writes phrases to file, runs word2vec to create bin plus
 # new phrases data (creates bigrams and trigrams smartly)
 # w2v_basename example: 'memetracker-clusters-phrases'
-def do_prep_work(w2v_basename, raw_gz_fn):
+def do_prep_work_load(w2v_basename, raw_gz_fn):
     clusters_pkl_fn = 'pkl/{0}.pkl'.format(w2v_basename)
 
     # Load raw gz data, save as pkl file, return cluster datastructure
     clusters = parse_memetracker.load_memetracker_data(raw_gz_fn, clusters_pkl_fn)
 
+    print "Getting all phrases from clusters..."
     all_phrases = parse_memetracker.get_memtracker_phrases(clusters)
     parse_memetracker.write_phrases_to_file(all_phrases, os.path.join('data', w2v_basename + '.txt'))
 
-    # Now, run word2vec
-    train_word2vec.create_bin_file(w2v_basename)
 
-    # We return the two filenames needed to run the alignments
-    return w2v_basename + '.bin', w2v_basename + '-final'
+def do_prep_work_train(w2v_basename):
+    # Train a word2vec model, create binary file
+    train_word2vec.create_bin_file(w2v_basename)
 
 
 # Utility function used to retrieve number of completed processed alignments.
@@ -66,7 +66,8 @@ def run_alignments(w2v_bin_fn):
     # Preprocess if needed
     if not (os.path.exists(w2v_bin_fn) or
         os.path.exists(os.path.join(memetracker_phrases_fn))):
-        do_prep_work(dataset_basename, raw_gz_fn)
+        do_prep_work_load(dataset_basename, raw_gz_fn)
+        do_prep_work_train(dataset_basename)
 
     # word2phrase creates bigrams/trigrams, retokenizing original data, so we load this data instead
     all_phrases = load_data(memetracker_phrases_fn)
@@ -91,7 +92,7 @@ def run_alignments(w2v_bin_fn):
 
 if __name__ == '__main__':
     # Word2vec binary filename we'll use for the substitution matrix
-    #w2v_bin_fn = 'data/memetracker-clusters-phrases.bin' #Use this if you want to train a word2vec vector space
-    w2v_bin_fn = 'data/GoogleNews-vectors-negative300.bin' #Use this if you want to use pre-trained w2v vector space
+    w2v_bin_fn = 'data/memetracker-clusters-phrases.bin' #Use this if you want to train a word2vec vector space
+    #w2v_bin_fn = 'data/GoogleNews-vectors-negative300.bin' #Use this if you want to use pre-trained w2v vector space
 
     run_alignments(w2v_bin_fn)
