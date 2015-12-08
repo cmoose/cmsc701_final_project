@@ -8,19 +8,15 @@
 import run_global_alignment  #Contains Needleman-Wunsch algorithm
 import parse_memetracker     #Loads the memetracker cluster dataset for us
 import w2v_sub_matrix        #Contains the custom built word2vec substitution matrix
-import word2vec              #Word2vec preprocessing driver
+import train_word2vec        #Word2vec preprocessing driver
 import os.path
 import random
 import re
 import gzip
 
-# Load raw gz data, save as pkl file, return cluster datastructure
-def load_data(raw_gz_fn, clusters_pkl_fn):
-    return parse_memetracker.load_memetracker_data(raw_gz_fn, clusters_pkl_fn)
-
 
 #Load the raw phrases (built from word2phrase iterations)
-def load_data1(w2v_phrases_fn):
+def load_data(w2v_phrases_fn):
     print "Loading data ...{0}".format(w2v_phrases_fn)
     fh = open(w2v_phrases_fn)
     all_phrases = []
@@ -33,16 +29,16 @@ def load_data1(w2v_phrases_fn):
 # new phrases data (creates bigrams and trigrams smartly)
 # w2v_basename example: 'memetracker-clusters-phrases'
 def do_prep_work(w2v_basename, raw_gz_fn):
-
     clusters_pkl_fn = 'pkl/{0}.pkl'.format(w2v_basename)
 
-    clusters = load_data(raw_gz_fn, clusters_pkl_fn)
+    # Load raw gz data, save as pkl file, return cluster datastructure
+    clusters = parse_memetracker.load_memetracker_data(raw_gz_fn, clusters_pkl_fn)
 
     all_phrases = parse_memetracker.get_memtracker_phrases(clusters)
     parse_memetracker.write_phrases_to_file(all_phrases, os.path.join('data', w2v_basename + '.txt'))
 
     # Now, run word2vec
-    word2vec.create_bin_file(w2v_basename)
+    train_word2vec.create_bin_file(w2v_basename)
 
     # We return the two filenames needed to run the alignments
     return w2v_basename + '.bin', w2v_basename + '-final'
@@ -59,36 +55,43 @@ def get_completed_phrases():
 
 
 # Actually run N-W (in parallel) on the memetracker cluster data
-def run_alignments():
+def run_alignments(w2v_bin_fn):
     # Raw data
     # Dwnld from http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
     raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz'
 
+    dataset_basename = 'memetracker-clusters-phrases'
+    memetracker_phrases_fn = 'data/{0}-final'.format(dataset_basename)
+
     # Preprocess if needed
-    w2v_basename = 'memetracker-clusters-phrases' #basename we'll use for all remaining files created
-    if not (os.path.exists(os.path.join('data', w2v_basename + '.bin')) or
-        (os.path.exists(os.path.join('data', w2v_basename + '-final')))):
-        do_prep_work(w2v_basename, raw_gz_fn)
+    if not (os.path.exists(w2v_bin_fn) or
+        os.path.exists(os.path.join(memetracker_phrases_fn))):
+        do_prep_work(dataset_basename, raw_gz_fn)
 
-    #word2phrase creates bigrams/trigrams (new tokens in phrases), so we load this data instead
-    all_phrases = load_data1(os.path.join('data', w2v_basename + '-final'))
+    # word2phrase creates bigrams/trigrams, retokenizing original data, so we load this data instead
+    all_phrases = load_data(memetracker_phrases_fn)
 
-    all_phrases = all_phrases[0:5000]
-
-    #Pick 1000 phrases at random
-    #randint = random.randint(0,len(all_phrases))
-    #Get number of phrases completed
-    num_compl = len(get_completed_phrases())
-    randints = random.sample(range(0,len(all_phrases)), 10-num_compl)
+    #randints = random.sample(range(0,len(all_phrases)), 10)
+    randints = [75659]  #'what does not kill us makes us stronger'
 
     static_phrases = {}
     for i in randints:
         static_phrases[i] = all_phrases[i]
 
-    pqs = run_global_alignment.run_global_alignments(static_phrases, all_phrases, w2v_sub_matrix.word2vec_sub_matrix)
+    #Create substitution matrix object
+    sub_matrix = w2v_sub_matrix.w2v_sub_matrix(w2v_bin_fn, dataset_basename)
 
+    # All the hard work is done here. Align a subset of phrases against the entire set
+    # O(n^2) - N-W global align algorithm is parallelized to use 8 cores concurrently
+    pqs = run_global_alignment.run_global_alignments(static_phrases, all_phrases, sub_matrix)
+
+    # Print the results
     run_global_alignment.print_priority_queues(pqs)
 
 
 if __name__ == '__main__':
-    run_alignments()
+    # Word2vec binary filename we'll use for the substitution matrix
+    #w2v_bin_fn = 'data/memetracker-clusters-phrases.bin' #Use this if you want to train a word2vec vector space
+    w2v_bin_fn = 'data/GoogleNews-vectors-negative300.bin' #Use this if you want to use pre-trained w2v vector space
+
+    run_alignments(w2v_bin_fn)

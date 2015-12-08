@@ -10,6 +10,7 @@ from gensim.models import Word2Vec
 import os.path
 import random
 import run_global_alignment
+import w2v_sub_matrix
 
 
 def run_alignment():
@@ -30,24 +31,15 @@ def run_alignment():
         print "Done loading..."
         return phrases
 
-    #Define our word2vec substitution matrix
-    def word2vec_sub_matrix(x,y):
-        model = w2v_model
-        try:
-            S_ij = model.similarity(x,y)
-        except KeyError:
-            if x == y:
-                S_ij = 1
-            else:
-                S_ij = -1
-        return float(S_ij)
+    #Create our w2v substitution matrix
+    sub_matrix = w2v_sub_matrix.w2v_sub_matrix(w2v_bin_filename, 'en_quotes_2008-08.lemma')
 
     all_phrases = load_data()
     randint = random.randint(0,len(all_phrases))
     static_phrase = all_phrases[randint]
 
     #This is more of a test, runs a set of global alignments on one randomly chosen phrase
-    pqs = run_global_alignment.run_global_alignments([static_phrase], all_phrases[0:1000], word2vec_sub_matrix)
+    pqs = run_global_alignment.run_global_alignments([static_phrase], all_phrases[0:1000], sub_matrix)
 
     run_global_alignment.print_priority_queues(pqs)
 

@@ -21,10 +21,17 @@ def run_alignments():
     # Provided by a colleague - available upon request
     raw_msr_fn = 'data/msr_paraphrase_data.txt'
 
+    #Which w2v model you want to use
+    w2v_bin_fn = 'data/memetracker-clusters-phrases.bin' #Use this if you want to train a word2vec vector space
+    #w2v_bin_fn = 'data/GoogleNews-vectors-negative300.bin' #Use this if you want to use pre-trained w2v vector space
+
     phrasesX = load_data(raw_msr_fn)
     phrasesY = phrasesX.values()
 
-    pqs = run_global_alignment.run_global_alignments(phrasesX, phrasesY, w2v_sub_matrix.word2vec_sub_matrix)
+    #Create substitution matrix object
+    sub_matrix = w2v_sub_matrix.w2v_sub_matrix(w2v_bin_fn, 'msr')
+
+    pqs = run_global_alignment.run_global_alignments(phrasesX, phrasesY, sub_matrix)
 
     run_global_alignment.print_priority_queues(pqs)
 

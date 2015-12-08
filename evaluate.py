@@ -2,7 +2,7 @@
 import run_global_alignment  #Contains Needleman-Wunsch algorithm
 import parse_memetracker     #Loads the memetracker cluster dataset for us
 import w2v_sub_matrix        #Contains the custom built word2vec substitution matrix
-import word2vec              #Word2vec preprocessing driver
+import train_word2vec              #Word2vec preprocessing driver
 import os.path
 import random
 import re
@@ -40,7 +40,7 @@ def do_prep_work(w2v_basename, raw_gz_fn):
     parse_memetracker.write_phrases_to_file(all_phrases, os.path.join('data', w2v_basename + '.txt'))
 
     # Now, run word2vec
-    word2vec.create_bin_file(w2v_basename)
+    train_word2vec.create_bin_file(w2v_basename)
 
     # We return the two filenames needed to run the alignments
     return w2v_basename + '.bin', w2v_basename + '-final'

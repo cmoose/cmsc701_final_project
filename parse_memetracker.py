@@ -1,4 +1,4 @@
-# Utility functions to parse the Memetracker cluster data. Use in concert with drive_
+# Utility functions to parse the Memetracker cluster data. Use in concert with word2vec.py
 # Dwnld the original data from:
 # http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz
 #
@@ -44,6 +44,9 @@ def load_memetracker_data(raw_gz_fn, clusters_pkl_fn):
         clusters = pickle.load(open(clusters_pkl_fn))
     else:
         # Process raw file
+        if not os.path.file(raw_gz_fn):
+            print "ERROR: Download the raw memetracker phrase cluster dataset first into data/ directory..."
+            exit(1)
         fh = gzip.open(raw_gz_fn)
         clusters = parse_cluster_data(fh)
         pickle.dump(clusters, open(clusters_pkl_fn, 'wb'))

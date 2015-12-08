@@ -12,7 +12,8 @@
 # vectors-phrase.bin -cbow 1 -size 200 -window 10 -negative 25 -hs 0 -sample 1e-5 -threads 20 -binary 1 -iter 15
 
 import subprocess
-
+import os.path
+import drive_memecluster_align
 
 # Calls word2vec binary
 # @input String corpus_input_fn - input filename
@@ -41,6 +42,12 @@ def run_word2phrase(input_fn, output_fn, threshold):
 def create_bin_file(corpus_basename):
     corpus_fn = 'data/{0}'.format(corpus_basename)
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
+    if not os.path.isfile(corpus_fn):
+        if os.path.isfile('data/clust-qt08080902w3mfq5.txt.gz'):
+            drive_memecluster_align.do_prep_work(corpus_basename, 'data/clust-qt08080902w3mfq5.txt.gz')
+        else:
+            print "ERROR: download memetracker cluster dataset into data/ directory first, then run this again."
+            exit(1)
 
     # Run pipeline
     run_word2phrase(corpus_fn + '.txt', corpus_fn + '-int', 200)

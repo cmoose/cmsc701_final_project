@@ -6,7 +6,7 @@
 3. (if not running on a mac) compiled [word2vec](https://code.google.com/p/word2vec/) and word2phrase binaries
 
 ## Running a global alignment using word2vec based substitution matrix
-1. Download Memetracker cluster dataset into data/ directory.
+1. Download [Memetracker cluster dataset](http://snap.stanford.edu/data/d/quotes/Old-UniqUrls/clust-qt08080902w3mfq5.txt.gz) into data/ directory.
 1. Train the word2vec vectors or use Google's pre-trained model
   - Download Google's pre-trained model [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) into data/ directory.
   - OR run `python word2vec.py` to create one from memetracker-cluster-dataset

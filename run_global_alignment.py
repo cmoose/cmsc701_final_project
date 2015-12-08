@@ -70,7 +70,7 @@ def single_global_align(X,Y, sub):
     for i in range(1,len(X)):
         for j in range(1,len(Y)):
             local_scores = []
-            local_scores.append(S[i-1,j-1] + sub(X[i], Y[j])) #match/mismatch
+            local_scores.append(S[i-1,j-1] + sub.get_score(X[i], Y[j])) #match/mismatch
             local_scores.append(S[i-1,j] - gap) #gap in Y
             local_scores.append(S[i,j-1] - gap) #gap in X
             local_max_score = max(local_scores)
@@ -98,7 +98,8 @@ def single_global_align(X,Y, sub):
 
 #Given two phrases and substitution matrix, run S-W algorithm to find
 # optimal local alignment
-#Return optimal alignment and score
+# Return optimal alignment and score
+# Author: Karthik Badam
 def single_local_align(X,Y, sub):
 
     def safe_get_char(X,index):
@@ -165,7 +166,7 @@ def single_local_align(X,Y, sub):
         for j in range(1,len(Y)+1):
             T[i,j] = 3
             local_scores = []
-            local_scores.append(S[i-1,j-1] + sub(X[i-1], Y[j-1])) #match/mismatch
+            local_scores.append(S[i-1,j-1] + sub.get_score(X[i-1], Y[j-1])) #match/mismatch
             local_scores.append(S[i-1,j] - gap) #gap in Y
 
             if Y[j-1] == "S-END":
@@ -200,6 +201,7 @@ def single_local_align(X,Y, sub):
     return align_score, alignment
 
 
+# Nicely prints the alignment of two word phrases, using dashes for gaps
 def print_alignment(alignment):
     seq1 = alignment[0]
     seq2 = alignment[1]
@@ -225,12 +227,13 @@ def print_alignment(alignment):
 # against a single text
 def multiple_global_align((phraseX, phrasesY, sub_matrix, chunk_region)):
     sub_pq = []
-    print "Running alignments for phrases {0}-{1}".format(chunk_region[0], chunk_region[1])
+    print "Running global alignments for phrases {0}-{1}".format(chunk_region[0], chunk_region[1])
     for i, phraseY in enumerate(phrasesY):
         score, alignment = single_global_align(phraseX, phraseY, sub_matrix)
         heapq.heappush(sub_pq, (score, alignment))
     top_scores = heapq.nlargest(25, sub_pq)
     return top_scores
+
 
 def eval_global_align(phraseX, phrasesY, sub_matrix):
     print "Running alignments between {0} and {1} phrases".format(phraseX, len(phrasesY))
@@ -276,7 +279,7 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
 
     print "Running alignments..."
     for phraseX_id, phraseX in phrasesX.items():
-        print "Processing new text phrase: '{0}'...".format(" ".join(phraseX))
+        print "Aligning phrase '{0}' against {1} total phrases...".format(" ".join(phraseX), len(phrasesY))
 
         #This creates a datastructure of arguments for Pool to run
         #multiple_global_align in parallel
@@ -297,7 +300,10 @@ def run_global_alignments(phrasesX, phrasesY, sub_matrix):
         pqs.append({'phraseX': phraseX, 'pq': top_scores})
 
         #Cache finished work to disk
-        pkl_fn = 'pkl/{0}.pkl'.format(phraseX_id)
+        datasetname = sub_matrix.datasetname
+        if not os.path.exists(os.path.join('pkl', datasetname)):
+            os.mkdir(os.path.join('pkl', datasetname))
+        pkl_fn = 'pkl/{0}/{1}.pkl'.format(datasetname, phraseX_id)
         pickle.dump({'phraseX': phraseX, 'pq': top_scores, 'id':phraseX_id}, open(pkl_fn, 'wb'))
 
     if print_results:
