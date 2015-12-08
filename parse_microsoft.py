@@ -5,6 +5,8 @@
 # Date: Nov 2015
 #
 
+import pickle, os
+
 def parse_microsoft_clusters(fh):
     phrases = []
     fh.next() #skip header
@@ -19,6 +21,27 @@ def parse_microsoft_clusters(fh):
         phrases.append(paraphr)
     return phrases
 
+def parse_cluster_data(fh):
+    clusters = {}
+    cur_cluster = {}
+    cur_cluster_id = 0
+    for line in fh:
+        words = line.strip("\n").split("\t")
+        print words[3].strip(), words[4].strip()
+        # New cluster found, so add cur_cluster to clusters, and start new
+        if len(cur_cluster) > 0:
+            clusters[cur_cluster_id] = cur_cluster
+        cur_cluster = {'root': words[3].strip(" "), 'phrases': {}}
+        cur_cluster_id = words[4].strip(" ")
+        cur_cluster['phrases'][words[3].strip(" ")] = words[3].strip(" ")
+        cur_cluster['phrases'][words[4].strip(" ")] = words[4].strip(" ")
+        print cur_cluster
+
+    # Finally, add last cluster to clusters
+    if len(cur_cluster) > 0:
+        clusters[cur_cluster_id] = cur_cluster
+
+    return clusters
 
 # All data
 def get_microsoft_phrases(raw_fn):
@@ -34,12 +57,20 @@ def get_microsoft_phrases(raw_fn):
 
 
 def load_microsoft_clusters(raw_fn):
-    clusters = {}
-    fh = open(raw_fn)
-    clusters = parse_microsoft_clusters(fh)
-
+    clusters = get_microsoft_phrases(open(raw_fn))
     return clusters
 
+
+def load_microsoft_clusters2(raw_fn, clusters_pkl_fn):
+    clusters = {}
+    if os.path.isfile(clusters_pkl_fn):
+        clusters = pickle.load(open(clusters_pkl_fn))
+    else:
+        # Process raw file
+        clusters = parse_cluster_data(open(raw_fn))
+        pickle.dump(clusters, open(clusters_pkl_fn, 'wb'))
+
+    return clusters
 
 # Returns just the phrases, removing associations with clusters
 def get_microsoft_train_phrases(clusters):
@@ -51,3 +82,5 @@ def get_microsoft_train_phrases(clusters):
         all_phrases[id2] = cluster['phrase2']
 
     return all_phrases
+
+#load_microsoft_clusters2("data/msr_paraphrase_clusters.txt", "evaluation/data_ms.pkl")
