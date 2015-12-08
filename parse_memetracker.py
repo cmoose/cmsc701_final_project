@@ -60,7 +60,10 @@ def load_memetracker_data(raw_gz_fn, clusters_pkl_fn):
 # Returns just the phrases, removing associations with clusters
 def get_memtracker_phrases(clusters):
     all_phrases = []
-    for cluster in clusters.values():
+    cluster_keys = clusters.keys()
+    cluster_keys.sort()
+    for cluster_key in cluster_keys:
+        cluster = clusters[cluster_key]
         for phrase in cluster['phrases'].values():
             all_phrases.append(phrase)
 

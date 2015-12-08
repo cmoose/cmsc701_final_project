@@ -14,6 +14,8 @@
   1. gunzip downloaded file in data/ directory
   2. open `drive_memecluster_align.py` and uncomment w2v_bin_fn pointing to Google filename in line 90.
 - run `python drive_memecluster_align.py` to create and print alignments
+  - Currently aligns against the phrase 'what does not kill us makes us stronger' by default
+    - This can be changed by commenting out line 70 and uncommenting line 69
   - top aligned phrases per phrase will print aligned alongside alignment score
   - top aligned phrases are stored as pickle files in data/
 

@@ -66,8 +66,8 @@ def run_alignments(w2v_bin_fn):
     # word2phrase creates bigrams/trigrams, retokenizing original data, so we load this data instead
     all_phrases = load_data(memetracker_phrases_fn)
 
-    #randints = random.sample(range(0,len(all_phrases)), 10)
-    randints = [75659]  #'what does not kill us makes us stronger'
+    #randints = random.sample(range(0,len(all_phrases)), 1) #Sample a random phrase from the full list
+    randints = [131959]  #'what does not kill us makes us stronger'
 
     static_phrases = {}
     for i in randints:
