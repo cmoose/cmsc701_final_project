@@ -39,11 +39,6 @@ def do_prep_work_load(w2v_basename, raw_gz_fn):
     parse_memetracker.write_phrases_to_file(all_phrases, os.path.join('data', w2v_basename + '.txt'))
 
 
-def do_prep_work_train(w2v_basename):
-    # Train a word2vec model, create binary file
-    train_word2vec.create_bin_file(w2v_basename)
-
-
 # Utility function used to retrieve number of completed processed alignments.
 def get_completed_phrases():
     l = os.listdir('./pkl')
@@ -63,11 +58,10 @@ def run_alignments(w2v_bin_fn):
     dataset_basename = 'memetracker-clusters-phrases'
     memetracker_phrases_fn = 'data/{0}-final'.format(dataset_basename)
 
-    # Preprocess if needed
-    if not (os.path.exists(w2v_bin_fn) or
-        os.path.exists(os.path.join(memetracker_phrases_fn))):
+    # Preprocess if needed including loading data and training the model
+    if not (os.path.exists(w2v_bin_fn) or os.path.exists(os.path.join(memetracker_phrases_fn))):
         do_prep_work_load(dataset_basename, raw_gz_fn)
-        do_prep_work_train(dataset_basename)
+        train_word2vec.create_bin_file(dataset_basename)
 
     # word2phrase creates bigrams/trigrams, retokenizing original data, so we load this data instead
     all_phrases = load_data(memetracker_phrases_fn)

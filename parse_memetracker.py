@@ -48,7 +48,7 @@ def load_memetracker_data(raw_gz_fn, clusters_pkl_fn):
             print "ERROR: Download the raw memetracker phrase cluster dataset first into data/ directory..."
             exit(1)
         fh = gzip.open(raw_gz_fn)
-        print "Parsing memetracker cluster gzip file..."
+        print "Parsing memetracker cluster gzip file (this could take several minutes)..."
         clusters = parse_cluster_data(fh)
         fh.close()
         print "Caching parsed data to pickle file for reuse..."

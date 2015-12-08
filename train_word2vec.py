@@ -42,14 +42,11 @@ def run_word2phrase(input_fn, output_fn, threshold):
 # Creates the binary file
 # @input String corpus_basename - basename of the corpus text file
 def create_bin_file(corpus_basename):
-    corpus_fn = 'data/{0}.txt'.format(corpus_basename)
+    corpus_fn = 'data/{0}'.format(corpus_basename)
     w2v_bin_output_fn = 'data/{0}.bin'.format(corpus_basename)
-    if not os.path.isfile(corpus_fn):
-        if os.path.isfile('data/clust-qt08080902w3mfq5.txt.gz'):
-            drive_memecluster_align.do_prep_work_load(corpus_basename, 'data/clust-qt08080902w3mfq5.txt.gz')
-        else:
-            print "ERROR: download memetracker cluster dataset into data/ directory first, then run this again."
-            exit(1)
+    if not os.path.isfile(corpus_fn + '.txt'):
+        print "ERROR: Need {0}.txt created first before running...".format(corpus_fn)
+        exit(1)
 
     # Run pipeline
     run_word2phrase(corpus_fn + '.txt', corpus_fn + '-int', 200)
@@ -59,4 +56,7 @@ def create_bin_file(corpus_basename):
 
 if __name__ == '__main__':
     corpus_basename = 'memetracker-clusters-phrases' #basename of the files that will be created
+    raw_gz_fn = 'data/clust-qt08080902w3mfq5.txt.gz' #Raw data file from www.memetracker.org
+
+    drive_memecluster_align.do_prep_work_load(corpus_basename, raw_gz_fn)
     create_bin_file(corpus_basename)
