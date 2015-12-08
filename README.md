@@ -12,7 +12,7 @@
   - OR run `python train_word2vec.py` to create one from memetracker-cluster-dataset
 1. If using Google's pre-trained model:
   1. gunzip downloaded file in data/ directory
-  2. open `w2v_sub_matrix.py` and replace custom_w2v_bin_fn with google_w2v_bin_fn in line 19.
+  2. open `drive_memecluster_align.py` and uncomment w2v_bin_fn pointing to Google filename in line 90.
 - run `python drive_memecluster_align.py` to create and print alignments
   - top aligned phrases per phrase will print aligned alongside alignment score
   - top aligned phrases are stored as pickle files in data/
