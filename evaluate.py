@@ -210,6 +210,6 @@ def get_contigency_score(ranking, n, topK):
 
 
 if __name__ == '__main__':
-    run_evaluation('MEME', 'w2v', numTestCase=10, numPhrases=100, topK=10 )
+    run_evaluation('MEME', 'blosum', numTestCase=10, numPhrases=100, topK=10 )
 
 
