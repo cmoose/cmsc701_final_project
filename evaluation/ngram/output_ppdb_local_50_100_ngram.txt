@@ -1,0 +1,134 @@
+Running alignments between under the laws of and 1 phrases
+Running alignments between under the laws of and 99 phrases
+Scores for under the laws of:
+Average Score for Cluster Phrases: 63.798621644 	 Average Score for Random Phrases: 52.9028979785 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between and fifth and 1 phrases
+Running alignments between and fifth and 99 phrases
+Scores for and fifth:
+Average Score for Cluster Phrases: 28.896737835 	 Average Score for Random Phrases: 29.3544197102 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between - yes or and 1 phrases
+Running alignments between - yes or and 99 phrases
+Scores for - yes or:
+Average Score for Cluster Phrases: 19.9930977592 	 Average Score for Random Phrases: 28.5732930823 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between is sufficient to and 1 phrases
+Running alignments between is sufficient to and 99 phrases
+Scores for is sufficient to:
+Average Score for Cluster Phrases: 43.0080570341 	 Average Score for Random Phrases: 38.7715206648 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between 's murder . and 1 phrases
+Running alignments between 's murder . and 99 phrases
+Scores for 's murder .:
+Average Score for Cluster Phrases: 62.3530776543 	 Average Score for Random Phrases: 39.6520480603 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between one hand and 1 phrases
+Running alignments between one hand and 99 phrases
+Scores for one hand:
+Average Score for Cluster Phrases: 13.0036684491 	 Average Score for Random Phrases: 36.5941016818 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between country ! and 1 phrases
+Running alignments between country ! and 99 phrases
+Scores for country !:
+Average Score for Cluster Phrases: 56.7292902769 	 Average Score for Random Phrases: 34.9016176298 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between update before and 1 phrases
+Running alignments between update before and 99 phrases
+Scores for update before:
+Average Score for Cluster Phrases: 75.3291029915 	 Average Score for Random Phrases: 46.6171399185 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between file should and 1 phrases
+Running alignments between file should and 99 phrases
+Scores for file should:
+Average Score for Cluster Phrases: 68.5013136485 	 Average Score for Random Phrases: 40.7562241316 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between being staffed . and 1 phrases
+Running alignments between being staffed . and 99 phrases
+Scores for being staffed .:
+Average Score for Cluster Phrases: 20.39636811 	 Average Score for Random Phrases: 42.6873754681 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between , rights of and 1 phrases
+Running alignments between , rights of and 99 phrases
+Scores for , rights of:
+Average Score for Cluster Phrases: 31.2050097093 	 Average Score for Random Phrases: 30.8121453832 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between will be presented and 1 phrases
+Running alignments between will be presented and 99 phrases
+Scores for will be presented:
+Average Score for Cluster Phrases: 79.2170875607 	 Average Score for Random Phrases: 53.0447806955 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between any other act and 1 phrases
+Running alignments between any other act and 99 phrases
+Scores for any other act:
+Average Score for Cluster Phrases: 58.1323155918 	 Average Score for Random Phrases: 38.9663540594 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the chair suggested and 1 phrases
+Running alignments between the chair suggested and 99 phrases
+Scores for the chair suggested:
+Average Score for Cluster Phrases: 121.80303523 	 Average Score for Random Phrases: 50.5609421847 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between screening process , and 1 phrases
+Running alignments between screening process , and 99 phrases
+Scores for screening process ,:
+Average Score for Cluster Phrases: 96.5813254213 	 Average Score for Random Phrases: 54.5726311363 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between , is perhaps and 1 phrases
+Running alignments between , is perhaps and 99 phrases
+Scores for , is perhaps:
+Average Score for Cluster Phrases: 17.3029848666 	 Average Score for Random Phrases: 31.0627829011 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between and eastern district and 1 phrases
+Running alignments between and eastern district and 99 phrases
+Scores for and eastern district:
+Average Score for Cluster Phrases: 105.245013409 	 Average Score for Random Phrases: 51.1118384755 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between 2 years . and 1 phrases
+Running alignments between 2 years . and 99 phrases
+Scores for 2 years .:
+Average Score for Cluster Phrases: 43.1426722253 	 Average Score for Random Phrases: 23.1763111276 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between adopt it without and 1 phrases
+Running alignments between adopt it without and 99 phrases
+Scores for adopt it without:
+Average Score for Cluster Phrases: 83.1254509998 	 Average Score for Random Phrases: 40.7994995744 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between pressure exerted by and 1 phrases
+Running alignments between pressure exerted by and 99 phrases
+Scores for pressure exerted by:
+Average Score for Cluster Phrases: 52.5580010597 	 Average Score for Random Phrases: 53.359493252 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between outside the presence and 1 phrases
+Running alignments between outside the presence and 99 phrases
+Scores for outside the presence:
+Average Score for Cluster Phrases: 113.788004642 	 Average Score for Random Phrases: 57.4336942423 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between 's beautiful . and 1 phrases
+Running alignments between 's beautiful . and 99 phrases
+Scores for 's beautiful .:
+Average Score for Cluster Phrases: 82.3329086529 	 Average Score for Random Phrases: 37.2460155065 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between amount of food and 1 phrases
+Running alignments between amount of food and 99 phrases
+Scores for amount of food:
+Average Score for Cluster Phrases: 107.064559009 	 Average Score for Random Phrases: 48.6488468204 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between 41 of the official languages act and 1 phrases
+Running alignments between 41 of the official languages act and 99 phrases
+Scores for 41 of the official languages act:
+Average Score for Cluster Phrases: 79.2406743672 	 Average Score for Random Phrases: 63.8815791797 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between mr. olusegun obasanjo , president and 1 phrases
+Running alignments between mr. olusegun obasanjo , president and 99 phrases
+Scores for mr. olusegun obasanjo , president:
+Average Score for Cluster Phrases: 198.994495394 	 Average Score for Random Phrases: 67.24821782 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+--------------------------------------
+ Result for 25 tests
+--------------------------------------
+Alignment Scores for similar phrases:	68.8697149417
+Alignment Scores for random phrases:	43.7094308274
+Average Ranking for similar phrases:	1.0
+Average Precision:	1.0
+Average Recalls:	1.0
+Average fScores:	0.5

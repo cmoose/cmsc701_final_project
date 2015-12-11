@@ -114,7 +114,7 @@ def get_average_score(scoresList):
 
     precisions = TP/float(TP + FP)
     recalls = TP/float(TP + TN)
-    fScores = precisions * recalls / (precisions + recalls)
+    fScores = 2 * precisions * recalls / (precisions + recalls)
 
     print '--------------------------------------'
     print ' Result for {0} tests'.format(len(scoresList))
@@ -210,6 +210,6 @@ def get_contigency_score(ranking, n, topK):
 
 
 if __name__ == '__main__':
-    run_evaluation('MEME', 'blosum', numTestCase=10, numPhrases=100, topK=10 )
+    run_evaluation('MEME', 'w2v', numTestCase=10, numPhrases=100, topK=10 )
 
 

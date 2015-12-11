@@ -1,0 +1,134 @@
+Running alignments between so that scared us a little bit and we tried and the flight attendant did a wonderful job trying but then finally turned and said immediately and 3 phrases
+Running alignments between so that scared us a little bit and we tried and the flight attendant did a wonderful job trying but then finally turned and said immediately and 97 phrases
+Scores for so that scared us a little bit and we tried and the flight attendant did a wonderful job trying but then finally turned and said immediately:
+Average Score for Cluster Phrases: 358.287944416 	 Average Score for Random Phrases: 267.78860048 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i really enjoyed the time i spent at the john philip sousa middle school and 3 phrases
+Running alignments between i really enjoyed the time i spent at the john philip sousa middle school and 97 phrases
+Scores for i really enjoyed the time i spent at the john philip sousa middle school:
+Average Score for Cluster Phrases: 431.051762988 	 Average Score for Random Phrases: 187.550690842 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i have never knowingly submitted a false disclosure form required by law as a u s senator and 3 phrases
+Running alignments between i have never knowingly submitted a false disclosure form required by law as a u s senator and 97 phrases
+Scores for i have never knowingly submitted a false disclosure form required by law as a u s senator:
+Average Score for Cluster Phrases: 465.193246217 	 Average Score for Random Phrases: 226.806551846 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it's only a game and 3 phrases
+Running alignments between it's only a game and 97 phrases
+Scores for it's only a game:
+Average Score for Cluster Phrases: 90.6533876483 	 Average Score for Random Phrases: 62.7306165888 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it will make more money for us and 3 phrases
+Running alignments between it will make more money for us and 97 phrases
+Scores for it will make more money for us:
+Average Score for Cluster Phrases: 170.744037915 	 Average Score for Random Phrases: 122.47422009 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between and when you pray do not be like the hypocrites for they love to pray standing in the synagogues and on the street corners to be seen by men i tell you the truth they have received their reward in full and 5 phrases
+Running alignments between and when you pray do not be like the hypocrites for they love to pray standing in the synagogues and on the street corners to be seen by men i tell you the truth they have received their reward in full and 95 phrases
+Scores for and when you pray do not be like the hypocrites for they love to pray standing in the synagogues and on the street corners to be seen by men i tell you the truth they have received their reward in full:
+Average Score for Cluster Phrases: 515.66176181 	 Average Score for Random Phrases: 282.448966152 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between most people don't know i have one cause i'm pretty shy but i have urges and desires too so when i get behind closed doors i turn into a beast i moan and scream and scratch and grind i like to get my hair pulled while i'm getting fucked doggie-style and i like it when a guy is a little rough with me and shows me who is boss it makes me want to act even more wild so he'll fuck me until i'm so tired i can barely move the guys i have been with said i really turn them on cause i'm sweet and polite in my regular life but i'm a total freak in bed don't let my sweet appearance fool you i'm one horny girl and 3 phrases
+Running alignments between most people don't know i have one cause i'm pretty shy but i have urges and desires too so when i get behind closed doors i turn into a beast i moan and scream and scratch and grind i like to get my hair pulled while i'm getting fucked doggie-style and i like it when a guy is a little rough with me and shows me who is boss it makes me want to act even more wild so he'll fuck me until i'm so tired i can barely move the guys i have been with said i really turn them on cause i'm sweet and polite in my regular life but i'm a total freak in bed don't let my sweet appearance fool you i'm one horny girl and 97 phrases
+Scores for most people don't know i have one cause i'm pretty shy but i have urges and desires too so when i get behind closed doors i turn into a beast i moan and scream and scratch and grind i like to get my hair pulled while i'm getting fucked doggie-style and i like it when a guy is a little rough with me and shows me who is boss it makes me want to act even more wild so he'll fuck me until i'm so tired i can barely move the guys i have been with said i really turn them on cause i'm sweet and polite in my regular life but i'm a total freak in bed don't let my sweet appearance fool you i'm one horny girl:
+Average Score for Cluster Phrases: 1284.7928309 	 Average Score for Random Phrases: 459.874391824 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between v rias centenas de milh es and 3 phrases
+Running alignments between v rias centenas de milh es and 97 phrases
+Scores for v rias centenas de milh es:
+Average Score for Cluster Phrases: 119.442275559 	 Average Score for Random Phrases: 93.3511619665 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we didn't know where to go our house my parents house my in-laws house all were burnt damaged destroyed but where can we go in this weather it's very cold and 3 phrases
+Running alignments between we didn't know where to go our house my parents house my in-laws house all were burnt damaged destroyed but where can we go in this weather it's very cold and 97 phrases
+Scores for we didn't know where to go our house my parents house my in-laws house all were burnt damaged destroyed but where can we go in this weather it's very cold:
+Average Score for Cluster Phrases: 438.063429938 	 Average Score for Random Phrases: 293.461754713 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we'll see i'm very happy now not to say i wasn't happy as a d a or a judge but this is a very nice life it's a different mountain for me i love learning about it and 5 phrases
+Running alignments between we'll see i'm very happy now not to say i wasn't happy as a d a or a judge but this is a very nice life it's a different mountain for me i love learning about it and 95 phrases
+Scores for we'll see i'm very happy now not to say i wasn't happy as a d a or a judge but this is a very nice life it's a different mountain for me i love learning about it:
+Average Score for Cluster Phrases: 309.424773215 	 Average Score for Random Phrases: 278.015656004 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between there shall be no talks untill the arrested leaders are unconditionally released without any cases against them and 3 phrases
+Running alignments between there shall be no talks untill the arrested leaders are unconditionally released without any cases against them and 97 phrases
+Scores for there shall be no talks untill the arrested leaders are unconditionally released without any cases against them:
+Average Score for Cluster Phrases: 644.509651182 	 Average Score for Random Phrases: 255.96064674 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between police were aware of this and spoke to him on monday september 22 however the police officer on duty decided there was no need to terminate his gun license and 4 phrases
+Running alignments between police were aware of this and spoke to him on monday september 22 however the police officer on duty decided there was no need to terminate his gun license and 96 phrases
+Scores for police were aware of this and spoke to him on monday september 22 however the police officer on duty decided there was no need to terminate his gun license:
+Average Score for Cluster Phrases: 770.084535421 	 Average Score for Random Phrases: 294.167421674 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between hamas leaders are lying to you and they are hiding in hospitals and 3 phrases
+Running alignments between hamas leaders are lying to you and they are hiding in hospitals and 97 phrases
+Scores for hamas leaders are lying to you and they are hiding in hospitals:
+Average Score for Cluster Phrases: 294.102472457 	 Average Score for Random Phrases: 181.924608333 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between china's domestic consumption is necessary but not sufficient to stabilize china much less the world and 3 phrases
+Running alignments between china's domestic consumption is necessary but not sufficient to stabilize china much less the world and 97 phrases
+Scores for china's domestic consumption is necessary but not sufficient to stabilize china much less the world:
+Average Score for Cluster Phrases: 311.976413935 	 Average Score for Random Phrases: 216.423858961 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it's a proof of concept we just want to get an idea of what our game would look like in 3-d anything beyond that is just speculation and 4 phrases
+Running alignments between it's a proof of concept we just want to get an idea of what our game would look like in 3-d anything beyond that is just speculation and 96 phrases
+Scores for it's a proof of concept we just want to get an idea of what our game would look like in 3-d anything beyond that is just speculation:
+Average Score for Cluster Phrases: 292.702147669 	 Average Score for Random Phrases: 291.21033698 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between homenaje a la lucha hist rica and 4 phrases
+Running alignments between homenaje a la lucha hist rica and 96 phrases
+Scores for homenaje a la lucha hist rica:
+Average Score for Cluster Phrases: 133.870586635 	 Average Score for Random Phrases: 101.284282493 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it was ridiculous and 9 phrases
+Running alignments between it was ridiculous and 91 phrases
+Scores for it was ridiculous:
+Average Score for Cluster Phrases: 70.6557648155 	 Average Score for Random Phrases: 63.3154397046 	 Average Ranking for Cluster Phrases: 5.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between alright then how do i know you wont just wait till we get to the other side and then kill me and 3 phrases
+Running alignments between alright then how do i know you wont just wait till we get to the other side and then kill me and 97 phrases
+Scores for alright then how do i know you wont just wait till we get to the other side and then kill me:
+Average Score for Cluster Phrases: 248.978406748 	 Average Score for Random Phrases: 217.350944888 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i just popped my cherry kissing a guy i thought of you i don't know why and 5 phrases
+Running alignments between i just popped my cherry kissing a guy i thought of you i don't know why and 95 phrases
+Scores for i just popped my cherry kissing a guy i thought of you i don't know why:
+Average Score for Cluster Phrases: 358.906213331 	 Average Score for Random Phrases: 187.607423823 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between an explanatory memorandum on the general strategic goal for the brotherhood in north america and 6 phrases
+Running alignments between an explanatory memorandum on the general strategic goal for the brotherhood in north america and 94 phrases
+Scores for an explanatory memorandum on the general strategic goal for the brotherhood in north america:
+Average Score for Cluster Phrases: 426.948634433 	 Average Score for Random Phrases: 242.60663248 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between dar trabajo a la gente de aqu a los que han nacido en las islas o a quienes comparten su proyecto de vida en nuestra tierra y volcarnos con las familias que peor est n pas ndolo con la crisis and 4 phrases
+Running alignments between dar trabajo a la gente de aqu a los que han nacido en las islas o a quienes comparten su proyecto de vida en nuestra tierra y volcarnos con las familias que peor est n pas ndolo con la crisis and 96 phrases
+Scores for dar trabajo a la gente de aqu a los que han nacido en las islas o a quienes comparten su proyecto de vida en nuestra tierra y volcarnos con las familias que peor est n pas ndolo con la crisis:
+Average Score for Cluster Phrases: 357.134543764 	 Average Score for Random Phrases: 309.85431466 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between ley de identidad de g nero and 3 phrases
+Running alignments between ley de identidad de g nero and 97 phrases
+Scores for ley de identidad de g nero:
+Average Score for Cluster Phrases: 165.014762989 	 Average Score for Random Phrases: 114.144445557 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the asprox and rustock botnets are back with a vengeance after having found new command and control and 4 phrases
+Running alignments between the asprox and rustock botnets are back with a vengeance after having found new command and control and 96 phrases
+Scores for the asprox and rustock botnets are back with a vengeance after having found new command and control:
+Average Score for Cluster Phrases: 392.242803636 	 Average Score for Random Phrases: 223.960491142 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we believe the simple to use design cheaper and wider variety of software titles and the already hot effect in place on both systems all played a role in driving both the wii and the ds to the top of their segments simply put nintendo saved christmas and 3 phrases
+Running alignments between we believe the simple to use design cheaper and wider variety of software titles and the already hot effect in place on both systems all played a role in driving both the wii and the ds to the top of their segments simply put nintendo saved christmas and 97 phrases
+Scores for we believe the simple to use design cheaper and wider variety of software titles and the already hot effect in place on both systems all played a role in driving both the wii and the ds to the top of their segments simply put nintendo saved christmas:
+Average Score for Cluster Phrases: 608.607898575 	 Average Score for Random Phrases: 313.285356703 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between as chinese students we do not have any affairs with other people and 3 phrases
+Running alignments between as chinese students we do not have any affairs with other people and 97 phrases
+Scores for as chinese students we do not have any affairs with other people:
+Average Score for Cluster Phrases: 312.778620697 	 Average Score for Random Phrases: 178.804983705 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+--------------------------------------
+ Result for 25 tests
+--------------------------------------
+Alignment Scores for similar phrases:	382.873156276
+Alignment Scores for random phrases:	218.656151934
+Average Ranking for similar phrases:	2.4
+Average Precision:	1.0
+Average Recalls:	1.0
+Average fScores:	0.5

@@ -1,0 +1,134 @@
+Running alignments between One witness told Anatolian he saw the plane on fire while it was still in the air. and 1 phrases
+Running alignments between One witness told Anatolian he saw the plane on fire while it was still in the air. and 99 phrases
+Scores for One witness told Anatolian he saw the plane on fire while it was still in the air.:
+Average Score for Cluster Phrases: 316.962821752 	 Average Score for Random Phrases: 259.238969454 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war. and 1 phrases
+Running alignments between Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war. and 99 phrases
+Scores for Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war.:
+Average Score for Cluster Phrases: 505.63441691 	 Average Score for Random Phrases: 339.60606454 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Peterson, 31, is now charged with murder in the deaths of his 27-year-old wife and their unborn son. and 1 phrases
+Running alignments between Peterson, 31, is now charged with murder in the deaths of his 27-year-old wife and their unborn son. and 99 phrases
+Scores for Peterson, 31, is now charged with murder in the deaths of his 27-year-old wife and their unborn son.:
+Average Score for Cluster Phrases: 488.10666312 	 Average Score for Random Phrases: 330.964436135 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "Close co-operation between law-enforcement agencies and intelligence services lie at the heart of the ongoing fight against terrorism," Mr Howard said. and 1 phrases
+Running alignments between "Close co-operation between law-enforcement agencies and intelligence services lie at the heart of the ongoing fight against terrorism," Mr Howard said. and 99 phrases
+Scores for "Close co-operation between law-enforcement agencies and intelligence services lie at the heart of the ongoing fight against terrorism," Mr Howard said.:
+Average Score for Cluster Phrases: 778.603532979 	 Average Score for Random Phrases: 406.77267653 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He said that with the U.S.-backed peace plan, or road map, “in a coma,” the attack could easily widen conflict through the region. and 1 phrases
+Running alignments between He said that with the U.S.-backed peace plan, or road map, “in a coma,” the attack could easily widen conflict through the region. and 99 phrases
+Scores for He said that with the U.S.-backed peace plan, or road map, “in a coma,” the attack could easily widen conflict through the region.:
+Average Score for Cluster Phrases: 561.41820797 	 Average Score for Random Phrases: 364.670514423 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Since both companies described the talks as exclusive, it's likely the two signed an agreement saying Dynegy wouldn't talk to other suitors for a certain period of time. and 1 phrases
+Running alignments between Since both companies described the talks as exclusive, it's likely the two signed an agreement saying Dynegy wouldn't talk to other suitors for a certain period of time. and 99 phrases
+Scores for Since both companies described the talks as exclusive, it's likely the two signed an agreement saying Dynegy wouldn't talk to other suitors for a certain period of time.:
+Average Score for Cluster Phrases: 942.17803587 	 Average Score for Random Phrases: 409.117855457 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between In addition, Panther includes FileVault, a new feature that secures the contents of a home directory with 128-bit AES encryption. and 1 phrases
+Running alignments between In addition, Panther includes FileVault, a new feature that secures the contents of a home directory with 128-bit AES encryption. and 99 phrases
+Scores for In addition, Panther includes FileVault, a new feature that secures the contents of a home directory with 128-bit AES encryption.:
+Average Score for Cluster Phrases: 608.647320429 	 Average Score for Random Phrases: 356.997341338 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Malpractice victims say limits on damage payouts make it less likely lawyers will take cases, meaning access to justice could be denied. and 1 phrases
+Running alignments between Malpractice victims say limits on damage payouts make it less likely lawyers will take cases, meaning access to justice could be denied. and 99 phrases
+Scores for Malpractice victims say limits on damage payouts make it less likely lawyers will take cases, meaning access to justice could be denied.:
+Average Score for Cluster Phrases: 512.534412525 	 Average Score for Random Phrases: 358.598403992 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "It is symptomatic of the communication difficulties that often trouble the ECB," said Ken Wattret of BNP Paribas. and 1 phrases
+Running alignments between "It is symptomatic of the communication difficulties that often trouble the ECB," said Ken Wattret of BNP Paribas. and 99 phrases
+Scores for "It is symptomatic of the communication difficulties that often trouble the ECB," said Ken Wattret of BNP Paribas.:
+Average Score for Cluster Phrases: 412.689822969 	 Average Score for Random Phrases: 304.183358023 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The Hartford shares rose $2.88, or 6.6 percent, to close Monday at $46.50 on the New York Stock Exchange. and 1 phrases
+Running alignments between The Hartford shares rose $2.88, or 6.6 percent, to close Monday at $46.50 on the New York Stock Exchange. and 99 phrases
+Scores for The Hartford shares rose $2.88, or 6.6 percent, to close Monday at $46.50 on the New York Stock Exchange.:
+Average Score for Cluster Phrases: 359.988009397 	 Average Score for Random Phrases: 329.783231384 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Stanford bested a 144-player field that included former winners Sorenstam and Juli Inkster, as well as 13-year-old phenom Michelle Wie. and 1 phrases
+Running alignments between Stanford bested a 144-player field that included former winners Sorenstam and Juli Inkster, as well as 13-year-old phenom Michelle Wie. and 99 phrases
+Scores for Stanford bested a 144-player field that included former winners Sorenstam and Juli Inkster, as well as 13-year-old phenom Michelle Wie.:
+Average Score for Cluster Phrases: 597.219413559 	 Average Score for Random Phrases: 379.912989417 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between In the interview, Mr. Reed said board members could not defend themselves by saying they did not realize the size of Mr. Grasso's package. and 1 phrases
+Running alignments between In the interview, Mr. Reed said board members could not defend themselves by saying they did not realize the size of Mr. Grasso's package. and 99 phrases
+Scores for In the interview, Mr. Reed said board members could not defend themselves by saying they did not realize the size of Mr. Grasso's package.:
+Average Score for Cluster Phrases: 653.768259434 	 Average Score for Random Phrases: 382.45663386 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Last year Bloomberg boycotted the parade because he wanted to march with two actors from "The Sopranos." and 1 phrases
+Running alignments between Last year Bloomberg boycotted the parade because he wanted to march with two actors from "The Sopranos." and 99 phrases
+Scores for Last year Bloomberg boycotted the parade because he wanted to march with two actors from "The Sopranos.":
+Average Score for Cluster Phrases: 482.99516023 	 Average Score for Random Phrases: 332.618071246 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Malvo's attorneys mounted an insanity defense, arguing that Muhammad's indoctrination left him unable to tell right from wrong. and 1 phrases
+Running alignments between Malvo's attorneys mounted an insanity defense, arguing that Muhammad's indoctrination left him unable to tell right from wrong. and 99 phrases
+Scores for Malvo's attorneys mounted an insanity defense, arguing that Muhammad's indoctrination left him unable to tell right from wrong.:
+Average Score for Cluster Phrases: 618.929427581 	 Average Score for Random Phrases: 371.683210758 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A car and a house were hit in the latest shootings, said Chief Deputy Steve Martin of the Franklin County sheriff's office. and 1 phrases
+Running alignments between A car and a house were hit in the latest shootings, said Chief Deputy Steve Martin of the Franklin County sheriff's office. and 99 phrases
+Scores for A car and a house were hit in the latest shootings, said Chief Deputy Steve Martin of the Franklin County sheriff's office.:
+Average Score for Cluster Phrases: 513.716843358 	 Average Score for Random Phrases: 347.784998437 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The court on Monday reversed the decision of that court, the 9th U.S. Circuit Court of Appeals. and 1 phrases
+Running alignments between The court on Monday reversed the decision of that court, the 9th U.S. Circuit Court of Appeals. and 99 phrases
+Scores for The court on Monday reversed the decision of that court, the 9th U.S. Circuit Court of Appeals.:
+Average Score for Cluster Phrases: 465.375959105 	 Average Score for Random Phrases: 308.315368913 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He has no immediate plans for television advertising, believing it is unnecessary this early. and 1 phrases
+Running alignments between He has no immediate plans for television advertising, believing it is unnecessary this early. and 99 phrases
+Scores for He has no immediate plans for television advertising, believing it is unnecessary this early.:
+Average Score for Cluster Phrases: 295.876854425 	 Average Score for Random Phrases: 301.651935855 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "The flu season has had an earlier onset than we've seen in many years," said Julie Gerberding, director of the Centers for Disease Control and Prevention in Atlanta. and 1 phrases
+Running alignments between "The flu season has had an earlier onset than we've seen in many years," said Julie Gerberding, director of the Centers for Disease Control and Prevention in Atlanta. and 99 phrases
+Scores for "The flu season has had an earlier onset than we've seen in many years," said Julie Gerberding, director of the Centers for Disease Control and Prevention in Atlanta.:
+Average Score for Cluster Phrases: 735.690805363 	 Average Score for Random Phrases: 424.103383178 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "It is bad for Symbian," said Per Lindberg, analyst at Dresdner Kleinwort Wasserstein. and 1 phrases
+Running alignments between "It is bad for Symbian," said Per Lindberg, analyst at Dresdner Kleinwort Wasserstein. and 99 phrases
+Scores for "It is bad for Symbian," said Per Lindberg, analyst at Dresdner Kleinwort Wasserstein.:
+Average Score for Cluster Phrases: 408.153274029 	 Average Score for Random Phrases: 259.009631272 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between His hatred for these people had germinated from these discussions and helped cement his belief that violence was the panacea. and 1 phrases
+Running alignments between His hatred for these people had germinated from these discussions and helped cement his belief that violence was the panacea. and 99 phrases
+Scores for His hatred for these people had germinated from these discussions and helped cement his belief that violence was the panacea.:
+Average Score for Cluster Phrases: 438.741819632 	 Average Score for Random Phrases: 368.565267803 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between As a result, 24 players broke par in the first round. and 1 phrases
+Running alignments between As a result, 24 players broke par in the first round. and 99 phrases
+Scores for As a result, 24 players broke par in the first round.:
+Average Score for Cluster Phrases: 263.20928482 	 Average Score for Random Phrases: 206.369853884 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Still, the "somewhat ambiguous ruling" might be a setback for Static Control depending on how it developed its competing product, Merrill Lynch analyst Steven Milunovich said. and 1 phrases
+Running alignments between Still, the "somewhat ambiguous ruling" might be a setback for Static Control depending on how it developed its competing product, Merrill Lynch analyst Steven Milunovich said. and 99 phrases
+Scores for Still, the "somewhat ambiguous ruling" might be a setback for Static Control depending on how it developed its competing product, Merrill Lynch analyst Steven Milunovich said.:
+Average Score for Cluster Phrases: 802.366091507 	 Average Score for Random Phrases: 422.070764888 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Started on Christmas Day in 1931, the Met's matinee broadcasts have introduced opera to millions of people around the world. and 1 phrases
+Running alignments between Started on Christmas Day in 1931, the Met's matinee broadcasts have introduced opera to millions of people around the world. and 99 phrases
+Scores for Started on Christmas Day in 1931, the Met's matinee broadcasts have introduced opera to millions of people around the world.:
+Average Score for Cluster Phrases: 743.158092519 	 Average Score for Random Phrases: 361.352725735 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between It will appear in the next few weeks on the Web site of the Proceedings of the National Academy of Sciences. and 1 phrases
+Running alignments between It will appear in the next few weeks on the Web site of the Proceedings of the National Academy of Sciences. and 99 phrases
+Scores for It will appear in the next few weeks on the Web site of the Proceedings of the National Academy of Sciences.:
+Average Score for Cluster Phrases: 485.714089616 	 Average Score for Random Phrases: 338.48924675 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Their election increases the board from seven people to nine. and 1 phrases
+Running alignments between Their election increases the board from seven people to nine. and 99 phrases
+Scores for Their election increases the board from seven people to nine.:
+Average Score for Cluster Phrases: 298.6475562 	 Average Score for Random Phrases: 272.845646414 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+--------------------------------------
+ Result for 25 tests
+--------------------------------------
+Alignment Scores for similar phrases:	531.613047012
+Alignment Scores for random phrases:	341.486503187
+Average Ranking for similar phrases:	1.0
+Average Precision:	1.0
+Average Recalls:	1.0
+Average fScores:	0.5

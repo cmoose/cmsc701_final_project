@@ -1,0 +1,509 @@
+Running alignments between from all these points of view the euro has in fact proven wrong the forecasts some made against the euro 10 years ago and 3 phrases
+Running alignments between from all these points of view the euro has in fact proven wrong the forecasts some made against the euro 10 years ago and 997 phrases
+Scores for from all these points of view the euro has in fact proven wrong the forecasts some made against the euro 10 years ago:
+Average Score for Cluster Phrases: 54.0753524021 	 Average Score for Random Phrases: 45.3251320682 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between so in some of the worst disasters there is no one on the ground to lead the international response the brutal truth is that lack of leadership costs lives and 3 phrases
+Running alignments between so in some of the worst disasters there is no one on the ground to lead the international response the brutal truth is that lack of leadership costs lives and 997 phrases
+Scores for so in some of the worst disasters there is no one on the ground to lead the international response the brutal truth is that lack of leadership costs lives:
+Average Score for Cluster Phrases: 68.3333333333 	 Average Score for Random Phrases: 51.615321219 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between things happen funny i've gotten my opportunity and now it's up to me to go out there and play and 3 phrases
+Running alignments between things happen funny i've gotten my opportunity and now it's up to me to go out there and play and 997 phrases
+Scores for things happen funny i've gotten my opportunity and now it's up to me to go out there and play:
+Average Score for Cluster Phrases: 43.2666108943 	 Average Score for Random Phrases: 39.7576505228 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between secularists are wrong when they ask believers to leave their religion at the door before entering the public square and 3 phrases
+Running alignments between secularists are wrong when they ask believers to leave their religion at the door before entering the public square and 997 phrases
+Scores for secularists are wrong when they ask believers to leave their religion at the door before entering the public square:
+Average Score for Cluster Phrases: 98.6666666667 	 Average Score for Random Phrases: 45.6310756716 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we will rebuild every inch that has been damaged in this attack and bring back the taj to its full glory and 3 phrases
+Running alignments between we will rebuild every inch that has been damaged in this attack and bring back the taj to its full glory and 997 phrases
+Scores for we will rebuild every inch that has been damaged in this attack and bring back the taj to its full glory:
+Average Score for Cluster Phrases: 52.6666666667 	 Average Score for Random Phrases: 41.2092455072 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between they see the need for quick impact projects such as those funded by u s army commanders in troubled iraqi districts and 3 phrases
+Running alignments between they see the need for quick impact projects such as those funded by u s army commanders in troubled iraqi districts and 997 phrases
+Scores for they see the need for quick impact projects such as those funded by u s army commanders in troubled iraqi districts:
+Average Score for Cluster Phrases: 50.0 	 Average Score for Random Phrases: 43.1503483698 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between tg rderna syftar till att f rb ttra bankernas finansiering och s nka deras uppl ningskostnader and 3 phrases
+Running alignments between tg rderna syftar till att f rb ttra bankernas finansiering och s nka deras uppl ningskostnader and 997 phrases
+Scores for tg rderna syftar till att f rb ttra bankernas finansiering och s nka deras uppl ningskostnader:
+Average Score for Cluster Phrases: 51.0 	 Average Score for Random Phrases: 38.115221212 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between he then opened up the other cells and and he and his fellow prisoners grabbed weapons from the police station's armoury opening fire on the policemen and 3 phrases
+Running alignments between he then opened up the other cells and and he and his fellow prisoners grabbed weapons from the police station's armoury opening fire on the policemen and 997 phrases
+Scores for he then opened up the other cells and and he and his fellow prisoners grabbed weapons from the police station's armoury opening fire on the policemen:
+Average Score for Cluster Phrases: 101.666666667 	 Average Score for Random Phrases: 49.6339789916 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between tonight i want to ask you whether you are an independent a reagan democrat a clinton democrat or just a plain old democrat this year when you vote for president vote for the person you believe is best for our country not for the party you happen to belong to and 3 phrases
+Running alignments between tonight i want to ask you whether you are an independent a reagan democrat a clinton democrat or just a plain old democrat this year when you vote for president vote for the person you believe is best for our country not for the party you happen to belong to and 997 phrases
+Scores for tonight i want to ask you whether you are an independent a reagan democrat a clinton democrat or just a plain old democrat this year when you vote for president vote for the person you believe is best for our country not for the party you happen to belong to:
+Average Score for Cluster Phrases: 197.173825692 	 Average Score for Random Phrases: 60.3689906861 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between illiterate guatemalan spanish-speaking peasants with mayan last names some in tears others with faces of worry fear and embarrassment and 5 phrases
+Running alignments between illiterate guatemalan spanish-speaking peasants with mayan last names some in tears others with faces of worry fear and embarrassment and 995 phrases
+Scores for illiterate guatemalan spanish-speaking peasants with mayan last names some in tears others with faces of worry fear and embarrassment:
+Average Score for Cluster Phrases: 86.1636658663 	 Average Score for Random Phrases: 47.309182706 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between however that seems impossible with present-day technology therefore at the very least would it be possible to legally authorise marriage with a two-dimensional character and 3 phrases
+Running alignments between however that seems impossible with present-day technology therefore at the very least would it be possible to legally authorise marriage with a two-dimensional character and 997 phrases
+Scores for however that seems impossible with present-day technology therefore at the very least would it be possible to legally authorise marriage with a two-dimensional character:
+Average Score for Cluster Phrases: 149.305390873 	 Average Score for Random Phrases: 52.39760704 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we have firsthand knowledge that we know this was a deliberate act on the part of the taliban to draw our forces into a fight and to cause civilian casualties knowing that a wedding party was going on and 3 phrases
+Running alignments between we have firsthand knowledge that we know this was a deliberate act on the part of the taliban to draw our forces into a fight and to cause civilian casualties knowing that a wedding party was going on and 997 phrases
+Scores for we have firsthand knowledge that we know this was a deliberate act on the part of the taliban to draw our forces into a fight and to cause civilian casualties knowing that a wedding party was going on:
+Average Score for Cluster Phrases: 86.198649464 	 Average Score for Random Phrases: 56.2183149843 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between go f yourself and 3 phrases
+Running alignments between go f yourself and 997 phrases
+Scores for go f yourself:
+Average Score for Cluster Phrases: 12.4649753945 	 Average Score for Random Phrases: 10.0790507266 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i am no 1 i am no 1 and 3 phrases
+Running alignments between i am no 1 i am no 1 and 997 phrases
+Scores for i am no 1 i am no 1:
+Average Score for Cluster Phrases: 11.6666666667 	 Average Score for Random Phrases: 12.9114675867 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between everyone said yeah that's always been his point of emphasis ever since now we're sitting here with an excellent opportunity to do so now it's about seizing this opportunity and 3 phrases
+Running alignments between everyone said yeah that's always been his point of emphasis ever since now we're sitting here with an excellent opportunity to do so now it's about seizing this opportunity and 997 phrases
+Scores for everyone said yeah that's always been his point of emphasis ever since now we're sitting here with an excellent opportunity to do so now it's about seizing this opportunity:
+Average Score for Cluster Phrases: 71.0 	 Average Score for Random Phrases: 53.0774904526 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between o primeiro passo para falar com uma s voz and 3 phrases
+Running alignments between o primeiro passo para falar com uma s voz and 997 phrases
+Scores for o primeiro passo para falar com uma s voz:
+Average Score for Cluster Phrases: 24.3333333333 	 Average Score for Random Phrases: 23.8295992185 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between my wife and i are very close we are each other's best friend i have helped her in her career the best i can and she has helped me and 8 phrases
+Running alignments between my wife and i are very close we are each other's best friend i have helped her in her career the best i can and she has helped me and 992 phrases
+Scores for my wife and i are very close we are each other's best friend i have helped her in her career the best i can and she has helped me:
+Average Score for Cluster Phrases: 62.4183019105 	 Average Score for Random Phrases: 46.3757615546 	 Average Ranking for Cluster Phrases: 4.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between el barcelonismo ped a una reflexi n profunda y la hemos hecho queremos recuperar el camino del xito siendo fieles a los ideales de buen f tbol con un equipo que tiene hambre de victorias and 5 phrases
+Running alignments between el barcelonismo ped a una reflexi n profunda y la hemos hecho queremos recuperar el camino del xito siendo fieles a los ideales de buen f tbol con un equipo que tiene hambre de victorias and 995 phrases
+Scores for el barcelonismo ped a una reflexi n profunda y la hemos hecho queremos recuperar el camino del xito siendo fieles a los ideales de buen f tbol con un equipo que tiene hambre de victorias:
+Average Score for Cluster Phrases: 50.4 	 Average Score for Random Phrases: 52.3341636525 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the bands will be over 200 miles out from the center of storm so we have to be aware of its size as it grows over the next 24 to 48 hours and what impacts it will have on friday saturday and sunday and 3 phrases
+Running alignments between the bands will be over 200 miles out from the center of storm so we have to be aware of its size as it grows over the next 24 to 48 hours and what impacts it will have on friday saturday and sunday and 997 phrases
+Scores for the bands will be over 200 miles out from the center of storm so we have to be aware of its size as it grows over the next 24 to 48 hours and what impacts it will have on friday saturday and sunday:
+Average Score for Cluster Phrases: 81.0 	 Average Score for Random Phrases: 52.7079331731 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i've just always wanted a pink car i think when you're a little girl and you have the barbie corvette you're always like oh i wish i had a car like this one day so i think it just comes from being a fan of barbie for so long and 6 phrases
+Running alignments between i've just always wanted a pink car i think when you're a little girl and you have the barbie corvette you're always like oh i wish i had a car like this one day so i think it just comes from being a fan of barbie for so long and 994 phrases
+Scores for i've just always wanted a pink car i think when you're a little girl and you have the barbie corvette you're always like oh i wish i had a car like this one day so i think it just comes from being a fan of barbie for so long:
+Average Score for Cluster Phrases: 115.164049488 	 Average Score for Random Phrases: 59.6676745134 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between she ireland was off for spring break with her mother and her phone was turned off for 10 consecutive days and 3 phrases
+Running alignments between she ireland was off for spring break with her mother and her phone was turned off for 10 consecutive days and 997 phrases
+Scores for she ireland was off for spring break with her mother and her phone was turned off for 10 consecutive days:
+Average Score for Cluster Phrases: 90.0837583716 	 Average Score for Random Phrases: 42.9737368753 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between colonel flaherty needs to abandon this attack on christianity and 3 phrases
+Running alignments between colonel flaherty needs to abandon this attack on christianity and 997 phrases
+Scores for colonel flaherty needs to abandon this attack on christianity:
+Average Score for Cluster Phrases: 48.3333333333 	 Average Score for Random Phrases: 31.1709782192 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between tony romo is not registered to vote in the state of nevada and anybody trying to pose as terrell owens won't be able to cast a ballot on nov 4 and 7 phrases
+Running alignments between tony romo is not registered to vote in the state of nevada and anybody trying to pose as terrell owens won't be able to cast a ballot on nov 4 and 993 phrases
+Scores for tony romo is not registered to vote in the state of nevada and anybody trying to pose as terrell owens won't be able to cast a ballot on nov 4:
+Average Score for Cluster Phrases: 67.5486187041 	 Average Score for Random Phrases: 46.9679191386 	 Average Ranking for Cluster Phrases: 4.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between con valent a and 5 phrases
+Running alignments between con valent a and 995 phrases
+Scores for con valent a:
+Average Score for Cluster Phrases: 10.1484649689 	 Average Score for Random Phrases: 9.45945615733 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between more competitive in price from march 2009 onwards and 3 phrases
+Running alignments between more competitive in price from march 2009 onwards and 997 phrases
+Scores for more competitive in price from march 2009 onwards:
+Average Score for Cluster Phrases: 48.6666666667 	 Average Score for Random Phrases: 26.3353553803 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it was with great surprise and dismay when we discovered that one of our employees may have posted a number of queries on the amazon mechanical turk website inviting users to post positive reviews of belkin products in exchange for payment and 4 phrases
+Running alignments between it was with great surprise and dismay when we discovered that one of our employees may have posted a number of queries on the amazon mechanical turk website inviting users to post positive reviews of belkin products in exchange for payment and 996 phrases
+Scores for it was with great surprise and dismay when we discovered that one of our employees may have posted a number of queries on the amazon mechanical turk website inviting users to post positive reviews of belkin products in exchange for payment:
+Average Score for Cluster Phrases: 129.0 	 Average Score for Random Phrases: 57.7051091662 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between chelsea will be next after arsenal the blues have a tremendous squad but they just lost to liverpool which is a blow for their morale so let's take advantage of it and 3 phrases
+Running alignments between chelsea will be next after arsenal the blues have a tremendous squad but they just lost to liverpool which is a blow for their morale so let's take advantage of it and 997 phrases
+Scores for chelsea will be next after arsenal the blues have a tremendous squad but they just lost to liverpool which is a blow for their morale so let's take advantage of it:
+Average Score for Cluster Phrases: 128.501105464 	 Average Score for Random Phrases: 50.9748008227 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between eu disse a ele para come ar escutando muitas vezes os estados unidos come am dando ordens mas n s n o sabemos todos os fatores envolvidos ent o vamos ouvir ele vai falar com todas as grandes partes envolvidas e me dar um retorno para que possamos formular uma resposta espec fica and 3 phrases
+Running alignments between eu disse a ele para come ar escutando muitas vezes os estados unidos come am dando ordens mas n s n o sabemos todos os fatores envolvidos ent o vamos ouvir ele vai falar com todas as grandes partes envolvidas e me dar um retorno para que possamos formular uma resposta espec fica and 997 phrases
+Scores for eu disse a ele para come ar escutando muitas vezes os estados unidos come am dando ordens mas n s n o sabemos todos os fatores envolvidos ent o vamos ouvir ele vai falar com todas as grandes partes envolvidas e me dar um retorno para que possamos formular uma resposta espec fica:
+Average Score for Cluster Phrases: 189.666666667 	 Average Score for Random Phrases: 60.9432987253 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between c j stewart also was sentenced to at least 15 years and 4 phrases
+Running alignments between c j stewart also was sentenced to at least 15 years and 996 phrases
+Scores for c j stewart also was sentenced to at least 15 years:
+Average Score for Cluster Phrases: 27.25 	 Average Score for Random Phrases: 26.4346147835 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between though we fell short the failure is mine not yours and 11 phrases
+Running alignments between though we fell short the failure is mine not yours and 989 phrases
+Scores for though we fell short the failure is mine not yours:
+Average Score for Cluster Phrases: 36.920264801 	 Average Score for Random Phrases: 27.5414251294 	 Average Ranking for Cluster Phrases: 6.0 Contigency Score for Top10
+Precision: 0.909090909091 	Recall: 0.909090909091 	F-Score: 0.454545454545
+Running alignments between en mayo de este a o se prepar el lanzamiento del disco que pronto se situ entre los tres m s vendidos y se convirti en uno de los temas bandera del hip-hop and 3 phrases
+Running alignments between en mayo de este a o se prepar el lanzamiento del disco que pronto se situ entre los tres m s vendidos y se convirti en uno de los temas bandera del hip-hop and 997 phrases
+Scores for en mayo de este a o se prepar el lanzamiento del disco que pronto se situ entre los tres m s vendidos y se convirti en uno de los temas bandera del hip-hop:
+Average Score for Cluster Phrases: 61.0 	 Average Score for Random Phrases: 50.124615416 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between president peres you are older than i am maybe you are feeling guilty and that is why you are so strong in your words you killed people i remember the children who died on beaches and 3 phrases
+Running alignments between president peres you are older than i am maybe you are feeling guilty and that is why you are so strong in your words you killed people i remember the children who died on beaches and 997 phrases
+Scores for president peres you are older than i am maybe you are feeling guilty and that is why you are so strong in your words you killed people i remember the children who died on beaches:
+Average Score for Cluster Phrases: 69.6666666667 	 Average Score for Random Phrases: 52.0311488377 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between d nde estaba su padre y cu ndo terminaba la pel cula and 3 phrases
+Running alignments between d nde estaba su padre y cu ndo terminaba la pel cula and 997 phrases
+Scores for d nde estaba su padre y cu ndo terminaba la pel cula:
+Average Score for Cluster Phrases: 43.3333333333 	 Average Score for Random Phrases: 28.699028247 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between today michelle and i usher in a new era but while we and our family look toward the future with so much hope we know that we must also acknowledge fully this milestone in our journey we want to thank each and every one of you for all you have done to make this day possible i stand here before you humbled and in awe of your accomplishments and sacrifice and i will dedicate my presidency in your honor to the principles of peace liberty and freedom if it ever appears that i'm forgetting that i know i can count on you to remind me and 3 phrases
+Running alignments between today michelle and i usher in a new era but while we and our family look toward the future with so much hope we know that we must also acknowledge fully this milestone in our journey we want to thank each and every one of you for all you have done to make this day possible i stand here before you humbled and in awe of your accomplishments and sacrifice and i will dedicate my presidency in your honor to the principles of peace liberty and freedom if it ever appears that i'm forgetting that i know i can count on you to remind me and 997 phrases
+Scores for today michelle and i usher in a new era but while we and our family look toward the future with so much hope we know that we must also acknowledge fully this milestone in our journey we want to thank each and every one of you for all you have done to make this day possible i stand here before you humbled and in awe of your accomplishments and sacrifice and i will dedicate my presidency in your honor to the principles of peace liberty and freedom if it ever appears that i'm forgetting that i know i can count on you to remind me:
+Average Score for Cluster Phrases: 193.666666667 	 Average Score for Random Phrases: 68.5540137963 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between dreamer inspired by a true story and 3 phrases
+Running alignments between dreamer inspired by a true story and 997 phrases
+Scores for dreamer inspired by a true story:
+Average Score for Cluster Phrases: 28.513060016 	 Average Score for Random Phrases: 20.5485791789 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between against stupidity the gods themselves contend in vain and 3 phrases
+Running alignments between against stupidity the gods themselves contend in vain and 997 phrases
+Scores for against stupidity the gods themselves contend in vain:
+Average Score for Cluster Phrases: 29.3333333333 	 Average Score for Random Phrases: 28.3446150414 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between he said everything was fine officers said he had a no problems here kind of attitude he just wanted everything forgotten and 3 phrases
+Running alignments between he said everything was fine officers said he had a no problems here kind of attitude he just wanted everything forgotten and 997 phrases
+Scores for he said everything was fine officers said he had a no problems here kind of attitude he just wanted everything forgotten:
+Average Score for Cluster Phrases: 51.6666666667 	 Average Score for Random Phrases: 44.7940625791 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between they're a very private couple it's no surprise they'd want to celebrate at their home and 3 phrases
+Running alignments between they're a very private couple it's no surprise they'd want to celebrate at their home and 997 phrases
+Scores for they're a very private couple it's no surprise they'd want to celebrate at their home:
+Average Score for Cluster Phrases: 40.3333333333 	 Average Score for Random Phrases: 38.6262042359 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between they can have a good life in the white house but it won't be normal and 3 phrases
+Running alignments between they can have a good life in the white house but it won't be normal and 997 phrases
+Scores for they can have a good life in the white house but it won't be normal:
+Average Score for Cluster Phrases: 35.3333333333 	 Average Score for Random Phrases: 32.6749845868 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between how do you miss it he's not a kid he's 22 years old he's almost 6-foot-2 how do you miss him and 3 phrases
+Running alignments between how do you miss it he's not a kid he's 22 years old he's almost 6-foot-2 how do you miss him and 997 phrases
+Scores for how do you miss it he's not a kid he's 22 years old he's almost 6-foot-2 how do you miss him:
+Average Score for Cluster Phrases: 40.3333333333 	 Average Score for Random Phrases: 39.3616451644 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the potential result would be a kind of conceptual search find me a story with an exciting chase scene and a happy ending and 3 phrases
+Running alignments between the potential result would be a kind of conceptual search find me a story with an exciting chase scene and a happy ending and 997 phrases
+Scores for the potential result would be a kind of conceptual search find me a story with an exciting chase scene and a happy ending:
+Average Score for Cluster Phrases: 69.6656353386 	 Average Score for Random Phrases: 44.9584075867 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i'm shopping while i still have a job and 3 phrases
+Running alignments between i'm shopping while i still have a job and 997 phrases
+Scores for i'm shopping while i still have a job:
+Average Score for Cluster Phrases: 22.3333333333 	 Average Score for Random Phrases: 21.6425915935 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between all i know is i love you and 5 phrases
+Running alignments between all i know is i love you and 995 phrases
+Scores for all i know is i love you:
+Average Score for Cluster Phrases: 15.2675936514 	 Average Score for Random Phrases: 16.2327834138 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between what happened inside the bush white house and washington's culture of deception and 4 phrases
+Running alignments between what happened inside the bush white house and washington's culture of deception and 996 phrases
+Scores for what happened inside the bush white house and washington's culture of deception:
+Average Score for Cluster Phrases: 34.25 	 Average Score for Random Phrases: 35.4107402104 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the challenge of course has been to lay out the conditions so that a peaceful state can emerge will this ever happen i think it will and i know we've advanced the process and 3 phrases
+Running alignments between the challenge of course has been to lay out the conditions so that a peaceful state can emerge will this ever happen i think it will and i know we've advanced the process and 997 phrases
+Scores for the challenge of course has been to lay out the conditions so that a peaceful state can emerge will this ever happen i think it will and i know we've advanced the process:
+Average Score for Cluster Phrases: 81.3333333333 	 Average Score for Random Phrases: 51.9725370065 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between in the last two seasons this team has done an outstanding job of that we made it clear to plax today that we are here to support him in any way possible and 3 phrases
+Running alignments between in the last two seasons this team has done an outstanding job of that we made it clear to plax today that we are here to support him in any way possible and 997 phrases
+Scores for in the last two seasons this team has done an outstanding job of that we made it clear to plax today that we are here to support him in any way possible:
+Average Score for Cluster Phrases: 80.0 	 Average Score for Random Phrases: 49.2730780269 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between and then we go out there and lay an egg and 4 phrases
+Running alignments between and then we go out there and lay an egg and 996 phrases
+Scores for and then we go out there and lay an egg:
+Average Score for Cluster Phrases: 34.4598338577 	 Average Score for Random Phrases: 24.0458271954 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between sloterdijk y nietzsche posthumanismo antropot cnicas y complejidad extrahumana and 6 phrases
+Running alignments between sloterdijk y nietzsche posthumanismo antropot cnicas y complejidad extrahumana and 994 phrases
+Scores for sloterdijk y nietzsche posthumanismo antropot cnicas y complejidad extrahumana:
+Average Score for Cluster Phrases: 66.4778779944 	 Average Score for Random Phrases: 33.6541843248 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between now we get to be together under the one roof having dinners together and 5 phrases
+Running alignments between now we get to be together under the one roof having dinners together and 995 phrases
+Scores for now we get to be together under the one roof having dinners together:
+Average Score for Cluster Phrases: 56.707149374 	 Average Score for Random Phrases: 33.538057829 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between come together and make a unity government and 3 phrases
+Running alignments between come together and make a unity government and 997 phrases
+Scores for come together and make a unity government:
+Average Score for Cluster Phrases: 31.4168953528 	 Average Score for Random Phrases: 24.358846304 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between plan de campagne and 3 phrases
+Running alignments between plan de campagne and 997 phrases
+Scores for plan de campagne:
+Average Score for Cluster Phrases: 13.8448666477 	 Average Score for Random Phrases: 12.0429831712 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between let obsessive extreme partisanship get in the way of doing what's right and 3 phrases
+Running alignments between let obsessive extreme partisanship get in the way of doing what's right and 997 phrases
+Scores for let obsessive extreme partisanship get in the way of doing what's right:
+Average Score for Cluster Phrases: 68.7901289246 	 Average Score for Random Phrases: 33.9942212301 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between condemns them in the strongest possible terms and 3 phrases
+Running alignments between condemns them in the strongest possible terms and 997 phrases
+Scores for condemns them in the strongest possible terms:
+Average Score for Cluster Phrases: 43.9042687223 	 Average Score for Random Phrases: 25.506111543 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i'm a radical leftist small c communist and 7 phrases
+Running alignments between i'm a radical leftist small c communist and 993 phrases
+Scores for i'm a radical leftist small c communist:
+Average Score for Cluster Phrases: 33.5714285714 	 Average Score for Random Phrases: 22.7537054203 	 Average Ranking for Cluster Phrases: 4.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between no son de fiar conmigo no abren un proceso de di logo pero con batasuna y con eta s and 4 phrases
+Running alignments between no son de fiar conmigo no abren un proceso de di logo pero con batasuna y con eta s and 996 phrases
+Scores for no son de fiar conmigo no abren un proceso de di logo pero con batasuna y con eta s:
+Average Score for Cluster Phrases: 63.1612402949 	 Average Score for Random Phrases: 36.4627959033 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we are in the process of talking to the government they've not indicated one way or the other how they're dealing with us and 3 phrases
+Running alignments between we are in the process of talking to the government they've not indicated one way or the other how they're dealing with us and 997 phrases
+Scores for we are in the process of talking to the government they've not indicated one way or the other how they're dealing with us:
+Average Score for Cluster Phrases: 52.3333333333 	 Average Score for Random Phrases: 45.8471726955 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between seven nominations you say is that all i always knew my time would come in the best dressed man in the world category and 4 phrases
+Running alignments between seven nominations you say is that all i always knew my time would come in the best dressed man in the world category and 996 phrases
+Scores for seven nominations you say is that all i always knew my time would come in the best dressed man in the world category:
+Average Score for Cluster Phrases: 45.75 	 Average Score for Random Phrases: 43.5668648766 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between he who refreshes others will himself be refreshed and 3 phrases
+Running alignments between he who refreshes others will himself be refreshed and 997 phrases
+Scores for he who refreshes others will himself be refreshed:
+Average Score for Cluster Phrases: 49.0 	 Average Score for Random Phrases: 26.9024012208 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i kept getting goose bumps after goose bumps out there i was really into it i'm really proud of this team for trying so hard i could not have asked for a better ending there is nothing like a team event and when you pull it all together the atmosphere and camaraderie is one of a kind and 14 phrases
+Running alignments between i kept getting goose bumps after goose bumps out there i was really into it i'm really proud of this team for trying so hard i could not have asked for a better ending there is nothing like a team event and when you pull it all together the atmosphere and camaraderie is one of a kind and 986 phrases
+Scores for i kept getting goose bumps after goose bumps out there i was really into it i'm really proud of this team for trying so hard i could not have asked for a better ending there is nothing like a team event and when you pull it all together the atmosphere and camaraderie is one of a kind:
+Average Score for Cluster Phrases: 45.929451381 	 Average Score for Random Phrases: 62.8569547384 	 Average Ranking for Cluster Phrases: 7.5 Contigency Score for Top10
+Precision: 0.714285714286 	Recall: 0.714285714286 	F-Score: 0.357142857143
+Running alignments between obviously one of the biggest issues today is citigroup and will that bank survive in its current form and 3 phrases
+Running alignments between obviously one of the biggest issues today is citigroup and will that bank survive in its current form and 997 phrases
+Scores for obviously one of the biggest issues today is citigroup and will that bank survive in its current form:
+Average Score for Cluster Phrases: 45.3333333333 	 Average Score for Random Phrases: 41.8866664913 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i'm not going to lie to you and 3 phrases
+Running alignments between i'm not going to lie to you and 997 phrases
+Scores for i'm not going to lie to you:
+Average Score for Cluster Phrases: 24.6666666667 	 Average Score for Random Phrases: 18.2544101713 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between proteger la integridad y la calidad del mercado de valores and 3 phrases
+Running alignments between proteger la integridad y la calidad del mercado de valores and 997 phrases
+Scores for proteger la integridad y la calidad del mercado de valores:
+Average Score for Cluster Phrases: 44.528836329 	 Average Score for Random Phrases: 29.0822173549 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we've got this core cluster of symptoms that is the achilles heel for these individuals and we're not really doing a good job of treating them and 3 phrases
+Running alignments between we've got this core cluster of symptoms that is the achilles heel for these individuals and we're not really doing a good job of treating them and 997 phrases
+Scores for we've got this core cluster of symptoms that is the achilles heel for these individuals and we're not really doing a good job of treating them:
+Average Score for Cluster Phrases: 61.6666666667 	 Average Score for Random Phrases: 48.0194227883 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the united nations must expedite sending troops peacekeepers to provide security for the people and 4 phrases
+Running alignments between the united nations must expedite sending troops peacekeepers to provide security for the people and 996 phrases
+Scores for the united nations must expedite sending troops peacekeepers to provide security for the people:
+Average Score for Cluster Phrases: 73.8321986062 	 Average Score for Random Phrases: 40.5678143912 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i made a big mistake and i'm going to pay for it man do you know what i mean i'm going to pay for it and 4 phrases
+Running alignments between i made a big mistake and i'm going to pay for it man do you know what i mean i'm going to pay for it and 996 phrases
+Scores for i made a big mistake and i'm going to pay for it man do you know what i mean i'm going to pay for it:
+Average Score for Cluster Phrases: 49.5389978454 	 Average Score for Random Phrases: 40.4013939219 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between they are talking about settling down and getting married in a year they have had a bit of a crazy year but they do love each other and she wants to be his wife and 3 phrases
+Running alignments between they are talking about settling down and getting married in a year they have had a bit of a crazy year but they do love each other and she wants to be his wife and 997 phrases
+Scores for they are talking about settling down and getting married in a year they have had a bit of a crazy year but they do love each other and she wants to be his wife:
+Average Score for Cluster Phrases: 105.666666667 	 Average Score for Random Phrases: 49.4482189944 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i have genuinely enjoyed working with kelly she is absolutely lovely and a complete professional and 8 phrases
+Running alignments between i have genuinely enjoyed working with kelly she is absolutely lovely and a complete professional and 992 phrases
+Scores for i have genuinely enjoyed working with kelly she is absolutely lovely and a complete professional:
+Average Score for Cluster Phrases: 65.8317435924 	 Average Score for Random Phrases: 38.1242172871 	 Average Ranking for Cluster Phrases: 4.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between damn a hyperconservative fuckable type a antiabortion christian stepford wife in a sexy librarian costume as a vice president that's a brilliant stroke of horrifyingly cynical pandering to the christian right karl rove must be behind it and 6 phrases
+Running alignments between damn a hyperconservative fuckable type a antiabortion christian stepford wife in a sexy librarian costume as a vice president that's a brilliant stroke of horrifyingly cynical pandering to the christian right karl rove must be behind it and 994 phrases
+Scores for damn a hyperconservative fuckable type a antiabortion christian stepford wife in a sexy librarian costume as a vice president that's a brilliant stroke of horrifyingly cynical pandering to the christian right karl rove must be behind it:
+Average Score for Cluster Phrases: 97.9457616011 	 Average Score for Random Phrases: 57.2346480079 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between there were a lot of things i had to deal with change of court change of conditions different atmosphere i just had to stay calm i was playing well enough to win but i knew nadal was going to come at me and 3 phrases
+Running alignments between there were a lot of things i had to deal with change of court change of conditions different atmosphere i just had to stay calm i was playing well enough to win but i knew nadal was going to come at me and 997 phrases
+Scores for there were a lot of things i had to deal with change of court change of conditions different atmosphere i just had to stay calm i was playing well enough to win but i knew nadal was going to come at me:
+Average Score for Cluster Phrases: 102.920088735 	 Average Score for Random Phrases: 55.3399743384 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between this is a new adventure for me i spent seven years at chelsea and they were seven of the best years of my career i loved playing there but the fans must understand that i have a new career now and my playing career is in the past and 6 phrases
+Running alignments between this is a new adventure for me i spent seven years at chelsea and they were seven of the best years of my career i loved playing there but the fans must understand that i have a new career now and my playing career is in the past and 994 phrases
+Scores for this is a new adventure for me i spent seven years at chelsea and they were seven of the best years of my career i loved playing there but the fans must understand that i have a new career now and my playing career is in the past:
+Average Score for Cluster Phrases: 90.0919227314 	 Average Score for Random Phrases: 59.6545907228 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between barack obama has played the race card and he played it from the bottom of the deck it's divisive negative shameful and wrong and 14 phrases
+Running alignments between barack obama has played the race card and he played it from the bottom of the deck it's divisive negative shameful and wrong and 986 phrases
+Scores for barack obama has played the race card and he played it from the bottom of the deck it's divisive negative shameful and wrong:
+Average Score for Cluster Phrases: 54.5327483422 	 Average Score for Random Phrases: 44.7062820466 	 Average Ranking for Cluster Phrases: 7.5 Contigency Score for Top10
+Precision: 0.714285714286 	Recall: 0.714285714286 	F-Score: 0.357142857143
+Running alignments between government policy errors helped bring about and 3 phrases
+Running alignments between government policy errors helped bring about and 997 phrases
+Scores for government policy errors helped bring about:
+Average Score for Cluster Phrases: 35.5042769995 	 Average Score for Random Phrases: 24.2691309695 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between a year ago it would have been very difficult for this deal to have gone through but we live in unusual times and 4 phrases
+Running alignments between a year ago it would have been very difficult for this deal to have gone through but we live in unusual times and 996 phrases
+Scores for a year ago it would have been very difficult for this deal to have gone through but we live in unusual times:
+Average Score for Cluster Phrases: 61.4523632124 	 Average Score for Random Phrases: 44.0147931939 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between we're only in it for the money and 9 phrases
+Running alignments between we're only in it for the money and 991 phrases
+Scores for we're only in it for the money:
+Average Score for Cluster Phrases: 23.1807509538 	 Average Score for Random Phrases: 19.6622701523 	 Average Ranking for Cluster Phrases: 5.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the main focus is going to be going after the utah brand and 6 phrases
+Running alignments between the main focus is going to be going after the utah brand and 994 phrases
+Scores for the main focus is going to be going after the utah brand:
+Average Score for Cluster Phrases: 38.1069312035 	 Average Score for Random Phrases: 29.8133296015 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between he is there these are the remains what is left behind of a life such as we are not likely to see again waiting with all of us for the resurrection of the dead the final vindication of the hope he proclaimed and 3 phrases
+Running alignments between he is there these are the remains what is left behind of a life such as we are not likely to see again waiting with all of us for the resurrection of the dead the final vindication of the hope he proclaimed and 997 phrases
+Scores for he is there these are the remains what is left behind of a life such as we are not likely to see again waiting with all of us for the resurrection of the dead the final vindication of the hope he proclaimed:
+Average Score for Cluster Phrases: 86.0 	 Average Score for Random Phrases: 55.9646448673 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between this is not an easy choice but this is the only chance to save people's lives and 10 phrases
+Running alignments between this is not an easy choice but this is the only chance to save people's lives and 990 phrases
+Scores for this is not an easy choice but this is the only chance to save people's lives:
+Average Score for Cluster Phrases: 41.3867296524 	 Average Score for Random Phrases: 35.9872905784 	 Average Ranking for Cluster Phrases: 5.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between a two-state solution is the only possible way to resolve the conflict in the middle east and 4 phrases
+Running alignments between a two-state solution is the only possible way to resolve the conflict in the middle east and 996 phrases
+Scores for a two-state solution is the only possible way to resolve the conflict in the middle east:
+Average Score for Cluster Phrases: 40.9645135119 	 Average Score for Random Phrases: 37.10445819 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between wa sa droga do prawdy autobiografia and 3 phrases
+Running alignments between wa sa droga do prawdy autobiografia and 997 phrases
+Scores for wa sa droga do prawdy autobiografia:
+Average Score for Cluster Phrases: 26.3333333333 	 Average Score for Random Phrases: 20.6742715378 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between together we can deliver high value services that will provide significant value to our customers employees and securityholders and 5 phrases
+Running alignments between together we can deliver high value services that will provide significant value to our customers employees and securityholders and 995 phrases
+Scores for together we can deliver high value services that will provide significant value to our customers employees and securityholders:
+Average Score for Cluster Phrases: 80.6831089535 	 Average Score for Random Phrases: 45.5186457237 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between but i have a few things against thee because thou hast there them that hold the doctrine of balaam who taught balac to cast a stumblingblock before the children of israel to eat things sacrificed unto idols and to commit fornication and 3 phrases
+Running alignments between but i have a few things against thee because thou hast there them that hold the doctrine of balaam who taught balac to cast a stumblingblock before the children of israel to eat things sacrificed unto idols and to commit fornication and 997 phrases
+Scores for but i have a few things against thee because thou hast there them that hold the doctrine of balaam who taught balac to cast a stumblingblock before the children of israel to eat things sacrificed unto idols and to commit fornication:
+Average Score for Cluster Phrases: 90.6666666667 	 Average Score for Random Phrases: 59.4005276029 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between i told him that if he felt he needed the 350 billion i would be willing to ask for it if he feels like it needed to happen on my watch and 5 phrases
+Running alignments between i told him that if he felt he needed the 350 billion i would be willing to ask for it if he feels like it needed to happen on my watch and 995 phrases
+Scores for i told him that if he felt he needed the 350 billion i would be willing to ask for it if he feels like it needed to happen on my watch:
+Average Score for Cluster Phrases: 101.574031033 	 Average Score for Random Phrases: 47.100360415 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between stay with me by the sea and 3 phrases
+Running alignments between stay with me by the sea and 997 phrases
+Scores for stay with me by the sea:
+Average Score for Cluster Phrases: 15.0 	 Average Score for Random Phrases: 16.2410997012 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it's my life and 6 phrases
+Running alignments between it's my life and 994 phrases
+Scores for it's my life:
+Average Score for Cluster Phrases: 10.6547446794 	 Average Score for Random Phrases: 9.06837409243 	 Average Ranking for Cluster Phrases: 3.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between voc me conhece eu sou o tinoco o homem toco vote em mim que eu n o vou meter a m o e se eu roubar n o vou conseguir fugir and 5 phrases
+Running alignments between voc me conhece eu sou o tinoco o homem toco vote em mim que eu n o vou meter a m o e se eu roubar n o vou conseguir fugir and 995 phrases
+Scores for voc me conhece eu sou o tinoco o homem toco vote em mim que eu n o vou meter a m o e se eu roubar n o vou conseguir fugir:
+Average Score for Cluster Phrases: 34.8 	 Average Score for Random Phrases: 44.0807642826 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between sellers are beginning to face up to the reality that their houses are not worth as much now as they were 12 months ago they are ripping up last year's price tags and beginning to come to terms with the new economic reality and 3 phrases
+Running alignments between sellers are beginning to face up to the reality that their houses are not worth as much now as they were 12 months ago they are ripping up last year's price tags and beginning to come to terms with the new economic reality and 997 phrases
+Scores for sellers are beginning to face up to the reality that their houses are not worth as much now as they were 12 months ago they are ripping up last year's price tags and beginning to come to terms with the new economic reality:
+Average Score for Cluster Phrases: 147.666666667 	 Average Score for Random Phrases: 58.300421171 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between there is no pornography here there's no sex there are no virgins menstruating or feeling each other up this is artistic expression and 3 phrases
+Running alignments between there is no pornography here there's no sex there are no virgins menstruating or feeling each other up this is artistic expression and 997 phrases
+Scores for there is no pornography here there's no sex there are no virgins menstruating or feeling each other up this is artistic expression:
+Average Score for Cluster Phrases: 86.3333333333 	 Average Score for Random Phrases: 47.4221890933 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between the tremendous wealth of knowledge that lies within the books of the world will now be at their fingertips and 5 phrases
+Running alignments between the tremendous wealth of knowledge that lies within the books of the world will now be at their fingertips and 995 phrases
+Scores for the tremendous wealth of knowledge that lies within the books of the world will now be at their fingertips:
+Average Score for Cluster Phrases: 60.7526589303 	 Average Score for Random Phrases: 43.7688553685 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between do the right thing inside the movement that's bringing common sense back to america and 3 phrases
+Running alignments between do the right thing inside the movement that's bringing common sense back to america and 997 phrases
+Scores for do the right thing inside the movement that's bringing common sense back to america:
+Average Score for Cluster Phrases: 39.0 	 Average Score for Random Phrases: 36.815876391 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between our study settles the debate by showing that the prime reason is intentional selection by humans and 3 phrases
+Running alignments between our study settles the debate by showing that the prime reason is intentional selection by humans and 997 phrases
+Scores for our study settles the debate by showing that the prime reason is intentional selection by humans:
+Average Score for Cluster Phrases: 84.353287866 	 Average Score for Random Phrases: 39.8553539396 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between this regional warming has contributed to widespread hydrologic changes such as a declining fraction of precipitation falling as snow declining water snowpack content earlier spring snowmelt and runoff and a consequent lengthening of the summer drought and 3 phrases
+Running alignments between this regional warming has contributed to widespread hydrologic changes such as a declining fraction of precipitation falling as snow declining water snowpack content earlier spring snowmelt and runoff and a consequent lengthening of the summer drought and 997 phrases
+Scores for this regional warming has contributed to widespread hydrologic changes such as a declining fraction of precipitation falling as snow declining water snowpack content earlier spring snowmelt and runoff and a consequent lengthening of the summer drought:
+Average Score for Cluster Phrases: 236.0 	 Average Score for Random Phrases: 61.106086976 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between la indignaci n and 3 phrases
+Running alignments between la indignaci n and 997 phrases
+Scores for la indignaci n:
+Average Score for Cluster Phrases: 11.0621027812 	 Average Score for Random Phrases: 10.1784948335 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between romeo amp juliet on motifs of shakespeare and 3 phrases
+Running alignments between romeo amp juliet on motifs of shakespeare and 997 phrases
+Scores for romeo amp juliet on motifs of shakespeare:
+Average Score for Cluster Phrases: 32.3936534183 	 Average Score for Random Phrases: 24.6869002595 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between everyone's really excited the team has obviously seen the rumors and it's been hard to keep quiet but they can't wait to show off the game and 5 phrases
+Running alignments between everyone's really excited the team has obviously seen the rumors and it's been hard to keep quiet but they can't wait to show off the game and 995 phrases
+Scores for everyone's really excited the team has obviously seen the rumors and it's been hard to keep quiet but they can't wait to show off the game:
+Average Score for Cluster Phrases: 65.8 	 Average Score for Random Phrases: 46.6627715529 	 Average Ranking for Cluster Phrases: 3.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between lord you told me when i decided to follow you you would walk and talk with me all the way but i'm aware that during the most troublesome times of my life there is only one set of footprints i just don't understand why when i need you most you leave me and 3 phrases
+Running alignments between lord you told me when i decided to follow you you would walk and talk with me all the way but i'm aware that during the most troublesome times of my life there is only one set of footprints i just don't understand why when i need you most you leave me and 997 phrases
+Scores for lord you told me when i decided to follow you you would walk and talk with me all the way but i'm aware that during the most troublesome times of my life there is only one set of footprints i just don't understand why when i need you most you leave me:
+Average Score for Cluster Phrases: 97.6666666667 	 Average Score for Random Phrases: 58.579712706 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between he's considered armed and dangerous if you see him don't approach him call the police and 3 phrases
+Running alignments between he's considered armed and dangerous if you see him don't approach him call the police and 997 phrases
+Scores for he's considered armed and dangerous if you see him don't approach him call the police:
+Average Score for Cluster Phrases: 44.6666666667 	 Average Score for Random Phrases: 37.7197847133 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between no se est votando a favor o en contra de un gobierno la decisi n que tome hoy el pueblo ecuatoriano decidir el modelo de sociedad en que viviremos en adelante nuestra vida en com n and 3 phrases
+Running alignments between no se est votando a favor o en contra de un gobierno la decisi n que tome hoy el pueblo ecuatoriano decidir el modelo de sociedad en que viviremos en adelante nuestra vida en com n and 997 phrases
+Scores for no se est votando a favor o en contra de un gobierno la decisi n que tome hoy el pueblo ecuatoriano decidir el modelo de sociedad en que viviremos en adelante nuestra vida en com n:
+Average Score for Cluster Phrases: 103.737888124 	 Average Score for Random Phrases: 49.6927650937 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between it looks like i'm going to have a lot of work to do between today and when the new president takes office and 4 phrases
+Running alignments between it looks like i'm going to have a lot of work to do between today and when the new president takes office and 996 phrases
+Scores for it looks like i'm going to have a lot of work to do between today and when the new president takes office:
+Average Score for Cluster Phrases: 54.7116652597 	 Average Score for Random Phrases: 40.7401825444 	 Average Ranking for Cluster Phrases: 2.5 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between have you been drinking and 3 phrases
+Running alignments between have you been drinking and 997 phrases
+Scores for have you been drinking:
+Average Score for Cluster Phrases: 20.3333333333 	 Average Score for Random Phrases: 14.9844347584 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between todo lo que hace es precampa a pura y dura and 3 phrases
+Running alignments between todo lo que hace es precampa a pura y dura and 997 phrases
+Scores for todo lo que hace es precampa a pura y dura:
+Average Score for Cluster Phrases: 25.0 	 Average Score for Random Phrases: 24.1280978086 	 Average Ranking for Cluster Phrases: 2.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+--------------------------------------
+ Result for 100 tests
+--------------------------------------
+Alignment Scores for similar phrases:	63.5680013545
+Alignment Scores for random phrases:	39.1726281026
+Average Ranking for similar phrases:	2.55
+Average Precision:	0.978048780488
+Average Recalls:	0.978048780488
+Average fScores:	0.489024390244

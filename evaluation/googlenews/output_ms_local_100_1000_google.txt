@@ -1,0 +1,509 @@
+Running alignments between Officials developed plans to burn about 2,000 acres of dense forest near the park's southwest border by dropping incendiary devices, hoping to burn off fuel from the wildfire's path. and 1 phrases
+Running alignments between Officials developed plans to burn about 2,000 acres of dense forest near the park's southwest border by dropping incendiary devices, hoping to burn off fuel from the wildfire's path. and 999 phrases
+Scores for Officials developed plans to burn about 2,000 acres of dense forest near the park's southwest border by dropping incendiary devices, hoping to burn off fuel from the wildfire's path.:
+Average Score for Cluster Phrases: 137.437362347 	 Average Score for Random Phrases: 72.3051462402 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He led Philippine police to a tonne of TNT that officials say was intended for planned attacks in Singapore on Western targets, including US and Australian diplomatic posts. and 1 phrases
+Running alignments between He led Philippine police to a tonne of TNT that officials say was intended for planned attacks in Singapore on Western targets, including US and Australian diplomatic posts. and 999 phrases
+Scores for He led Philippine police to a tonne of TNT that officials say was intended for planned attacks in Singapore on Western targets, including US and Australian diplomatic posts.:
+Average Score for Cluster Phrases: 120.324539036 	 Average Score for Random Phrases: 70.7673453285 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Mr Koizumi rebuked Mr Konoike, saying his remarks were "inappropriate". and 1 phrases
+Running alignments between Mr Koizumi rebuked Mr Konoike, saying his remarks were "inappropriate". and 999 phrases
+Scores for Mr Koizumi rebuked Mr Konoike, saying his remarks were "inappropriate".:
+Average Score for Cluster Phrases: 55.7012886354 	 Average Score for Random Phrases: 42.3593480765 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The staged scene, covering several acres, featured smashed cars and buses, ruined buildings, scattered debris and spot fires. and 1 phrases
+Running alignments between The staged scene, covering several acres, featured smashed cars and buses, ruined buildings, scattered debris and spot fires. and 999 phrases
+Scores for The staged scene, covering several acres, featured smashed cars and buses, ruined buildings, scattered debris and spot fires.:
+Average Score for Cluster Phrases: 73.6096671772 	 Average Score for Random Phrases: 62.6231202593 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The captain, Michael J. Gansas, was notified yesterday by the city's Department of Transportation that an agency hearing officer recommended that he be fired. and 1 phrases
+Running alignments between The captain, Michael J. Gansas, was notified yesterday by the city's Department of Transportation that an agency hearing officer recommended that he be fired. and 999 phrases
+Scores for The captain, Michael J. Gansas, was notified yesterday by the city's Department of Transportation that an agency hearing officer recommended that he be fired.:
+Average Score for Cluster Phrases: 114.161899051 	 Average Score for Random Phrases: 69.3336645908 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "I feel confident saying that HP is no longer an integration story," Fiorina said. and 1 phrases
+Running alignments between "I feel confident saying that HP is no longer an integration story," Fiorina said. and 999 phrases
+Scores for "I feel confident saying that HP is no longer an integration story," Fiorina said.:
+Average Score for Cluster Phrases: 60.0 	 Average Score for Random Phrases: 48.6788638453 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The average American makes four trips a day, 45 percent for shopping or errands. and 1 phrases
+Running alignments between The average American makes four trips a day, 45 percent for shopping or errands. and 999 phrases
+Scores for The average American makes four trips a day, 45 percent for shopping or errands.:
+Average Score for Cluster Phrases: 45.3253918072 	 Average Score for Random Phrases: 47.8487333683 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Advancers outnumbered decliners 1,821 to 1,199 on the New York Stock Exchange on volume of just over 480 million shares. and 1 phrases
+Running alignments between Advancers outnumbered decliners 1,821 to 1,199 on the New York Stock Exchange on volume of just over 480 million shares. and 999 phrases
+Scores for Advancers outnumbered decliners 1,821 to 1,199 on the New York Stock Exchange on volume of just over 480 million shares.:
+Average Score for Cluster Phrases: 68.2390681574 	 Average Score for Random Phrases: 57.7023907328 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Georgia cannot afford to not get funding," said Dr. Melinda Rowe, Chatham County's health director. and 1 phrases
+Running alignments between Georgia cannot afford to not get funding," said Dr. Melinda Rowe, Chatham County's health director. and 999 phrases
+Scores for Georgia cannot afford to not get funding," said Dr. Melinda Rowe, Chatham County's health director.:
+Average Score for Cluster Phrases: 70.5561371693 	 Average Score for Random Phrases: 53.398589599 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Scruggs, who did not testify, was cleared of a second charge of failing to provide her son with proper medical and psychological care. and 1 phrases
+Running alignments between Scruggs, who did not testify, was cleared of a second charge of failing to provide her son with proper medical and psychological care. and 999 phrases
+Scores for Scruggs, who did not testify, was cleared of a second charge of failing to provide her son with proper medical and psychological care.:
+Average Score for Cluster Phrases: 111.26792917 	 Average Score for Random Phrases: 64.2885689076 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Johnson and four other protesters were arrested soon afterward for blocking the roadway, a state misdemeanor. and 1 phrases
+Running alignments between Johnson and four other protesters were arrested soon afterward for blocking the roadway, a state misdemeanor. and 999 phrases
+Scores for Johnson and four other protesters were arrested soon afterward for blocking the roadway, a state misdemeanor.:
+Average Score for Cluster Phrases: 73.6782315224 	 Average Score for Random Phrases: 58.4854001365 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Justice Minister Martin Cauchon and Prime Minister Jean Chrétien have both said the Liberal government will introduce legislation soon to decriminalize possession of small amounts of pot for personal use. and 1 phrases
+Running alignments between Justice Minister Martin Cauchon and Prime Minister Jean Chrétien have both said the Liberal government will introduce legislation soon to decriminalize possession of small amounts of pot for personal use. and 999 phrases
+Scores for Justice Minister Martin Cauchon and Prime Minister Jean Chrétien have both said the Liberal government will introduce legislation soon to decriminalize possession of small amounts of pot for personal use.:
+Average Score for Cluster Phrases: 168.0 	 Average Score for Random Phrases: 75.887676598 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Fletcher said he expects to have the support of lawmakers from agricultural states, many of whom are on the committee. and 1 phrases
+Running alignments between Fletcher said he expects to have the support of lawmakers from agricultural states, many of whom are on the committee. and 999 phrases
+Scores for Fletcher said he expects to have the support of lawmakers from agricultural states, many of whom are on the committee.:
+Average Score for Cluster Phrases: 76.4243019127 	 Average Score for Random Phrases: 60.3423083455 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between And now it's anything he wants to say," Alesha Badgley, Stone County Nursing and Rehabilitation Center social director, said this week. and 1 phrases
+Running alignments between And now it's anything he wants to say," Alesha Badgley, Stone County Nursing and Rehabilitation Center social director, said this week. and 999 phrases
+Scores for And now it's anything he wants to say," Alesha Badgley, Stone County Nursing and Rehabilitation Center social director, said this week.:
+Average Score for Cluster Phrases: 115.550011458 	 Average Score for Random Phrases: 63.2141548679 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The intelligence service, headed by Mr. Fujimori's spy chief, Vladimiro Montesinos, was accused of tortures, drug trafficking and disappearances. and 1 phrases
+Running alignments between The intelligence service, headed by Mr. Fujimori's spy chief, Vladimiro Montesinos, was accused of tortures, drug trafficking and disappearances. and 999 phrases
+Scores for The intelligence service, headed by Mr. Fujimori's spy chief, Vladimiro Montesinos, was accused of tortures, drug trafficking and disappearances.:
+Average Score for Cluster Phrases: 108.244318594 	 Average Score for Random Phrases: 64.7502914054 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The workers accuse General Dynamics of "reverse age discrimination" because of a change in retirement benefits in 1997. and 1 phrases
+Running alignments between The workers accuse General Dynamics of "reverse age discrimination" because of a change in retirement benefits in 1997. and 999 phrases
+Scores for The workers accuse General Dynamics of "reverse age discrimination" because of a change in retirement benefits in 1997.:
+Average Score for Cluster Phrases: 65.7521720965 	 Average Score for Random Phrases: 59.6285561355 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between For the week ended June 15, a total of 28.2 million DVDs were rented in the United States, compared with 27.3 million VHS cassettes. and 1 phrases
+Running alignments between For the week ended June 15, a total of 28.2 million DVDs were rented in the United States, compared with 27.3 million VHS cassettes. and 999 phrases
+Scores for For the week ended June 15, a total of 28.2 million DVDs were rented in the United States, compared with 27.3 million VHS cassettes.:
+Average Score for Cluster Phrases: 99.3963889726 	 Average Score for Random Phrases: 61.5009846613 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between President Bush raised a record-breaking $49.5 million for his re-election campaign over the last three months, with contributions from 262,000 Americans, the president's campaign chairman said Tuesday. and 1 phrases
+Running alignments between President Bush raised a record-breaking $49.5 million for his re-election campaign over the last three months, with contributions from 262,000 Americans, the president's campaign chairman said Tuesday. and 999 phrases
+Scores for President Bush raised a record-breaking $49.5 million for his re-election campaign over the last three months, with contributions from 262,000 Americans, the president's campaign chairman said Tuesday.:
+Average Score for Cluster Phrases: 120.713415655 	 Average Score for Random Phrases: 73.6016733629 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "We haven't decided whether to use an unbroken or dotted white line, but this is an experiment worth introducing," said David Richardson, the ICC's cricket manager. and 1 phrases
+Running alignments between "We haven't decided whether to use an unbroken or dotted white line, but this is an experiment worth introducing," said David Richardson, the ICC's cricket manager. and 999 phrases
+Scores for "We haven't decided whether to use an unbroken or dotted white line, but this is an experiment worth introducing," said David Richardson, the ICC's cricket manager.:
+Average Score for Cluster Phrases: 117.323640643 	 Average Score for Random Phrases: 69.4299106255 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He had been arrested twice before for trespassing and barred from the complex - home to his mother and two children. and 1 phrases
+Running alignments between He had been arrested twice before for trespassing and barred from the complex - home to his mother and two children. and 999 phrases
+Scores for He had been arrested twice before for trespassing and barred from the complex - home to his mother and two children.:
+Average Score for Cluster Phrases: 78.0 	 Average Score for Random Phrases: 61.3123426594 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between This Palm OS smart phone is the last product the company will release before it becomes a part of palmOne. and 1 phrases
+Running alignments between This Palm OS smart phone is the last product the company will release before it becomes a part of palmOne. and 999 phrases
+Scores for This Palm OS smart phone is the last product the company will release before it becomes a part of palmOne.:
+Average Score for Cluster Phrases: 65.123078833 	 Average Score for Random Phrases: 57.7733616988 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between No official ceremony was planned to mark the anniversary in Dallas. and 1 phrases
+Running alignments between No official ceremony was planned to mark the anniversary in Dallas. and 999 phrases
+Scores for No official ceremony was planned to mark the anniversary in Dallas.:
+Average Score for Cluster Phrases: 41.6503029557 	 Average Score for Random Phrases: 42.8892971855 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "It is about a third of what I owe in the world," he told reporters. and 1 phrases
+Running alignments between "It is about a third of what I owe in the world," he told reporters. and 999 phrases
+Scores for "It is about a third of what I owe in the world," he told reporters.:
+Average Score for Cluster Phrases: 47.0 	 Average Score for Random Phrases: 44.5411702015 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Sir Wilfred Thesiger, traveller, writer, and one of the last solitary explorers of a shrinking planet, has died aged 93. and 1 phrases
+Running alignments between Sir Wilfred Thesiger, traveller, writer, and one of the last solitary explorers of a shrinking planet, has died aged 93. and 999 phrases
+Scores for Sir Wilfred Thesiger, traveller, writer, and one of the last solitary explorers of a shrinking planet, has died aged 93.:
+Average Score for Cluster Phrases: 83.0147252341 	 Average Score for Random Phrases: 61.1318138197 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols. and 1 phrases
+Running alignments between Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols. and 999 phrases
+Scores for Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols.:
+Average Score for Cluster Phrases: 120.0 	 Average Score for Random Phrases: 65.0193360474 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Ohmer ruled the law warranted further review by the Missouri Supreme Court and would have caused irreparable harm had it taken effect Saturday. and 1 phrases
+Running alignments between Ohmer ruled the law warranted further review by the Missouri Supreme Court and would have caused irreparable harm had it taken effect Saturday. and 999 phrases
+Scores for Ohmer ruled the law warranted further review by the Missouri Supreme Court and would have caused irreparable harm had it taken effect Saturday.:
+Average Score for Cluster Phrases: 131.890419101 	 Average Score for Random Phrases: 65.7825550888 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The House voted 425 to 2 to clear the bill, the first of 13 that Congress must pass each year to fund the federal government. and 1 phrases
+Running alignments between The House voted 425 to 2 to clear the bill, the first of 13 that Congress must pass each year to fund the federal government. and 999 phrases
+Scores for The House voted 425 to 2 to clear the bill, the first of 13 that Congress must pass each year to fund the federal government.:
+Average Score for Cluster Phrases: 94.222214184 	 Average Score for Random Phrases: 61.9164284832 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The 30-year bond US30YT=RR grew 1-3/32 for a yield of 4.30 percent, down from 4.35 percent late Wednesday. and 1 phrases
+Running alignments between The 30-year bond US30YT=RR grew 1-3/32 for a yield of 4.30 percent, down from 4.35 percent late Wednesday. and 999 phrases
+Scores for The 30-year bond US30YT=RR grew 1-3/32 for a yield of 4.30 percent, down from 4.35 percent late Wednesday.:
+Average Score for Cluster Phrases: 87.9908108042 	 Average Score for Random Phrases: 53.0977690142 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Some 26.5 million shares changed hands, more than three times the daily average over 10 days of 6.8 million. and 1 phrases
+Running alignments between Some 26.5 million shares changed hands, more than three times the daily average over 10 days of 6.8 million. and 999 phrases
+Scores for Some 26.5 million shares changed hands, more than three times the daily average over 10 days of 6.8 million.:
+Average Score for Cluster Phrases: 92.2553890577 	 Average Score for Random Phrases: 56.7278315221 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Ms. Cripps-Prawak left last Friday, two days after the department introduced a plan to distribute medical marijuana through doctors' offices. and 1 phrases
+Running alignments between Ms. Cripps-Prawak left last Friday, two days after the department introduced a plan to distribute medical marijuana through doctors' offices. and 999 phrases
+Scores for Ms. Cripps-Prawak left last Friday, two days after the department introduced a plan to distribute medical marijuana through doctors' offices.:
+Average Score for Cluster Phrases: 116.297881427 	 Average Score for Random Phrases: 63.9129207469 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Fifty-seven percent were Hispanic, 10% were Asian, 7% were Black, 16% were Caucasian, and 10% were of other ethnicity. and 1 phrases
+Running alignments between Fifty-seven percent were Hispanic, 10% were Asian, 7% were Black, 16% were Caucasian, and 10% were of other ethnicity. and 999 phrases
+Scores for Fifty-seven percent were Hispanic, 10% were Asian, 7% were Black, 16% were Caucasian, and 10% were of other ethnicity.:
+Average Score for Cluster Phrases: 71.7141068554 	 Average Score for Random Phrases: 56.7617564521 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Mrs. Clinton said she was incredulous that he would endanger their marriage and family. and 1 phrases
+Running alignments between Mrs. Clinton said she was incredulous that he would endanger their marriage and family. and 999 phrases
+Scores for Mrs. Clinton said she was incredulous that he would endanger their marriage and family.:
+Average Score for Cluster Phrases: 54.4066145236 	 Average Score for Random Phrases: 51.6629929262 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Appleton said police continue to hold out the possibility that more than one person was involved in the poisonings. and 1 phrases
+Running alignments between Appleton said police continue to hold out the possibility that more than one person was involved in the poisonings. and 999 phrases
+Scores for Appleton said police continue to hold out the possibility that more than one person was involved in the poisonings.:
+Average Score for Cluster Phrases: 92.0587744042 	 Average Score for Random Phrases: 60.6487820251 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Community college students will see their tuition rise by $300 to $2,800 or 12 percent. and 1 phrases
+Running alignments between Community college students will see their tuition rise by $300 to $2,800 or 12 percent. and 999 phrases
+Scores for Community college students will see their tuition rise by $300 to $2,800 or 12 percent.:
+Average Score for Cluster Phrases: 47.5304084291 	 Average Score for Random Phrases: 48.505968691 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between BP shares slipped 0.8 percent to 433.50 pence ($6.85) each in afternoon trading on the London Stock Exchange. and 1 phrases
+Running alignments between BP shares slipped 0.8 percent to 433.50 pence ($6.85) each in afternoon trading on the London Stock Exchange. and 999 phrases
+Scores for BP shares slipped 0.8 percent to 433.50 pence ($6.85) each in afternoon trading on the London Stock Exchange.:
+Average Score for Cluster Phrases: 75.3191108706 	 Average Score for Random Phrases: 55.0875021095 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The formula for its baby food is prepared by the German-owned Humana Milchunion. and 1 phrases
+Running alignments between The formula for its baby food is prepared by the German-owned Humana Milchunion. and 999 phrases
+Scores for The formula for its baby food is prepared by the German-owned Humana Milchunion.:
+Average Score for Cluster Phrases: 57.8826546728 	 Average Score for Random Phrases: 48.3767648924 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Friday, Stanford (47-15) blanked the Gamecocks 8-0. and 1 phrases
+Running alignments between Friday, Stanford (47-15) blanked the Gamecocks 8-0. and 999 phrases
+Scores for Friday, Stanford (47-15) blanked the Gamecocks 8-0.:
+Average Score for Cluster Phrases: 31.9752758606 	 Average Score for Random Phrases: 30.6263590164 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Optima first registered www.optimatech.com with Network Solutions at the end of 1990. and 1 phrases
+Running alignments between Optima first registered www.optimatech.com with Network Solutions at the end of 1990. and 999 phrases
+Scores for Optima first registered www.optimatech.com with Network Solutions at the end of 1990.:
+Average Score for Cluster Phrases: 39.3086203655 	 Average Score for Random Phrases: 47.752094811 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Excluding the impact of accounting changes, Ford would have earned 13 cents a share. and 1 phrases
+Running alignments between Excluding the impact of accounting changes, Ford would have earned 13 cents a share. and 999 phrases
+Scores for Excluding the impact of accounting changes, Ford would have earned 13 cents a share.:
+Average Score for Cluster Phrases: 76.0174523184 	 Average Score for Random Phrases: 49.3643362844 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between SARS has killed about 800 people and affected more than 8400 since being detected in China in November. and 1 phrases
+Running alignments between SARS has killed about 800 people and affected more than 8400 since being detected in China in November. and 999 phrases
+Scores for SARS has killed about 800 people and affected more than 8400 since being detected in China in November.:
+Average Score for Cluster Phrases: 73.668357707 	 Average Score for Random Phrases: 55.3503031651 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between For the third time in the past four years, wildfires are the problem. and 1 phrases
+Running alignments between For the third time in the past four years, wildfires are the problem. and 999 phrases
+Scores for For the third time in the past four years, wildfires are the problem.:
+Average Score for Cluster Phrases: 54.8310406449 	 Average Score for Random Phrases: 45.6630086629 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between These days, even death penalty proponents in the Legislature say they are solidly outnumbered by opponents. and 1 phrases
+Running alignments between These days, even death penalty proponents in the Legislature say they are solidly outnumbered by opponents. and 999 phrases
+Scores for These days, even death penalty proponents in the Legislature say they are solidly outnumbered by opponents.:
+Average Score for Cluster Phrases: 72.0224795745 	 Average Score for Random Phrases: 57.5954307799 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "With the target funds rate at 1 percent, substantial further conventional easings could be implemented if the FOMC judged such policy actions warranted," he said. and 1 phrases
+Running alignments between "With the target funds rate at 1 percent, substantial further conventional easings could be implemented if the FOMC judged such policy actions warranted," he said. and 999 phrases
+Scores for "With the target funds rate at 1 percent, substantial further conventional easings could be implemented if the FOMC judged such policy actions warranted," he said.:
+Average Score for Cluster Phrases: 151.504690677 	 Average Score for Random Phrases: 69.679258622 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The Standard & Poor's 500 index advanced 6.48, or 0.7 per cent, to 990.51. and 1 phrases
+Running alignments between The Standard & Poor's 500 index advanced 6.48, or 0.7 per cent, to 990.51. and 999 phrases
+Scores for The Standard & Poor's 500 index advanced 6.48, or 0.7 per cent, to 990.51.:
+Average Score for Cluster Phrases: 67.0842416676 	 Average Score for Random Phrases: 41.6503818297 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Advanced Micro Devices Inc. Tuesday introduced its Athlon MP 2800+ processor for entry-level one- and two-way servers and workstations. and 1 phrases
+Running alignments between Advanced Micro Devices Inc. Tuesday introduced its Athlon MP 2800+ processor for entry-level one- and two-way servers and workstations. and 999 phrases
+Scores for Advanced Micro Devices Inc. Tuesday introduced its Athlon MP 2800+ processor for entry-level one- and two-way servers and workstations.:
+Average Score for Cluster Phrases: 75.7119793204 	 Average Score for Random Phrases: 61.6579442459 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The Tuesday Supreme Court announcement stems from an appeal involving Michael Newdow, a California atheist whose 9-year-old daughter, like most elementary schoolchildren, hears the pledge recited daily. and 1 phrases
+Running alignments between The Tuesday Supreme Court announcement stems from an appeal involving Michael Newdow, a California atheist whose 9-year-old daughter, like most elementary schoolchildren, hears the pledge recited daily. and 999 phrases
+Scores for The Tuesday Supreme Court announcement stems from an appeal involving Michael Newdow, a California atheist whose 9-year-old daughter, like most elementary schoolchildren, hears the pledge recited daily.:
+Average Score for Cluster Phrases: 165.587725348 	 Average Score for Random Phrases: 74.8925532496 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Change will take time, but is necessary for the nation's largest home improvement store chain if it is to grow amid increasing competition, chief executive Bob Nardelli said. and 1 phrases
+Running alignments between Change will take time, but is necessary for the nation's largest home improvement store chain if it is to grow amid increasing competition, chief executive Bob Nardelli said. and 999 phrases
+Scores for Change will take time, but is necessary for the nation's largest home improvement store chain if it is to grow amid increasing competition, chief executive Bob Nardelli said.:
+Average Score for Cluster Phrases: 138.543941301 	 Average Score for Random Phrases: 73.0680517184 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between India blamed that and other attacks on Pakistan-based militants fighting Indian rule in Kashmir, its only Muslim-majority state. and 1 phrases
+Running alignments between India blamed that and other attacks on Pakistan-based militants fighting Indian rule in Kashmir, its only Muslim-majority state. and 999 phrases
+Scores for India blamed that and other attacks on Pakistan-based militants fighting Indian rule in Kashmir, its only Muslim-majority state.:
+Average Score for Cluster Phrases: 111.965497485 	 Average Score for Random Phrases: 60.7628251148 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The technology-laced Nasdaq Composite Index <.IXIC> rose 17.26 points, or 1.06 percent, to 1,640.06, based on the latest data. and 1 phrases
+Running alignments between The technology-laced Nasdaq Composite Index <.IXIC> rose 17.26 points, or 1.06 percent, to 1,640.06, based on the latest data. and 999 phrases
+Scores for The technology-laced Nasdaq Composite Index <.IXIC> rose 17.26 points, or 1.06 percent, to 1,640.06, based on the latest data.:
+Average Score for Cluster Phrases: 72.4896679098 	 Average Score for Random Phrases: 57.518148652 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between For the week, the Russell 2000, the barometer of smaller company stocks, advanced 11.92, or 2.5 percent, closing at 497.42. and 1 phrases
+Running alignments between For the week, the Russell 2000, the barometer of smaller company stocks, advanced 11.92, or 2.5 percent, closing at 497.42. and 999 phrases
+Scores for For the week, the Russell 2000, the barometer of smaller company stocks, advanced 11.92, or 2.5 percent, closing at 497.42.:
+Average Score for Cluster Phrases: 83.9045747241 	 Average Score for Random Phrases: 57.5647104079 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Peterson told police he fished alone in San Francisco Bay on Christmas Eve, returning to an empty house. and 1 phrases
+Running alignments between Peterson told police he fished alone in San Francisco Bay on Christmas Eve, returning to an empty house. and 999 phrases
+Scores for Peterson told police he fished alone in San Francisco Bay on Christmas Eve, returning to an empty house.:
+Average Score for Cluster Phrases: 64.0211420233 	 Average Score for Random Phrases: 56.6467102672 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Officials with Rescue California, one of the groups leading the recall campaign, called the lawsuit laughable. and 1 phrases
+Running alignments between Officials with Rescue California, one of the groups leading the recall campaign, called the lawsuit laughable. and 999 phrases
+Scores for Officials with Rescue California, one of the groups leading the recall campaign, called the lawsuit laughable.:
+Average Score for Cluster Phrases: 95.3979558643 	 Average Score for Random Phrases: 58.1182982878 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "I figure we've destroyed about one-half of Al Qaeda, the top operators of Al Qaeda, and that's good," Mr. Bush said. and 1 phrases
+Running alignments between "I figure we've destroyed about one-half of Al Qaeda, the top operators of Al Qaeda, and that's good," Mr. Bush said. and 999 phrases
+Scores for "I figure we've destroyed about one-half of Al Qaeda, the top operators of Al Qaeda, and that's good," Mr. Bush said.:
+Average Score for Cluster Phrases: 88.373284738 	 Average Score for Random Phrases: 57.1724061701 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Nottingham found speech is treated unequally because the list applies to calls from businesses but not charities. and 1 phrases
+Running alignments between Nottingham found speech is treated unequally because the list applies to calls from businesses but not charities. and 999 phrases
+Scores for Nottingham found speech is treated unequally because the list applies to calls from businesses but not charities.:
+Average Score for Cluster Phrases: 95.4328354808 	 Average Score for Random Phrases: 59.1538760636 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Clinton did not mention that two Democratic senators, Charles Robb of Virginia and Wendell Ford of Kentucky, voted to shelve the McCain bill. and 1 phrases
+Running alignments between Clinton did not mention that two Democratic senators, Charles Robb of Virginia and Wendell Ford of Kentucky, voted to shelve the McCain bill. and 999 phrases
+Scores for Clinton did not mention that two Democratic senators, Charles Robb of Virginia and Wendell Ford of Kentucky, voted to shelve the McCain bill.:
+Average Score for Cluster Phrases: 90.103169692 	 Average Score for Random Phrases: 65.1630279779 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He served as a marine in the Second World War and afterward began submitting articles to magazines. and 1 phrases
+Running alignments between He served as a marine in the Second World War and afterward began submitting articles to magazines. and 999 phrases
+Scores for He served as a marine in the Second World War and afterward began submitting articles to magazines.:
+Average Score for Cluster Phrases: 76.0250062596 	 Average Score for Random Phrases: 55.0568451605 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Entrenched interests are positioning themselves to control the network's chokepoints and they are lobbying the FCC to aid and abet them. and 1 phrases
+Running alignments between Entrenched interests are positioning themselves to control the network's chokepoints and they are lobbying the FCC to aid and abet them. and 999 phrases
+Scores for Entrenched interests are positioning themselves to control the network's chokepoints and they are lobbying the FCC to aid and abet them.:
+Average Score for Cluster Phrases: 132.206846105 	 Average Score for Random Phrases: 64.6919042099 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Neither immediately said his agency would appeal the decision, but many others following the case said an appeal was likely soon. and 1 phrases
+Running alignments between Neither immediately said his agency would appeal the decision, but many others following the case said an appeal was likely soon. and 999 phrases
+Scores for Neither immediately said his agency would appeal the decision, but many others following the case said an appeal was likely soon.:
+Average Score for Cluster Phrases: 80.5411711526 	 Average Score for Random Phrases: 63.6479222534 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between They worry the treatment could leave their son sterile, blind or even dead. and 1 phrases
+Running alignments between They worry the treatment could leave their son sterile, blind or even dead. and 999 phrases
+Scores for They worry the treatment could leave their son sterile, blind or even dead.:
+Average Score for Cluster Phrases: 51.1106684021 	 Average Score for Random Phrases: 48.4133513579 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "There is nothing Rob Furst did in any way that was not abetted and approved by senior officials at Merrill Lynch." and 1 phrases
+Running alignments between "There is nothing Rob Furst did in any way that was not abetted and approved by senior officials at Merrill Lynch." and 999 phrases
+Scores for "There is nothing Rob Furst did in any way that was not abetted and approved by senior officials at Merrill Lynch.":
+Average Score for Cluster Phrases: 94.2479938054 	 Average Score for Random Phrases: 59.274465912 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He failed a field sobriety test and a blood-alcohol test produced a reading of 0.18 -- well above Tennessee's level of presumed intoxication of 0.10, police said. and 1 phrases
+Running alignments between He failed a field sobriety test and a blood-alcohol test produced a reading of 0.18 -- well above Tennessee's level of presumed intoxication of 0.10, police said. and 999 phrases
+Scores for He failed a field sobriety test and a blood-alcohol test produced a reading of 0.18 -- well above Tennessee's level of presumed intoxication of 0.10, police said.:
+Average Score for Cluster Phrases: 143.571444787 	 Average Score for Random Phrases: 67.2374450585 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The Ministry of Defence is facing a 20m compensation claim from hundreds of Kenyan women who claim they were raped by British soldiers. and 1 phrases
+Running alignments between The Ministry of Defence is facing a 20m compensation claim from hundreds of Kenyan women who claim they were raped by British soldiers. and 999 phrases
+Scores for The Ministry of Defence is facing a 20m compensation claim from hundreds of Kenyan women who claim they were raped by British soldiers.:
+Average Score for Cluster Phrases: 85.762636341 	 Average Score for Random Phrases: 64.1491720588 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Four people were found shot to death along a highway Tuesday morning and three others were wounded in a possible dispute involving immigrant smuggling, officials said. and 1 phrases
+Running alignments between Four people were found shot to death along a highway Tuesday morning and three others were wounded in a possible dispute involving immigrant smuggling, officials said. and 999 phrases
+Scores for Four people were found shot to death along a highway Tuesday morning and three others were wounded in a possible dispute involving immigrant smuggling, officials said.:
+Average Score for Cluster Phrases: 145.581429037 	 Average Score for Random Phrases: 69.674228258 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between According to Sanmina-SCI, Newisys, based in Austin, Texas, will become a wholly-owned subsidiary. and 1 phrases
+Running alignments between According to Sanmina-SCI, Newisys, based in Austin, Texas, will become a wholly-owned subsidiary. and 999 phrases
+Scores for According to Sanmina-SCI, Newisys, based in Austin, Texas, will become a wholly-owned subsidiary.:
+Average Score for Cluster Phrases: 70.5171470289 	 Average Score for Random Phrases: 50.9654145733 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Microsoft favors setting up "independent e-mail trust authorities to establish and maintain commercial email guidelines, certify senders who follow the guidelines, and resolve customer disputes." and 1 phrases
+Running alignments between Microsoft favors setting up "independent e-mail trust authorities to establish and maintain commercial email guidelines, certify senders who follow the guidelines, and resolve customer disputes." and 999 phrases
+Scores for Microsoft favors setting up "independent e-mail trust authorities to establish and maintain commercial email guidelines, certify senders who follow the guidelines, and resolve customer disputes.":
+Average Score for Cluster Phrases: 180.461754087 	 Average Score for Random Phrases: 74.099998777 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between I think he has to disembrace Putin and put him on notice that he is taking the country in the wrong direction," Soros said. and 1 phrases
+Running alignments between I think he has to disembrace Putin and put him on notice that he is taking the country in the wrong direction," Soros said. and 999 phrases
+Scores for I think he has to disembrace Putin and put him on notice that he is taking the country in the wrong direction," Soros said.:
+Average Score for Cluster Phrases: 89.2909591195 	 Average Score for Random Phrases: 62.5798229858 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The yield fell 2 basis points to 1.41 percent, after reaching 1.4 percent on May 8, the lowest since March 12. and 1 phrases
+Running alignments between The yield fell 2 basis points to 1.41 percent, after reaching 1.4 percent on May 8, the lowest since March 12. and 999 phrases
+Scores for The yield fell 2 basis points to 1.41 percent, after reaching 1.4 percent on May 8, the lowest since March 12.:
+Average Score for Cluster Phrases: 79.4316254846 	 Average Score for Random Phrases: 57.004725164 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Lord Falconer hailed the changes as "a new beginning as far as the courts, Crown Prosecution Service and police are concerned". and 1 phrases
+Running alignments between Lord Falconer hailed the changes as "a new beginning as far as the courts, Crown Prosecution Service and police are concerned". and 999 phrases
+Scores for Lord Falconer hailed the changes as "a new beginning as far as the courts, Crown Prosecution Service and police are concerned".:
+Average Score for Cluster Phrases: 92.5138724509 	 Average Score for Random Phrases: 63.1343182398 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Paul Themba Nyathi, an MDC spokesman, said the Avenues Clinic was being targeted because it was treating opposition supporters. and 1 phrases
+Running alignments between Paul Themba Nyathi, an MDC spokesman, said the Avenues Clinic was being targeted because it was treating opposition supporters. and 999 phrases
+Scores for Paul Themba Nyathi, an MDC spokesman, said the Avenues Clinic was being targeted because it was treating opposition supporters.:
+Average Score for Cluster Phrases: 99.0431642549 	 Average Score for Random Phrases: 61.8756457039 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Full classes of 48 are booked through September, he said, and the Transportation Security Administration plans to double its classes in January. and 1 phrases
+Running alignments between Full classes of 48 are booked through September, he said, and the Transportation Security Administration plans to double its classes in January. and 999 phrases
+Scores for Full classes of 48 are booked through September, he said, and the Transportation Security Administration plans to double its classes in January.:
+Average Score for Cluster Phrases: 110.890500528 	 Average Score for Random Phrases: 65.2043339761 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Meanwhile, rival contender, General Electric's NBC, submitted a letter of interest, a source familiar with the matter said. and 1 phrases
+Running alignments between Meanwhile, rival contender, General Electric's NBC, submitted a letter of interest, a source familiar with the matter said. and 999 phrases
+Scores for Meanwhile, rival contender, General Electric's NBC, submitted a letter of interest, a source familiar with the matter said.:
+Average Score for Cluster Phrases: 109.949455433 	 Average Score for Random Phrases: 60.7545851586 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "We make no apologies for finding every legal way possible to protect the American public from further terrorist attacks," she said. and 1 phrases
+Running alignments between "We make no apologies for finding every legal way possible to protect the American public from further terrorist attacks," she said. and 999 phrases
+Scores for "We make no apologies for finding every legal way possible to protect the American public from further terrorist attacks," she said.:
+Average Score for Cluster Phrases: 129.086553122 	 Average Score for Random Phrases: 63.2833078629 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday. and 1 phrases
+Running alignments between A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday. and 999 phrases
+Scores for A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday.:
+Average Score for Cluster Phrases: 141.522763736 	 Average Score for Random Phrases: 66.8814209191 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Lee Janzen, who was tied atop the leaderboard with five holes left, finished with a 68 and tied for sixth. and 1 phrases
+Running alignments between Lee Janzen, who was tied atop the leaderboard with five holes left, finished with a 68 and tied for sixth. and 999 phrases
+Scores for Lee Janzen, who was tied atop the leaderboard with five holes left, finished with a 68 and tied for sixth.:
+Average Score for Cluster Phrases: 94.8151870911 	 Average Score for Random Phrases: 58.0640185832 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "These foods have an almost identical effect on lowering cholesterol as the original cholesterol-lowering drugs." and 1 phrases
+Running alignments between "These foods have an almost identical effect on lowering cholesterol as the original cholesterol-lowering drugs." and 999 phrases
+Scores for "These foods have an almost identical effect on lowering cholesterol as the original cholesterol-lowering drugs.":
+Average Score for Cluster Phrases: 107.623998881 	 Average Score for Random Phrases: 58.9336020267 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between It features a 4K color screen and 40-tone polyphonic sound with exchangeable Style-Up front panels. and 1 phrases
+Running alignments between It features a 4K color screen and 40-tone polyphonic sound with exchangeable Style-Up front panels. and 999 phrases
+Scores for It features a 4K color screen and 40-tone polyphonic sound with exchangeable Style-Up front panels.:
+Average Score for Cluster Phrases: 55.6027685866 	 Average Score for Random Phrases: 53.2626374196 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The technology-laced Nasdaq Composite Index <.IXIC> added 1.92 points, or 0.12 percent, at 1,647.94. and 1 phrases
+Running alignments between The technology-laced Nasdaq Composite Index <.IXIC> added 1.92 points, or 0.12 percent, at 1,647.94. and 999 phrases
+Scores for The technology-laced Nasdaq Composite Index <.IXIC> added 1.92 points, or 0.12 percent, at 1,647.94.:
+Average Score for Cluster Phrases: 74.6632095 	 Average Score for Random Phrases: 49.2127741868 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The test was conducted by the University of California at Los Angeles and Riverside and was paid $450,000 from the ARB. and 1 phrases
+Running alignments between The test was conducted by the University of California at Los Angeles and Riverside and was paid $450,000 from the ARB. and 999 phrases
+Scores for The test was conducted by the University of California at Los Angeles and Riverside and was paid $450,000 from the ARB.:
+Average Score for Cluster Phrases: 72.0 	 Average Score for Random Phrases: 58.9824615424 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He said he has begun a court action to seize Beacon Hill's assets and has frozen more than $13 million Beacon Hill had when it closed. and 1 phrases
+Running alignments between He said he has begun a court action to seize Beacon Hill's assets and has frozen more than $13 million Beacon Hill had when it closed. and 999 phrases
+Scores for He said he has begun a court action to seize Beacon Hill's assets and has frozen more than $13 million Beacon Hill had when it closed.:
+Average Score for Cluster Phrases: 103.691899521 	 Average Score for Random Phrases: 65.3079411328 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A passer-by found Ben hiding along a dirt road in Spanish Fork Canyon about 7 p.m., with his hands still taped together but his feet free. and 1 phrases
+Running alignments between A passer-by found Ben hiding along a dirt road in Spanish Fork Canyon about 7 p.m., with his hands still taped together but his feet free. and 999 phrases
+Scores for A passer-by found Ben hiding along a dirt road in Spanish Fork Canyon about 7 p.m., with his hands still taped together but his feet free.:
+Average Score for Cluster Phrases: 113.986833735 	 Average Score for Random Phrases: 62.9154258663 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Mr Russell, 46, a coal miner from Brisbane, said: "They are obviously hurting, so we are basically going over there to help them." and 1 phrases
+Running alignments between Mr Russell, 46, a coal miner from Brisbane, said: "They are obviously hurting, so we are basically going over there to help them." and 999 phrases
+Scores for Mr Russell, 46, a coal miner from Brisbane, said: "They are obviously hurting, so we are basically going over there to help them.":
+Average Score for Cluster Phrases: 78.0 	 Average Score for Random Phrases: 61.960529859 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between If the deal is approved, EMC will operate Legato as a software division of EMC headquartered in Mountain View, Calif. and 1 phrases
+Running alignments between If the deal is approved, EMC will operate Legato as a software division of EMC headquartered in Mountain View, Calif. and 999 phrases
+Scores for If the deal is approved, EMC will operate Legato as a software division of EMC headquartered in Mountain View, Calif.:
+Average Score for Cluster Phrases: 75.4345008515 	 Average Score for Random Phrases: 58.3432906225 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The Iranian refugee who sewed up his eyes, lips and ears in protest at the handling of his asylum claim has won his fight to remain in Britain. and 1 phrases
+Running alignments between The Iranian refugee who sewed up his eyes, lips and ears in protest at the handling of his asylum claim has won his fight to remain in Britain. and 999 phrases
+Scores for The Iranian refugee who sewed up his eyes, lips and ears in protest at the handling of his asylum claim has won his fight to remain in Britain.:
+Average Score for Cluster Phrases: 100.029480383 	 Average Score for Random Phrases: 66.7782920693 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols. and 1 phrases
+Running alignments between Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols. and 999 phrases
+Scores for Apple has also built a new VPN (define) server into Panther Server that supports Mac OS X, Windows or UNIX clients using PPTP and L2TP tunneling protocols.:
+Average Score for Cluster Phrases: 120.0 	 Average Score for Random Phrases: 65.0021175384 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A discouraging outlook from General Electric Co. sent its share down 81 cents (U.S.) or 2.7 per cent to $29.32. and 1 phrases
+Running alignments between A discouraging outlook from General Electric Co. sent its share down 81 cents (U.S.) or 2.7 per cent to $29.32. and 999 phrases
+Scores for A discouraging outlook from General Electric Co. sent its share down 81 cents (U.S.) or 2.7 per cent to $29.32.:
+Average Score for Cluster Phrases: 93.867454999 	 Average Score for Random Phrases: 54.151491491 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The US Federal Trade Commission has also filed a lawsuit challenging Rambus. and 1 phrases
+Running alignments between The US Federal Trade Commission has also filed a lawsuit challenging Rambus. and 999 phrases
+Scores for The US Federal Trade Commission has also filed a lawsuit challenging Rambus.:
+Average Score for Cluster Phrases: 41.5920396081 	 Average Score for Random Phrases: 45.9571540995 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The greenback scored beefy gains against the euro, yen and Swiss franc despite weaker-than-expected September U.S. retail sales figures. and 1 phrases
+Running alignments between The greenback scored beefy gains against the euro, yen and Swiss franc despite weaker-than-expected September U.S. retail sales figures. and 999 phrases
+Scores for The greenback scored beefy gains against the euro, yen and Swiss franc despite weaker-than-expected September U.S. retail sales figures.:
+Average Score for Cluster Phrases: 93.5623082662 	 Average Score for Random Phrases: 62.9009650056 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between In the latest violence, insurgents threw a bomb at a U.S. convoy in northern Baghdad, killing one soldier. and 1 phrases
+Running alignments between In the latest violence, insurgents threw a bomb at a U.S. convoy in northern Baghdad, killing one soldier. and 999 phrases
+Scores for In the latest violence, insurgents threw a bomb at a U.S. convoy in northern Baghdad, killing one soldier.:
+Average Score for Cluster Phrases: 89.627707265 	 Average Score for Random Phrases: 56.0134726124 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Muslim immigrants have used the networks - which rely on wire transfers, couriers and overnight mail - to send cash to their families overseas. and 1 phrases
+Running alignments between Muslim immigrants have used the networks - which rely on wire transfers, couriers and overnight mail - to send cash to their families overseas. and 999 phrases
+Scores for Muslim immigrants have used the networks - which rely on wire transfers, couriers and overnight mail - to send cash to their families overseas.:
+Average Score for Cluster Phrases: 132.0 	 Average Score for Random Phrases: 65.7518460091 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A 64 year-old paedophile described by police as the "most prolific Internet groomer ever caught" has been jailed for five years. and 1 phrases
+Running alignments between A 64 year-old paedophile described by police as the "most prolific Internet groomer ever caught" has been jailed for five years. and 999 phrases
+Scores for A 64 year-old paedophile described by police as the "most prolific Internet groomer ever caught" has been jailed for five years.:
+Average Score for Cluster Phrases: 83.5271668977 	 Average Score for Random Phrases: 61.0450808279 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "The issue has been resolved," Marlins President David Samson said through a club spokesman. and 1 phrases
+Running alignments between "The issue has been resolved," Marlins President David Samson said through a club spokesman. and 999 phrases
+Scores for "The issue has been resolved," Marlins President David Samson said through a club spokesman.:
+Average Score for Cluster Phrases: 34.9833922242 	 Average Score for Random Phrases: 51.7811837496 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Singapore is already the United States' 12th-largest trading partner, with two-way trade totaling more than $34 billion. and 1 phrases
+Running alignments between Singapore is already the United States' 12th-largest trading partner, with two-way trade totaling more than $34 billion. and 999 phrases
+Scores for Singapore is already the United States' 12th-largest trading partner, with two-way trade totaling more than $34 billion.:
+Average Score for Cluster Phrases: 85.6096362648 	 Average Score for Random Phrases: 60.1769907841 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A federal appeals court yesterday reinstated perjury charges against a San Diego student accused of lying about his association with 9/11 hijackers. and 1 phrases
+Running alignments between A federal appeals court yesterday reinstated perjury charges against a San Diego student accused of lying about his association with 9/11 hijackers. and 999 phrases
+Scores for A federal appeals court yesterday reinstated perjury charges against a San Diego student accused of lying about his association with 9/11 hijackers.:
+Average Score for Cluster Phrases: 124.751759859 	 Average Score for Random Phrases: 65.7329556981 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between He then drove south on Hemphill and west on Drew Street driving about 60 mph, Jones said. and 1 phrases
+Running alignments between He then drove south on Hemphill and west on Drew Street driving about 60 mph, Jones said. and 999 phrases
+Scores for He then drove south on Hemphill and west on Drew Street driving about 60 mph, Jones said.:
+Average Score for Cluster Phrases: 82.9000308976 	 Average Score for Random Phrases: 51.7098491954 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Microsoft Corp. this week is releasing the second in a line of seven Microsoft Office Solution Accelerators for its suite. and 1 phrases
+Running alignments between Microsoft Corp. this week is releasing the second in a line of seven Microsoft Office Solution Accelerators for its suite. and 999 phrases
+Scores for Microsoft Corp. this week is releasing the second in a line of seven Microsoft Office Solution Accelerators for its suite.:
+Average Score for Cluster Phrases: 86.1274353151 	 Average Score for Random Phrases: 60.5039166272 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between A BMI of 25 or above is considered overweight; 30 or above is considered obese. and 1 phrases
+Running alignments between A BMI of 25 or above is considered overweight; 30 or above is considered obese. and 999 phrases
+Scores for A BMI of 25 or above is considered overweight; 30 or above is considered obese.:
+Average Score for Cluster Phrases: 68.967239186 	 Average Score for Random Phrases: 46.658252979 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between "There were a number of bureaucratic and administrative missed signals -- there's not one person who's responsible here," Gehman said. and 1 phrases
+Running alignments between "There were a number of bureaucratic and administrative missed signals -- there's not one person who's responsible here," Gehman said. and 999 phrases
+Scores for "There were a number of bureaucratic and administrative missed signals -- there's not one person who's responsible here," Gehman said.:
+Average Score for Cluster Phrases: 74.48658925 	 Average Score for Random Phrases: 62.8861332381 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between Senator Hill appeared completely unaware of the issue, which has been of serious concern to US, Australian and British intelligence officers. and 1 phrases
+Running alignments between Senator Hill appeared completely unaware of the issue, which has been of serious concern to US, Australian and British intelligence officers. and 999 phrases
+Scores for Senator Hill appeared completely unaware of the issue, which has been of serious concern to US, Australian and British intelligence officers.:
+Average Score for Cluster Phrases: 124.949118719 	 Average Score for Random Phrases: 64.8571931269 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between The stunning art robbery on Sunday was one of the biggest in Europe in recent years. and 1 phrases
+Running alignments between The stunning art robbery on Sunday was one of the biggest in Europe in recent years. and 999 phrases
+Scores for The stunning art robbery on Sunday was one of the biggest in Europe in recent years.:
+Average Score for Cluster Phrases: 61.0971112751 	 Average Score for Random Phrases: 51.831447248 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+Running alignments between She said in 2003, not one U.S. state had an obesity rate below 15 percent. and 1 phrases
+Running alignments between She said in 2003, not one U.S. state had an obesity rate below 15 percent. and 999 phrases
+Scores for She said in 2003, not one U.S. state had an obesity rate below 15 percent.:
+Average Score for Cluster Phrases: 66.2595345911 	 Average Score for Random Phrases: 45.158158786 	 Average Ranking for Cluster Phrases: 1.0 Contigency Score for Top10
+Precision: 1.0 	Recall: 1.0 	F-Score: 0.5
+--------------------------------------
+ Result for 100 tests
+--------------------------------------
+Alignment Scores for similar phrases:	90.5791758176
+Alignment Scores for random phrases:	58.9450313593
+Average Ranking for similar phrases:	1.0
+Average Precision:	1.0
+Average Recalls:	1.0
+Average fScores:	0.5
